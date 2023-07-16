@@ -1,7 +1,9 @@
-format: jb-article
+format: jb-book
 root: intro
-sections:
-- file: notebooks/english-to-korean
-  title: "영어를 한국어로"
-- file: notebooks/korean-to-english
-  title: "한국어를 영어로"
+parts:
+  - caption: "용어 사전"
+    chapters:
+    - file: notebooks/english-to-korean.ipynb
+      title: "영어를 한국어로"
+    - file: notebooks/korean-to-english.ipynb
+      title: "한국어를 영어로"
