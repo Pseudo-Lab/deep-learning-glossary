@@ -20,7 +20,7 @@ First build a website
 ghp-import -n -p -f ./website/_build/html
 ```
 
-Run`index.html` file with a local internet web browser
+Run `index.html` file with a local internet web browser
 ```
 cd ./website/_build/html/index.html
 ```
