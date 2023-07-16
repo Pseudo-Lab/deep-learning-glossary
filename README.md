@@ -27,5 +27,5 @@ cd ./website/_build/html/index.html
 Before commit the code, please preview your changes
 
 # PR Template
-Please use this (PR Template)[https://gist.github.com/gabrielwithappy/4eee95b79af5fb0445b205925bc9a4ec]
+Please use this [PR Template](https://gist.github.com/gabrielwithappy/4eee95b79af5fb0445b205925bc9a4ec)
 Thank you for your support in advance
