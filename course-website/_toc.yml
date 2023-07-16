@@ -1,7 +1,7 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-
-format: jb-book
+format: jb-article
 root: intro
-chapters:
+sections:
 - file: notebooks/english-to-korean
+  title: "영어를 한국어로"
+- file: notebooks/korean-to-english
+  title: "한국어를 영어로"
