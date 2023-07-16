@@ -1,18 +1,31 @@
-Deep Learning Glossary for all
+# hf-research-team
+안녕하세요 deep learning glossry 입니다.
+This is the website of deep learning glossary
 
-## Commands
-1. Install
-```
-pip install jupyter-book==0.15.1
-```
 
-2. Build
+# Installation and build
+1. Install necessary libraries
 ```
-jupyter-book build course-website
+pip install -r requirement.txt
 ```
 
-3. Check the preview of the book
+2. Build a website
 ```
-cd ./course-website/_build/html
+jupyter-book build website
 ```
-open index.html with a local internet browser
+
+3. Preview website
+First build a website
+```
+ghp-import -n -p -f ./website/_build/html
+```
+
+Run a website index.html with a local internet web browser
+```
+cd ./website/_build/html/index.html
+```
+Before commit the code, please preview your changes
+
+# PR Template
+Please use this (PR Template)[https://gist.github.com/gabrielwithappy/4eee95b79af5fb0445b205925bc9a4ec]
+Thank you for your support in advance
