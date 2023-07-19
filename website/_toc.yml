@@ -5,5 +5,3 @@ parts:
     chapters:
     - file: notebooks/english-to-korean.ipynb
       title: "영어를 한국어로"
-    - file: notebooks/korean-to-english.ipynb
-      title: "한국어를 영어로"
