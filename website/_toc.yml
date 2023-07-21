@@ -5,11 +5,14 @@ parts:
     chapters:
     - file: notebooks/english-to-korean
 
-  - caption: "참고 자료"
+  - caption: "참여 하기"
     chapters:
-    - file: chapters/references/guide.md
+    - file: chapters/references/registration.md
       sections:
+      - file: chapters/references/markdown.md
+      - file: chapters/references/preview.md
       - file: chapters/references/pr.md
+    - file: chapters/references/edit.md
 
   - caption: People
     chapters:
