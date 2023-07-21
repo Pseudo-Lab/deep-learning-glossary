@@ -6,8 +6,7 @@ parts:
     - file: notebooks/english-to-korean
     - file: chapters/references/resources.md
       sections:
-      - file: chapters/references/A.md
-      - file: chapters/references/B.md
+      - file: chapters/references/pr.md
 
   - caption: People
     chapters:
