@@ -22,13 +22,6 @@ cd ./website/_build/html/index.html
 ```
 수정된 사항이 잘 반영되었는 지 확인합니다.
 
-- 변경된 문서를 웹에 배포합니다.
-```
-ghp-import -n -p -f ./website/_build/html
-```
-   
 ## 변경사항 반영하기
-- PR Template을 이용하여 반영을 요청합니다.
-Please use this [PR Template](https://gist.github.com/gabrielwithappy/55affa9f9c3fc588b5830ce9a0cd1bd1)
-Thank you for your support in advance
+- [PR Template](https://gist.github.com/gabrielwithappy/4eee95b79af5fb0445b205925bc9a4ec)을 이용하여 반영을 요청합니다.
 
