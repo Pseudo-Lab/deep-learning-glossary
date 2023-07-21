@@ -83,6 +83,10 @@
 
 - - -
 
+### connectionist temporal classification, CTC
+연결주의 시간분류 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+
+- - -
 
 ## D
 ### data collator
