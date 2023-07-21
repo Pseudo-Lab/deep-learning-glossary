@@ -191,6 +191,11 @@
 
 - - -
 
+### spectrogram
+스펙트로그램 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+
+- - -
+
 ### seperator
 분할 토큰 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
 
@@ -217,3 +222,7 @@
 
 ### training
 훈련 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+
+## V
+### vocoder
+보코더 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
