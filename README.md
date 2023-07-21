@@ -1,5 +1,6 @@
 # Deep Learning 용어사전
-딥러닝 문서 번역 시 용어 통일성을 위해 용어사전을 만들었습니다.   
+딥러닝 문서 번역 시 용어 통일성을 위해 [딥러닝 용어사전](https://pseudo-lab.github.io/deep-learning-glossary/index.html)을 만들었습니다.
+
    
 
 ## 변경사항 검토하기
