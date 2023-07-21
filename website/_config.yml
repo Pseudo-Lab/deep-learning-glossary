@@ -44,4 +44,3 @@ sphinx:
   config:
     html_extra_path: ['extra_html']
 
-

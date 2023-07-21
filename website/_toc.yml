@@ -3,7 +3,7 @@ root: introduction
 parts:
   - caption: "용어 사전"
     chapters:
-    - file: notebooks/english-to-korean
+    - file: chapters/dictionary/deep_learning.md
 
   - caption: "참여 하기"
     chapters:
