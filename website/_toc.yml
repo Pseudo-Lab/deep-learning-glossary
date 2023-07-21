@@ -4,7 +4,10 @@ parts:
   - caption: "용어 사전"
     chapters:
     - file: notebooks/english-to-korean
-    - file: chapters/references/resources.md
+
+  - caption: "참고 자료"
+    chapters:
+    - file: chapters/references/guide.md
       sections:
       - file: chapters/references/pr.md
 
