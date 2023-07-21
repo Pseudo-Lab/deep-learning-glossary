@@ -1,13 +1,16 @@
 format: jb-book
-root: intro
+root: introduction
 parts:
   - caption: "용어 사전"
     chapters:
-    - file: notebooks/english-to-korean.ipynb
-      title: "딥러닝 용어사전"
+    - file: notebooks/english-to-korean
+    - file: chapters/references/resources.md
+      sections:
+      - file: chapters/references/A.md
+      - file: chapters/references/B.md
+
   - caption: People
     chapters:
-    - file: docs/people_hf_resech_team
-      title: "허깅페이스 리서치 팀"
+    - file: chapters/people/people_hf_resech_team
 
 
