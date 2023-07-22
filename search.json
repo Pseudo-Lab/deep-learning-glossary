@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "딥러닝 용어사전",
+    "section": "",
+    "text": "소개합니다\n딥러닝 영어문서를 한국어로 번역하는 과정에서 용어를 통일하여 사용하기 위한 오픈소스 용어 사전입니다."
+  },
+  {
+    "objectID": "index.html#시작하기-전에",
+    "href": "index.html#시작하기-전에",
+    "title": "딥러닝 용어사전",
+    "section": "시작하기 전에",
+    "text": "시작하기 전에\n용어 등록을 위해 필요한 과정을 정리할 예정입니다. Pull Request 탬플릿 등의 내용이 업데이트 됩니다."
+  },
+  {
+    "objectID": "index.html#작업중인-프로젝트",
+    "href": "index.html#작업중인-프로젝트",
+    "title": "딥러닝 용어사전",
+    "section": "작업중인 프로젝트",
+    "text": "작업중인 프로젝트\n\n\n\n\n\n🤗 HuggingFace\nTransformers\n\nLink »\n\n\n\n\n\n🤗 HuggingFace\nAudio Course\n\nLink »\n\n\n\n\n\n함께 해요\n새로운 프로젝트를 기다립니다."
+  },
+  {
+    "objectID": "glossary.html#a",
+    "href": "glossary.html#a",
+    "title": "용어 사전",
+    "section": "A",
+    "text": "A\n\narguments\n인수 \n\n\nautomatic speech recognition\n자동음성인식 \n\n\narchitecture\n아키텍처 \n\n\nattention mask\n어텐션 마스크 \n\n\nargumentation\n증강 \n\n\nautoencoding model\n오토인코딩 모델 \n\n\nautoregressive model\n자기회귀 모델"
+  },
+  {
+    "objectID": "glossary.html#b",
+    "href": "glossary.html#b",
+    "title": "용어 사전",
+    "section": "B",
+    "text": "B\n\nbackward\n역방향"
+  },
+  {
+    "objectID": "glossary.html#c",
+    "href": "glossary.html#c",
+    "title": "용어 사전",
+    "section": "C",
+    "text": "C\n\ncausal language model\n인과적 언어 모델링 \n\n\ncheckpoint\n체크포인트 \n\n\nchunk\n묶음 \n\n\nclustering\n군집화 \n\n\nconvolution\n합성곱 \n\n\ncrob\n자르기 \n\n\ncustom\n사용자정의 \n\n\nconnectionist temporal classification, CTC\n연결주의 시간분류"
+  },
+  {
+    "objectID": "glossary.html#d",
+    "href": "glossary.html#d",
+    "title": "용어 사전",
+    "section": "D",
+    "text": "D\n\ndata collator\n데이터 콜레이터 \n\n\ndataset\n데이터 세트 \n\n\ndirectory\n디렉터리 \n\n\ndirectory\n디렉터리 \n\n\ndistributed training\n분산 학습 \n\n\ndown stream\n다운 스트림"
+  },
+  {
+    "objectID": "glossary.html#e",
+    "href": "glossary.html#e",
+    "title": "용어 사전",
+    "section": "E",
+    "text": "E\n\nentity\n개체 \n\n\nepoch\n에폭 \n\n\nevaluation method\n평가 방법"
+  },
+  {
+    "objectID": "glossary.html#f",
+    "href": "glossary.html#f",
+    "title": "용어 사전",
+    "section": "F",
+    "text": "F\n\nfeature extraction\n특성 추출 \n\n\nfeature matrix\n특성 행렬 \n\n\nfine-tunning\n미세 조정"
+  },
+  {
+    "objectID": "glossary.html#h",
+    "href": "glossary.html#h",
+    "title": "용어 사전",
+    "section": "H",
+    "text": "H\n\nhidden state\n은닉 상태 \n\n\nhyperparameter\n하이퍼 파라미터"
+  },
+  {
+    "objectID": "glossary.html#l",
+    "href": "glossary.html#l",
+    "title": "용어 사전",
+    "section": "L",
+    "text": "L\n\nlearning\n학습 \n\n\nload\n가져오다"
+  },
+  {
+    "objectID": "glossary.html#m",
+    "href": "glossary.html#m",
+    "title": "용어 사전",
+    "section": "M",
+    "text": "M\n\nMethod\n매소드"
+  },
+  {
+    "objectID": "glossary.html#o",
+    "href": "glossary.html#o",
+    "title": "용어 사전",
+    "section": "O",
+    "text": "O\n\noptimizer\n옵티마이저"
+  },
+  {
+    "objectID": "glossary.html#p",
+    "href": "glossary.html#p",
+    "title": "용어 사전",
+    "section": "P",
+    "text": "P\n\npad\n패드 \n\n\nparameter\n매개변수"
+  },
+  {
+    "objectID": "glossary.html#s",
+    "href": "glossary.html#s",
+    "title": "용어 사전",
+    "section": "S",
+    "text": "S\n\nspeech enhancement\n음성 향상 \n\n\nspectrogram\n스펙트로그램 \n\n\nseperator\n분할 토큰 \n\n\nsequence\n시퀀스 \n\n\nsilent error\n조용한 오류"
+  },
+  {
+    "objectID": "glossary.html#t",
+    "href": "glossary.html#t",
+    "title": "용어 사전",
+    "section": "T",
+    "text": "T\n\ntoken\n토큰\n\n\ntokenizer\n토크나이저 \n\n\ntraining\n훈련"
+  },
+  {
+    "objectID": "glossary.html#v",
+    "href": "glossary.html#v",
+    "title": "용어 사전",
+    "section": "V",
+    "text": "V\n\nvocoder\n보코더"
+  },
+  {
+    "objectID": "registration.html",
+    "href": "registration.html",
+    "title": "참여하기",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever."
+  },
+  {
+    "objectID": "markdown.html",
+    "href": "markdown.html",
+    "title": "Markdown 사용법",
+    "section": "",
+    "text": "Markdown 사용법에 대해서 작성해주세요"
+  },
+  {
+    "objectID": "preview.html",
+    "href": "preview.html",
+    "title": "Preview 확인하기",
+    "section": "",
+    "text": "Preview를 확인하는 방법에 작성해주세요"
+  },
+  {
+    "objectID": "edit.html",
+    "href": "edit.html",
+    "title": "용어 수정",
+    "section": "",
+    "text": "사전에 용어를 등록하는 과정을 작성해주세요."
+  },
+  {
+    "objectID": "contribution.html",
+    "href": "contribution.html",
+    "title": "기여하신 분",
+    "section": "",
+    "text": "기여자\n용어 사전에 기여하신 모든 분들께 감사드립니다."
+  },
+  {
+    "objectID": "contribution.html#새로운-기여자와-팀을-찾습니다.",
+    "href": "contribution.html#새로운-기여자와-팀을-찾습니다.",
+    "title": "기여하신 분",
+    "section": "새로운 기여자와 팀을 찾습니다.",
+    "text": "새로운 기여자와 팀을 찾습니다."
+  },
+  {
+    "objectID": "contribution.html#허깅페이스-리서치-팀",
+    "href": "contribution.html#허깅페이스-리서치-팀",
+    "title": "기여하신 분",
+    "section": "허깅페이스 리서치 팀",
+    "text": "허깅페이스 리서치 팀\nHuggingFace 리서치팀에서는 허깅페이스와 다른 딥러닝관련 프로젝트를 한>글화 하고 있습니다. 허깅페이스 문서와 딥러닝관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다. 딥러닝 문서 번역에 관심있는 분들 모두 참가가 가능하니 관심있는 분들의 많은 참여 부탁드립니다.\n\n\n\n역할\n이름\n조직\n소개\n\n\n\n\n\n서원형\nPseudo Lab. HuggingFace 리서치팀\n\n\n\n\n손기훈\nPseudo Lab. HuggingFace 리서치팀\n\n\n\n\n심소현\nPseudo Lab. HuggingFace 리서치팀\n\n\n\n\n양성모\nPseudo Lab. HuggingFace 리서치팀\nGithub\n\n\n\n윤현서\nPseudo Lab. HuggingFace 리서치팀\n\n\n\n\n정우준\nPseudo Lab. HuggingFace 리서치팀\n\n\n\n\n한나연\nPseudo Lab. HuggingFace 리서치팀\n\n\n\n\n\n~\n\n                                                                                                                ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~"
+  }
+]
