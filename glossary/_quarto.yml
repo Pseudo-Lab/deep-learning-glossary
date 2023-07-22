@@ -1,0 +1,29 @@
+project:
+  type: book
+
+book:
+  title: "딥러닝 용어사전"
+  author: "기여자 여러분"
+  date: "2023. 7. 22."
+  chapters:
+    - index.qmd
+    - glossary.qmd
+    - part: registration.qmd
+      chapters:
+        - markdown.qmd
+        - preview.qmd
+    - edit.qmd
+    - contribution.qmd
+
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
+
