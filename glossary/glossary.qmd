@@ -142,7 +142,7 @@
 
 
 ## M
-### Method
+### method
 매소드 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
 
 ## O
@@ -160,7 +160,7 @@
 
 ## S
 ### speech enhancement
-음성 향상 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+음성 향상 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace Audio" src="https://img.shields.io/badge/문서-Huggingface_Audio-blue"></a>
 
 
 ### spectrogram
@@ -190,4 +190,4 @@
 
 ## V
 ### vocoder
-보코더 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+보코더 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Audio-blue"></a>

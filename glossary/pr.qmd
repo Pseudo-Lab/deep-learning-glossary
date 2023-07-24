@@ -1,4 +1,4 @@
-# Pull Request 작성하기
+# Pull Request 작성하기 {.unnumbered}
 
 사전에 용어를 등록하는 과정을 작성해주세요.
 

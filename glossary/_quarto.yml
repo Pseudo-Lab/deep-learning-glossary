@@ -1,5 +1,7 @@
 project:
   type: book
+  resources:
+    - "test.html"
 
 book:
   title: "딥러닝 용어사전"
@@ -7,23 +9,25 @@ book:
   date: "2023. 7. 22."
   chapters:
     - index.qmd
-    - glossary.qmd
-    - part: registration.qmd
+    - part: glossary.qmd
       chapters:
         - markdown.qmd
         - preview.qmd
-    - edit.qmd
+        - register_edit.qmd
+        - pr.qmd
     - contribution.qmd
 
 
-bibliography: references.bib
 
 format:
   html:
     theme: cosmo
+    code-copy: true
   pdf:
     documentclass: scrreprt
 
-
-
-
+website:
+  google-analytics: "G-TFCJQ03RNB"
+  page-footer:
+    center: "by HuggingFace KREW"
+  site-url: https://example.com

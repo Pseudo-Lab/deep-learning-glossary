@@ -7,27 +7,6 @@
     "text": "소개합니다\n딥러닝 영어문서를 한국어로 번역하는 과정에서 용어를 통일하여 사용하기 위한 오픈소스 용어 사전입니다."
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "용어 사전",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "참여하기",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever."
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
     "objectID": "index.html#시작하기-전에",
     "href": "index.html#시작하기-전에",
     "title": "딥러닝 용어사전",
@@ -102,7 +81,7 @@
     "href": "glossary.html#m",
     "title": "용어 사전",
     "section": "M",
-    "text": "M\n\nMethod\n매소드"
+    "text": "M\n\nmethod\n매소드"
   },
   {
     "objectID": "glossary.html#o",
@@ -154,9 +133,16 @@
     "text": "Preview를 확인하는 방법에 작성해주세요"
   },
   {
-    "objectID": "edit.html",
-    "href": "edit.html",
-    "title": "용어 수정",
+    "objectID": "register_edit.html",
+    "href": "register_edit.html",
+    "title": "용어 등록 및 수정",
+    "section": "",
+    "text": "사전에 용어를 등록하는 과정을 작성해주세요."
+  },
+  {
+    "objectID": "pr.html",
+    "href": "pr.html",
+    "title": "Pull Request 작성하기",
     "section": "",
     "text": "사전에 용어를 등록하는 과정을 작성해주세요."
   },
