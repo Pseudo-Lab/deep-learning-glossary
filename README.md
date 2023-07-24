@@ -6,9 +6,9 @@
 ## 변경사항 검토하기
 문서 수정을 위해 레포지토리를 `fork`하여 문서를 수정합니다. 설치 및 빌드 순서는 아래와 같습니다.
 
-1. [Quarto](https://quarto.org/docs/get-started/)를 설치합니다.
+### [Quarto](https://quarto.org/docs/get-started/)를 설치합니다.
 
-2. `glossary.qmd` 문서를 수정합니다. 수정된 내용을 아래의 명령으로 확인합니다. 로컬 웹브라우저에서 수정된 내용을 확인할 수 있습니다.
+### `glossary.qmd` 문서를 수정합니다. 수정된 내용을 아래의 명령으로 확인합니다. 로컬 웹브라우저에서 수정된 내용을 확인할 수 있습니다.
 ```
 # cd glossary
 # quarto preview
