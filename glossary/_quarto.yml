@@ -2,11 +2,14 @@ project:
   type: book
   resources:
     - "test.html"
-
 book:
   title: "딥러닝 용어사전"
   author: "기여자 여러분"
   date: "2023. 7. 22."
+  search: true
+  repo-url: https://github.com/Pseudo-Lab/deep-learning-glossary
+  repo-actions: [edit]
+  sharing: [twitter, facebook]
   chapters:
     - index.qmd
     - part: glossary.qmd
@@ -16,8 +19,6 @@ book:
         - register_edit.qmd
         - pr.qmd
     - contribution.qmd
-
-
 
 format:
   html:
@@ -30,4 +31,4 @@ website:
   google-analytics: "G-TFCJQ03RNB"
   page-footer:
     center: "by HuggingFace KREW"
-  site-url: https://example.com
+
