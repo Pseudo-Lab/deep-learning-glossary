@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>딥러닝 용어사전 - Markdown 사용법</title>
+<title>딥러닝 용어사전 - Quarto 문서 작성하기</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Markdown 사용법</h1>
+      <h1 class="quarto-secondary-nav-title">Quarto 문서 작성하기</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -84,6 +84,24 @@ ul.task-list li input[type="checkbox"] {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">딥러닝 용어사전</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/Pseudo-Lab/deep-learning-glossary" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+            <i class="bi bi-bi-twitter pe-1"></i>
+          Twitter
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+            <i class="bi bi-bi-facebook pe-1"></i>
+          Facebook
+          </a>
+        </li>
+    </ul>
+</div>
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -108,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./markdown.html" class="sidebar-item-text sidebar-link active">Markdown 사용법</a>
+  <a href="./markdown.html" class="sidebar-item-text sidebar-link active">Quarto 문서 작성하기</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -145,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Markdown 사용법</h1>
+<h1 class="title d-none d-lg-block">Quarto 문서 작성하기</h1>
 </div>
 
 
@@ -160,9 +178,31 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Markdown 사용법에 대해서 작성해주세요</p>
+<p>Quarto에서 문서를 작성하기 위해서는 기본적으로 markdown언어를 이용하여 작성합니다. 만약 markdown에 익숙하지 않은 경우라면 Visual Code를 이용하는 것을 추천드립니다.</p>
+<p>Visual Code에서는 Quarto Extention을 지원하고 있습니다. 설치는 Visual Code의 extention에서 <a href="#fig-quarto_extension">Figure&nbsp;<span>1</span></a> 과 같이 <code>quarto</code>를 검색하여 설치합니다.</p>
+<div id="fig-quarto_extension" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/paste-1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Quarto Extention</figcaption><p></p>
+</figure>
+</div>
+<p>Visual Code에서 자신이 수정할 문서를 선택하고 마우스 우측 버튼을 누르면 <code>Edit in Visual Mode</code>를 선택할 수 있습니다. 선택을 완료하면 markdown형태로 표시되던 문서가 wysiwyg<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> 에디터로 변경되고 메뉴를 통해서 문서를 작성할 수 있습니다.</p>
+<div id="fig-guieditor" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/paste-3.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: VS Code Visual Mode</figcaption><p></p>
+</figure>
+</div>
+<p>화면이 <a href="#fig-guieditor">Figure&nbsp;<span>2</span></a> 와 같이 GUI 지원 형태로 변경된 것을 알 수 있습니다. 메뉴를 통해서 손쉽게 문서를 수정하고 저장할 수 있습니다.</p>
+<p><br> <br></p>
 
 
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>wysiwyg(What You See is What You Get)의 약자로 문서 작성 방법을 GUI로 구현한 에디터 입니다.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
