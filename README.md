@@ -3,19 +3,19 @@
 
 
 
-## 변경사항 검토하기
+## 1. 변경사항 검토하기
 문서 수정을 위해 레포지토리를 `fork`하여 문서를 수정합니다. 설치 및 빌드 순서는 아래와 같습니다.
 
-### 1. Quarto 설치
+### 1.1. Quarto 설치
 [Quarto](https://quarto.org/docs/get-started/)를 설치합니다.
 
-### 2. 문서 업데이트
+### 1.2. 문서 업데이트
 - 용어 수정을 위해 `glossary.qmd` 문서를 수정 후 수정된 내용을 아래의 명령으로 확인합니다. 로컬 웹브라우저에서 수정된 내용을 확인할 수 있습니다.
 ```
 # cd glossary
 # quarto preview
 ```
 
-## 변경사항 반영하기
+## 2. 변경사항 반영하기
 - [PR Template](https://gist.github.com/gabrielwithappy/4eee95b79af5fb0445b205925bc9a4ec)을 이용하여 반영을 요청합니다.
 
