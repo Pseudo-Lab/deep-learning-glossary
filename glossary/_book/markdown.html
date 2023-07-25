@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -30,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./preview.html" rel="next">
+<link href="./register_edit.html" rel="next">
 <link href="./glossary.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -131,11 +194,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./preview.html" class="sidebar-item-text sidebar-link">Preview 확인하기</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./register_edit.html" class="sidebar-item-text sidebar-link">용어 등록 및 수정</a>
   </div>
 </li>
@@ -178,22 +236,25 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Quarto에서 문서를 작성하기 위해서는 기본적으로 markdown언어를 이용하여 작성합니다. 만약 markdown에 익숙하지 않은 경우라면 Visual Code를 이용하는 것을 추천드립니다.</p>
-<p>Visual Code에서는 Quarto Extention을 지원하고 있습니다. 설치는 Visual Code의 extention에서 <a href="#fig-quarto_extension">Figure&nbsp;<span>1</span></a> 과 같이 <code>quarto</code>를 검색하여 설치합니다.</p>
+<p>우선 문서작성을 위해 <a href="https://quarto.org/docs/get-started/">Quarto 웹사이트</a>로 이동하여 프로그램을 설치합니다. 간단한 설치가 완료되면 문서작성을 위한 준비가 완료됩니다.</p>
+<p>딥러닝 용어사전은 깃헙 레포지토리로 관리되기 때문에 문서 작성을 위해서 Pseudo-Lab 레포지토리를 Fork하여 작업합니다. 이제 웹페이지의 html 파일명과 동일한 이름의 <code>qmd</code>확장자 파일을 열어 문서를 수정할 수 있습니다.</p>
+<p>문서 작성은 기본적으로 markdown언어를 이용하여 작성합니다. 만약 markdown에 익숙하지 않은 경우라면 Visual Code를 이용하는 것을 추천드립니다. Visual Code의 extention 메뉴에서 <a href="#fig-quarto_extension">Figure&nbsp;<span>1</span></a> 과 같이 <code>quarto</code>를 검색하여 익스텐션을 설치할 수 있으며 quarto 익스텐션은 GUI환경에서 문서를 쉽게 작성있도록 도와줍니다.</p>
 <div id="fig-quarto_extension" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="images/paste-1.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;1: Quarto Extention</figcaption><p></p>
 </figure>
 </div>
-<p>Visual Code에서 자신이 수정할 문서를 선택하고 마우스 우측 버튼을 누르면 <code>Edit in Visual Mode</code>를 선택할 수 있습니다. 선택을 완료하면 markdown형태로 표시되던 문서가 wysiwyg<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> 에디터로 변경되고 메뉴를 통해서 문서를 작성할 수 있습니다.</p>
+<p>Visual Code에서 자신이 수정할 문서를 선택하고 마우스 우측 버튼을 누르면 <code>Edit in Visual Mode</code>를 선택할 수 있습니다. 선택을 완료하면 markdown형태로 표시되던 문서가 wysiwyg<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> 에디터로 변경되고 <a href="#fig-guieditor">Figure&nbsp;<span>2</span></a> 와 같이 메뉴를 통해서 문서를 작성할 수 있습니다.</p>
 <div id="fig-guieditor" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="images/paste-3.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;2: VS Code Visual Mode</figcaption><p></p>
 </figure>
 </div>
-<p>화면이 <a href="#fig-guieditor">Figure&nbsp;<span>2</span></a> 와 같이 GUI 지원 형태로 변경된 것을 알 수 있습니다. 메뉴를 통해서 손쉽게 문서를 수정하고 저장할 수 있습니다.</p>
+<p>GUI방식으로 문서를 작성하지 않는 경우 아래의 <code>quarto preview</code>명령을 이용해서 문서를 로컬 웹브라우져에서 확인할 수 있습니다.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>cd glossary</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>quarto preview</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br> <br></p>
 
 
@@ -345,8 +406,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./preview.html" class="pagination-link">
-        <span class="nav-page-text">Preview 확인하기</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./register_edit.html" class="pagination-link">
+        <span class="nav-page-text">용어 등록 및 수정</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
