@@ -1,3 +1,4 @@
-*.sw*
-glossary/_book/
-/.luarc.json
+/.quarto/
+_book/
+
+
