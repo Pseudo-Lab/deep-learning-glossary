@@ -14,7 +14,7 @@
 
 ::: {.g-col-4}
 ::: {.feature}
-### 🤗 HuggingFace
+**🤗 HuggingFace**<br/>
 Transformers
 
 ::: {.learn-more}
@@ -26,7 +26,7 @@ Transformers
 
 ::: {.g-col-4}
 ::: {.feature}
-### 🤗 HuggingFace
+**🤗 HuggingFace**<br/>
 Audio Course
 
 ::: {.learn-more}
@@ -38,7 +38,7 @@ Audio Course
 
 ::: {.g-col-4}
 ::: {.feature}
-### 함께 해요
+**함께 해요**<br/>
 새로운 프로젝트를 기다립니다.
 
 ::: {.learn-more}

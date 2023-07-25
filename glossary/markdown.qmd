@@ -1,16 +1,24 @@
 # Quarto 문서 작성하기 {.unnumbered}
 
-Quarto에서 문서를 작성하기 위해서는 기본적으로 markdown언어를 이용하여 작성합니다. 만약 markdown에 익숙하지 않은 경우라면 Visual Code를 이용하는 것을 추천드립니다.
+우선 문서작성을 위해 [Quarto 웹사이트](https://quarto.org/docs/get-started/)로 이동하여 프로그램을 설치합니다. 간단한 설치가 완료되면 문서작성을 위한 준비가 완료됩니다.
 
-Visual Code에서는 Quarto Extention을 지원하고 있습니다. 설치는 Visual Code의 extention에서 @fig-quarto_extension 과 같이 `quarto`를 검색하여 설치합니다.
+딥러닝 용어사전은 깃헙 레포지토리로 관리되기 때문에 문서 작성을 위해서 Pseudo-Lab 레포지토리를 Fork하여 작업합니다. 이제 웹페이지의 html 파일명과 동일한 이름의 `qmd`확장자 파일을 열어 문서를 수정할 수 있습니다.
+
+문서 작성은 기본적으로 markdown언어를 이용하여 작성합니다. 만약 markdown에 익숙하지 않은 경우라면 Visual Code를 이용하는 것을 추천드립니다. Visual Code의 extention 메뉴에서 @fig-quarto_extension 과 같이 `quarto`를 검색하여 익스텐션을 설치할 수 있으며 quarto 익스텐션은 GUI환경에서 문서를 쉽게 작성있도록 도와줍니다.
 
 ![Quarto Extention](images/paste-1.png){fig-align="center" #fig-quarto_extension}
 
-Visual Code에서 자신이 수정할 문서를 선택하고 마우스 우측 버튼을 누르면 `Edit in Visual Mode`를 선택할 수 있습니다. 선택을 완료하면 markdown형태로 표시되던 문서가 wysiwyg[^markdown-1] 에디터로 변경되고 메뉴를 통해서 문서를 작성할 수 있습니다.
+
+Visual Code에서 자신이 수정할 문서를 선택하고 마우스 우측 버튼을 누르면 `Edit in Visual Mode`를 선택할 수 있습니다. 선택을 완료하면 markdown형태로 표시되던 문서가 wysiwyg[^markdown-1] 에디터로 변경되고 @fig-guieditor 와 같이 메뉴를 통해서 문서를 작성할 수 있습니다.
 
 ![VS Code Visual Mode](images/paste-3.png){fig-align="center" #fig-guieditor}
 
-화면이 @fig-guieditor 와 같이 GUI 지원 형태로 변경된 것을 알 수 있습니다. 메뉴를 통해서 손쉽게 문서를 수정하고 저장할 수 있습니다.
+GUI방식으로 문서를 작성하지 않는 경우 아래의 `quarto preview`명령을 이용해서 문서를 로컬 웹브라우져에서 확인할 수 있습니다.
+
+```python
+cd glossary
+quarto preview
+```
 
 <br/>
 <br/>

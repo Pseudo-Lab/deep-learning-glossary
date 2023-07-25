@@ -15,7 +15,6 @@ book:
     - part: glossary.qmd
       chapters:
         - markdown.qmd
-        - preview.qmd
         - register_edit.qmd
         - pr.qmd
     - contribution.qmd
