@@ -5,189 +5,189 @@
 ## A
 
 ### arguments
-인수 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+인수 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### automatic speech recognition
-자동음성인식 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+자동음성인식 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### architecture
-아키텍처 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+아키텍처 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### attention mask
-어텐션 마스크 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+어텐션 마스크 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### argumentation
-증강 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+증강 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### autoencoding model
-오토인코딩 모델 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+오토인코딩 모델 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### autoregressive model
-자기회귀 모델 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+자기회귀 모델 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ## B
 
 ### backward
-역방향 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+역방향 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 
 ## C
 
 ### causal language model
-인과적 언어 모델링 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+인과적 언어 모델링 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### checkpoint
-체크포인트 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+체크포인트 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### chunk
-묶음 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+묶음 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### clustering
-군집화 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+군집화 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### convolution
-합성곱 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+합성곱 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### crob
-자르기 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+자르기 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### custom
-사용자정의 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+사용자정의 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### connectionist temporal classification, CTC
-연결주의 시간분류 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+연결주의 시간분류 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ## D
 ### data collator
-데이터 콜레이터 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+데이터 콜레이터 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### dataset
-데이터 세트 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+데이터 세트 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### directory
-디렉터리 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+디렉터리 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### directory
-디렉터리 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+디렉터리 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### distributed training
-분산 학습 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+분산 학습 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### down stream
-다운 스트림 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+다운 스트림 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ## E
 ### entity
-개체 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+개체 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### epoch
-에폭 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+에폭 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### evaluation method
-평가 방법 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+평가 방법 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ## F
 ### feature extraction
-특성 추출 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+특성 추출 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### feature matrix
-특성 행렬 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+특성 행렬 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### fine-tunning
-미세 조정 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+미세 조정 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ## H
 ### hidden state
-은닉 상태 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+은닉 상태 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 ### hyperparameter
-하이퍼 파라미터 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+하이퍼 파라미터 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ## L
 ### learning
-학습 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+학습 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### load
-가져오다 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+가져오다 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ## M
 ### method
-매소드 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+매소드 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 ## O
 ### optimizer
-옵티마이저 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+옵티마이저 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 ## P
 ### pad
-패드 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+패드 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### parameter
-매개변수 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+매개변수 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ## S
 ### speech enhancement
-음성 향상 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace Audio" src="https://img.shields.io/badge/문서-Huggingface_Audio-blue"></a>
+음성 향상 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace Audio" src="https://img.shields.io/badge/문서-Huggingface_Audio-blue" target="_blank"></a>
 
 
 ### spectrogram
-스펙트로그램 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+스펙트로그램 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### seperator
-분할 토큰 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+분할 토큰 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### sequence
-시퀀스 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+시퀀스 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 
 ### silent error
-조용한 오류<a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+조용한 오류<a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 ## T
 ### token
-토큰<a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+토큰<a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 ### tokenizer
-토크나이저 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+토크나이저 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 ### training
-훈련 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+훈련 <a href="https://huggingface.co/docs/transformers/index"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" target="_blank"></a>
 
 ## V
 ### vocoder
-보코더 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Audio-blue"></a>
+보코더 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction"><img style=float:right loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Audio-blue" target="_blank"></a>
