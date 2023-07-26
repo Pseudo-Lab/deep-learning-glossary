@@ -5,7 +5,7 @@
 ## A
 
 ### arguments
-인수 <a href="https://huggingface.co/docs/transformers/index" ><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
+인수 <a href="https://huggingface.co/docs/transformers/index" target="_blank" ><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a>
 
 
 ### automatic speech recognition
