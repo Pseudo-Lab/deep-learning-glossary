@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>딥러닝 용어사전 - 용어 사전</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-terms .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-url',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-terms'] = new List('listing-terms', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TFCJQ03RNB"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-sidebar docked fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">용어 사전</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">딥러닝 용어사전</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">소개합니다</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../dictionary/glossary.html" class="sidebar-item-text sidebar-link active">용어 사전</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">사전 사용법</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../markdown.html" class="sidebar-item-text sidebar-link">Quarto 문서 작성하기</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../register_edit.html" class="sidebar-item-text sidebar-link">용어 등록 및 수정</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pr.html" class="sidebar-item-text sidebar-link">Pull Request 작성하기</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../contribution.html" class="sidebar-item-text sidebar-link">기여하신 분</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">용어 사전</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>딥러닝관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다. 딥러닝 문서 번역에 관심있는 분들 모두 참가가 가능하니 관심있는 분들의 많은 참여 부탁드립니다.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-terms">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1690381712875" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/architecture.html">
+<h3 class="no-anchor listing-title">
+architecture
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>아키텍처</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/architecture.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1690381717355" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/argumentation.html">
+<h3 class="no-anchor listing-title">
+argumentation
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>증강</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/argumentation.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1690381721155" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/arguments.html">
+<h3 class="no-anchor listing-title">
+arguments
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>인수</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/arguments.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="3" data-listing-file-modified-sort="1690381724565" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/attention_mask.html">
+<h3 class="no-anchor listing-title">
+attention mask
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>어텐션 마스크</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/attention_mask.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="4" data-listing-file-modified-sort="1690381728715" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/automatic_speech_recognition.html">
+<h3 class="no-anchor listing-title">
+automatic speech recognition
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>자동음성인식</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/automatic_speech_recognition.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="5" data-listing-file-modified-sort="1690381732195" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/autoregressive_model.html">
+<h3 class="no-anchor listing-title">
+autoregressive model
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>자기회귀 모델</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/autoregressive_model.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="6" data-listing-file-modified-sort="1690381734285" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/backward.html">
+<h3 class="no-anchor listing-title">
+backward
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>역방향</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/backward.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="7" data-listing-file-modified-sort="1690381738975" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/casual_language_model.html">
+<h3 class="no-anchor listing-title">
+causal language model
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>인과적 언어 모델링</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/casual_language_model.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="8" data-listing-file-modified-sort="1690381752045" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/checkpoint.html">
+<h3 class="no-anchor listing-title">
+checkpoint
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>체크포인트</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/checkpoint.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="9" data-listing-file-modified-sort="1690381806695" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/chunk.html">
+<h3 class="no-anchor listing-title">
+chunk
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>묶음</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/chunk.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="10" data-listing-file-modified-sort="1690381756765" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/clustering.html">
+<h3 class="no-anchor listing-title">
+clustering
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>군집화</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/clustering.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="11" data-listing-file-modified-sort="1690381759115" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/convolution.html">
+<h3 class="no-anchor listing-title">
+convolution
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>합성곱</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/convolution.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="12" data-listing-file-modified-sort="1690381760725" data-listing-reading-time-sort="0.06">
+<div class="body">
+<a href="../dictionary/terms/crob.html">
+<h3 class="no-anchor listing-title">
+crob
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>자르기</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/crob.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="13" data-listing-file-modified-sort="1690381762395" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/custom.html">
+<h3 class="no-anchor listing-title">
+custom
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>사용자정의</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/custom.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="14" data-listing-file-modified-sort="1690382224005" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/data_collator.html">
+<h3 class="no-anchor listing-title">
+data collator
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+데이터 콜레이터 
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/data_collator.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="15" data-listing-file-modified-sort="1690381766595" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/dataset.html">
+<h3 class="no-anchor listing-title">
+dataset
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>데이터 세트</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/dataset.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="16" data-listing-file-modified-sort="1690381768395" data-listing-reading-time-sort="0.06">
+<div class="body">
+<a href="../dictionary/terms/directory.html">
+<h3 class="no-anchor listing-title">
+directory
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>디렉터리</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/directory.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="17" data-listing-file-modified-sort="1690381770035" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/distributed_training.html">
+<h3 class="no-anchor listing-title">
+distributed training
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>분산 학습</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/distributed_training.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="18" data-listing-file-modified-sort="1690381772415" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/down_stream.html">
+<h3 class="no-anchor listing-title">
+down stream
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>다운 스트림</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/down_stream.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="19" data-listing-file-modified-sort="1690381774465" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/entity.html">
+<h3 class="no-anchor listing-title">
+entity
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>개체</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/entity.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="20" data-listing-file-modified-sort="1690381776685" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/epoch.html">
+<h3 class="no-anchor listing-title">
+epoch
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>에폭</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/epoch.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="21" data-listing-file-modified-sort="1690381778105" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/evaluation_method.html">
+<h3 class="no-anchor listing-title">
+evaluation method
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>평가 방법</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/evaluation_method.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="22" data-listing-file-modified-sort="1690381779865" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/feature_extraction.html">
+<h3 class="no-anchor listing-title">
+feature extraction
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>특성 추출</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/feature_extraction.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="23" data-listing-file-modified-sort="1690381781365" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/feature_matrix.html">
+<h3 class="no-anchor listing-title">
+feature matrix
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>특성 행렬</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/feature_matrix.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="24" data-listing-file-modified-sort="1690382006755" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/hidden_state.html">
+<h3 class="no-anchor listing-title">
+hidden state
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>은닉 상태</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/hidden_state.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="25" data-listing-file-modified-sort="1690381783905" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/fine_tunning.html">
+<h3 class="no-anchor listing-title">
+hyperparameter
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>하이퍼 파라미터</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/fine_tunning.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="26" data-listing-file-modified-sort="1690382061995" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/hyperparameter.html">
+<h3 class="no-anchor listing-title">
+hyperparameter
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>하이퍼파라미터</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/hyperparameter.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="27" data-listing-file-modified-sort="1690381786405" data-listing-reading-time-sort="0.06">
+<div class="body">
+<a href="../dictionary/terms/learning.html">
+<h3 class="no-anchor listing-title">
+learning
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>학습</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/learning.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="28" data-listing-file-modified-sort="1690381788165" data-listing-reading-time-sort="0.06">
+<div class="body">
+<a href="../dictionary/terms/load.html">
+<h3 class="no-anchor listing-title">
+load
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>가져오다</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/load.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="29" data-listing-file-modified-sort="1690381789495" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/method.html">
+<h3 class="no-anchor listing-title">
+method
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>매소드</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/method.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="30" data-listing-file-modified-sort="1690381138415" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/optimizer.html">
+<h3 class="no-anchor listing-title">
+optimizer
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>옵티마이저</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/optimizer.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="31" data-listing-file-modified-sort="1690381793165" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/pad.html">
+<h3 class="no-anchor listing-title">
+parameter
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>매개변수</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/pad.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="32" data-listing-file-modified-sort="1690380993265" data-listing-reading-time-sort="0.065">
+<div class="body">
+<a href="../dictionary/terms/seperator.html">
+<h3 class="no-anchor listing-title">
+seperator
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>분할 토큰</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/seperator.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="33" data-listing-file-modified-sort="1690382124875" data-listing-reading-time-sort="0.06">
+<div class="body">
+<a href="../dictionary/terms/sequence.html">
+<h3 class="no-anchor listing-title">
+sequence
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>시퀀스</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/sequence.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="34" data-listing-file-modified-sort="1690381562035" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/silent_error.html">
+<h3 class="no-anchor listing-title">
+silent error
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>조용한 오류</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/silent_error.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="35" data-listing-file-modified-sort="1690381157585" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/spectrogram.html">
+<h3 class="no-anchor listing-title">
+spectrogram
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>음성 향상</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/spectrogram.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/learn/audio-course/chapter0/introduction
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="36" data-listing-file-modified-sort="1690381205715" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/speech_enhancement.html">
+<h3 class="no-anchor listing-title">
+speech enhancement
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>음성 향상</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/speech_enhancement.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/learn/audio-course/
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="37" data-listing-file-modified-sort="1690381630035" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/token.html">
+<h3 class="no-anchor listing-title">
+token
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>토큰</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/token.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="38" data-listing-file-modified-sort="1690382170625" data-listing-reading-time-sort="0.06">
+<div class="body">
+<a href="../dictionary/terms/tokenizer.html">
+<h3 class="no-anchor listing-title">
+tokenizer
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>토크나이저</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/tokenizer.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="39" data-listing-file-modified-sort="1690381864515" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/training.html">
+<h3 class="no-anchor listing-title">
+training
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>훈련</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/training.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/docs/transformers/index
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="40" data-listing-file-modified-sort="1690381914215" data-listing-reading-time-sort="0.01">
+<div class="body">
+<a href="../dictionary/terms/training copy.html">
+<h3 class="no-anchor listing-title">
+vocoder
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>보코더</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../dictionary/terms/training copy.html">
+<div class="metadata-value listing-url">
+https://huggingface.co/learn/audio-course/chapter0/introduction
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">by HuggingFace KREW</div>
+  </div>
+</footer>
+
+
+
+</body></html>
