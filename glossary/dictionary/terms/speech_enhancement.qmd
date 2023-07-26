@@ -1,0 +1,9 @@
+---
+title: 'speech enhancement'
+description: '음성 향상'
+url: https://huggingface.co/learn/audio-course/
+---
+
+음성 향상 <a href="https://huggingface.co/learn/audio-course/" target="_blank"><img style=float:right loading="lazy" alt="src: HuggingFace Audio" src="https://img.shields.io/badge/문서-Huggingface_Audio-blue" ></a>
+---
+설명을 추가해주세요.

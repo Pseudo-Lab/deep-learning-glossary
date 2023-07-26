@@ -1,0 +1,20 @@
+---
+title: "용어 사전"
+# subtitle: ""
+listing:
+  - id: terms
+    contents: terms
+    sort:
+      - "title asc"
+    categories: false
+    filter-ui: [title]
+    type: default
+    page-size: 1000
+    fields: [title, description, url]
+    image-align: left
+---
+
+딥러닝관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다. 딥러닝 문서 번역에 관심있는 분들 모두 참가가 가능하니 관심있는 분들의 많은 참여 부탁드립니다.
+
+
+

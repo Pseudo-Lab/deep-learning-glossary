@@ -1,23 +1,27 @@
 project:
-  type: book
-  resources:
-    - "test.html"
-book:
+  type: website
+
+website:
   title: "딥러닝 용어사전"
-  author: "기여자 여러분"
-  date: "2023. 7. 22."
   search: true
-  repo-url: https://github.com/Pseudo-Lab/deep-learning-glossary
-  repo-actions: [edit]
-  sharing: [twitter, facebook]
-  chapters:
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
     - index.qmd
-    - part: glossary.qmd
-      chapters:
+    - dictionary/glossary.qmd
+    - section: "사전 사용법"
+      contents:
         - markdown.qmd
         - register_edit.qmd
         - pr.qmd
     - contribution.qmd
+  google-analytics: "G-TFCJQ03RNB"
+  page-footer:
+    center: "by HuggingFace KREW"
+  repo-url: https://github.com/Pseudo-Lab/deep-learning-glossary
+  site-url: 'https://pseudo-lab.github.io/deep-learning-glossary/'
+  site-path: '/'
 
 format:
   html:
@@ -26,8 +30,4 @@ format:
   pdf:
     documentclass: scrreprt
 
-website:
-  google-analytics: "G-TFCJQ03RNB"
-  page-footer:
-    center: "by HuggingFace KREW"
 
