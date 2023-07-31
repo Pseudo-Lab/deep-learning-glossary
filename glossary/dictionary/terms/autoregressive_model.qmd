@@ -3,7 +3,6 @@ title: 'autoregressive model'
 description: '자기회귀 모델'
 url: https://huggingface.co/docs/transformers/index
 ---
-
-자기회귀 모델 <a href="https://huggingface.co/docs/transformers/index" target="_blank"><img style=float:right loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" ></a>
+<a href="https://huggingface.co/docs/transformers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" ></a>
 ---
 설명을 추가해주세요.

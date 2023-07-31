@@ -7,7 +7,7 @@ listing:
     sort:
       - "title asc"
     categories: false
-    filter-ui: [title]
+    filter-ui: [title, description]
     type: default
     page-size: 1000
     fields: [title, description, url]
