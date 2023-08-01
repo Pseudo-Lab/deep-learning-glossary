@@ -27,7 +27,7 @@ format:
   html:
     theme: cosmo
     code-copy: true
-  pdf:
-    documentclass: scrreprt
+  # pdf:
+  #   documentclass: scrreprt
 
 
