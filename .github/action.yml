@@ -1,0 +1,61 @@
+name: 'Publish Quarto project'
+author: 'Carlos Scheidegger'
+description: 'This action will publish an existing quarto project'
+inputs:
+  to:
+    description: 'Service to publish to. If unspecified, use the default value derived from _publish.yml'
+    required: false
+  target:
+    description: 'Alias for `to`. If unspecified, use the default value derived from _publish.yml'
+    required: false
+  CONNECT_SERVER:
+    description: 'RStudio Connect server. If unspecified, use the default value derived from _publish.yml'
+    required: false
+  CONNECT_API_KEY:
+    description: 'RStudio Connect API key. (Use with github actions secrets: see documentation and examples for details)'
+    required: false
+  NETLIFY_AUTH_TOKEN:
+    description: 'Netlify Auth Token. (Use with github actions secrets: see documentation and examples for details)'
+    required: false
+  QUARTO_PUB_AUTH_TOKEN:
+    description: 'Quarto Pub Auth Token. (Use with github actions secrets: see documentation and examples for details)'
+    required: false
+  GITHUB_EMAIL:
+    description: 'Email to be used on gh-pages commit'
+    required: false
+    default: quarto-github-actions-publish@example.com
+  GITHUB_USERNAME:
+    description: 'User name to be used on gh-pages commit'
+    required: false
+    default: Quarto GHA Workflow Runner
+  path:
+    description: 'Subdirectory containing the quarto project to be published'
+    required: false
+    default: "."
+  render:
+    description: 'If not true, do not render project before publishing'
+    required: false
+    default: "true"
+runs:
+  using: 'composite'
+  steps: 
+    - name: 'Publish'
+      shell: bash
+      env:
+        QUARTO_PRINT_STACK: true
+        CONNECT_SERVER: ${{ inputs.CONNECT_SERVER }}
+        CONNECT_API_KEY: ${{ inputs.CONNECT_API_KEY }}
+        NETLIFY_AUTH_TOKEN: ${{ inputs.NETLIFY_AUTH_TOKEN }}
+        QUARTO_PUB_AUTH_TOKEN: ${{ inputs.QUARTO_PUB_AUTH_TOKEN }}
+      run: |
+        git config --global user.email "${{ inputs.GITHUB_EMAIL }}"
+        git config --global user.name "${{ inputs.GITHUB_USERNAME }}"
+        TARGET="${{ inputs.to }}"
+        if [ "$TARGET" == "" ]; then
+          TARGET="${{ inputs.target }}"
+        fi
+        if [ "${{ inputs.render }}" != "true" ]; then
+          quarto publish $TARGET ${{ inputs.path }} --no-render --no-browser
+        else
+          quarto publish $TARGET ${{ inputs.path }} --no-browser
+        fi
