@@ -1,0 +1,5 @@
+- name: Publish to Netlify (and render)
+  uses: quarto-dev/quarto-actions/publish@v2
+  with:
+    target: netlify
+    NETLIFY_AUTH_TOKEN: OGSdFlal0ErriZRW21gIOGB9X3U5_gb0a6pHrABm7Io
