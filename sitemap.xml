@@ -2,194 +2,194 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/references.html</loc>
-    <lastmod>2023-08-01T19:05:17.814Z</lastmod>
+    <lastmod>2023-08-01T19:16:34.204Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/contribution.html</loc>
-    <lastmod>2023-08-01T19:05:21.855Z</lastmod>
+    <lastmod>2023-08-01T19:16:38.125Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/architecture.html</loc>
-    <lastmod>2023-08-01T19:05:25.809Z</lastmod>
+    <lastmod>2023-08-01T19:16:41.939Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/token.html</loc>
-    <lastmod>2023-08-01T19:05:29.676Z</lastmod>
+    <lastmod>2023-08-01T19:16:45.709Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/custom.html</loc>
-    <lastmod>2023-08-01T19:05:33.479Z</lastmod>
+    <lastmod>2023-08-01T19:16:49.533Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/dataset.html</loc>
-    <lastmod>2023-08-01T19:05:37.368Z</lastmod>
+    <lastmod>2023-08-01T19:16:53.465Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/fine_tunning.html</loc>
-    <lastmod>2023-08-01T19:05:41.344Z</lastmod>
+    <lastmod>2023-08-01T19:16:57.344Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/pad.html</loc>
-    <lastmod>2023-08-01T19:05:45.200Z</lastmod>
+    <lastmod>2023-08-01T19:17:01.319Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/optimizer.html</loc>
-    <lastmod>2023-08-01T19:05:49.035Z</lastmod>
+    <lastmod>2023-08-01T19:17:05.057Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/directory.html</loc>
-    <lastmod>2023-08-01T19:05:52.773Z</lastmod>
+    <lastmod>2023-08-01T19:17:08.903Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/autoregressive_model.html</loc>
-    <lastmod>2023-08-01T19:05:56.445Z</lastmod>
+    <lastmod>2023-08-01T19:17:12.694Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/load.html</loc>
-    <lastmod>2023-08-01T19:06:00.020Z</lastmod>
+    <lastmod>2023-08-01T19:17:16.367Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/convolution.html</loc>
-    <lastmod>2023-08-01T19:06:03.877Z</lastmod>
+    <lastmod>2023-08-01T19:17:19.801Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/attention_mask.html</loc>
-    <lastmod>2023-08-01T19:06:07.799Z</lastmod>
+    <lastmod>2023-08-01T19:17:23.441Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/silent_error.html</loc>
-    <lastmod>2023-08-01T19:06:11.731Z</lastmod>
+    <lastmod>2023-08-01T19:17:27.222Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/argumentation.html</loc>
-    <lastmod>2023-08-01T19:06:15.826Z</lastmod>
+    <lastmod>2023-08-01T19:17:30.970Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/spectrogram.html</loc>
-    <lastmod>2023-08-01T19:06:19.596Z</lastmod>
+    <lastmod>2023-08-01T19:17:34.545Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/feature_matrix.html</loc>
-    <lastmod>2023-08-01T19:06:23.702Z</lastmod>
+    <lastmod>2023-08-01T19:17:38.337Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/epoch.html</loc>
-    <lastmod>2023-08-01T19:06:27.732Z</lastmod>
+    <lastmod>2023-08-01T19:17:41.782Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/sequence.html</loc>
-    <lastmod>2023-08-01T19:06:31.480Z</lastmod>
+    <lastmod>2023-08-01T19:17:45.660Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/hidden_state.html</loc>
-    <lastmod>2023-08-01T19:06:35.012Z</lastmod>
+    <lastmod>2023-08-01T19:17:49.473Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/feature_extraction.html</loc>
-    <lastmod>2023-08-01T19:06:38.685Z</lastmod>
+    <lastmod>2023-08-01T19:17:53.146Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/arguments.html</loc>
-    <lastmod>2023-08-01T19:06:42.704Z</lastmod>
+    <lastmod>2023-08-01T19:17:56.992Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/down_stream.html</loc>
-    <lastmod>2023-08-01T19:06:46.355Z</lastmod>
+    <lastmod>2023-08-01T19:18:00.718Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/entity.html</loc>
-    <lastmod>2023-08-01T19:06:50.135Z</lastmod>
+    <lastmod>2023-08-01T19:18:04.597Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/method.html</loc>
-    <lastmod>2023-08-01T19:06:53.862Z</lastmod>
+    <lastmod>2023-08-01T19:18:08.063Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/chunk.html</loc>
-    <lastmod>2023-08-01T19:06:57.491Z</lastmod>
+    <lastmod>2023-08-01T19:18:11.519Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/casual_language_model.html</loc>
-    <lastmod>2023-08-01T19:07:01.099Z</lastmod>
+    <lastmod>2023-08-01T19:18:15.040Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/seperator.html</loc>
-    <lastmod>2023-08-01T19:07:04.652Z</lastmod>
+    <lastmod>2023-08-01T19:18:18.583Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/checkpoint.html</loc>
-    <lastmod>2023-08-01T19:07:08.238Z</lastmod>
+    <lastmod>2023-08-01T19:18:22.418Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/training copy.html</loc>
-    <lastmod>2023-08-01T19:07:11.715Z</lastmod>
+    <lastmod>2023-08-01T19:18:26.112Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/evaluation_method.html</loc>
-    <lastmod>2023-08-01T19:07:15.182Z</lastmod>
+    <lastmod>2023-08-01T19:18:29.698Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/crob.html</loc>
-    <lastmod>2023-08-01T19:07:18.649Z</lastmod>
+    <lastmod>2023-08-01T19:18:33.327Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/backward.html</loc>
-    <lastmod>2023-08-01T19:07:22.267Z</lastmod>
+    <lastmod>2023-08-01T19:18:36.967Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/clustering.html</loc>
-    <lastmod>2023-08-01T19:07:25.907Z</lastmod>
+    <lastmod>2023-08-01T19:18:40.704Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/automatic_speech_recognition.html</loc>
-    <lastmod>2023-08-01T19:07:29.850Z</lastmod>
+    <lastmod>2023-08-01T19:18:44.474Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/tokenizer.html</loc>
-    <lastmod>2023-08-01T19:07:33.696Z</lastmod>
+    <lastmod>2023-08-01T19:18:48.136Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/hyperparameter.html</loc>
-    <lastmod>2023-08-01T19:07:37.423Z</lastmod>
+    <lastmod>2023-08-01T19:18:51.765Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/learning.html</loc>
-    <lastmod>2023-08-01T19:07:41.020Z</lastmod>
+    <lastmod>2023-08-01T19:18:55.394Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/speech_enhancement.html</loc>
-    <lastmod>2023-08-01T19:07:44.725Z</lastmod>
+    <lastmod>2023-08-01T19:18:59.489Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/data_collator.html</loc>
-    <lastmod>2023-08-01T19:07:48.711Z</lastmod>
+    <lastmod>2023-08-01T19:19:03.584Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/distributed_training.html</loc>
-    <lastmod>2023-08-01T19:07:52.720Z</lastmod>
+    <lastmod>2023-08-01T19:19:07.506Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/terms/training.html</loc>
-    <lastmod>2023-08-01T19:07:56.815Z</lastmod>
+    <lastmod>2023-08-01T19:19:11.276Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/dictionary/glossary.html</loc>
-    <lastmod>2023-08-01T19:08:01.137Z</lastmod>
+    <lastmod>2023-08-01T19:19:15.577Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/markdown.html</loc>
-    <lastmod>2023-08-01T19:08:04.864Z</lastmod>
+    <lastmod>2023-08-01T19:19:19.834Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/index.html</loc>
-    <lastmod>2023-08-01T19:08:09.067Z</lastmod>
+    <lastmod>2023-08-01T19:19:23.832Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/pr.html</loc>
-    <lastmod>2023-08-01T19:08:12.859Z</lastmod>
+    <lastmod>2023-08-01T19:19:27.537Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/deep-learning-glossary/register_edit.html</loc>
-    <lastmod>2023-08-01T19:08:16.737Z</lastmod>
+    <lastmod>2023-08-01T19:19:31.101Z</lastmod>
   </url>
 </urlset>
