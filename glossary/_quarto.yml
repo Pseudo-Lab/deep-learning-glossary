@@ -4,10 +4,17 @@ project:
 website:
   title: "딥러닝 용어사전"
   search: true
+  navbar:
+    right:
+      - icon: github
+        href: https://github.com/Pseudo-Lab/deep-learning-glossary
   sidebar:
     style: "docked"
     search: true
+
+
     contents:
+
     - index.qmd
     - dictionary/glossary.qmd
     - section: "사전 사용법"
