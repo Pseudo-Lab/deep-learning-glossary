@@ -1,6 +1,6 @@
 ---
 title: 'hyperparameter'
-description: '하이퍼 파라미터'
+description: '하이퍼파라미터'
 url: https://huggingface.co/docs/transformers/index
 ---
 <a href="https://huggingface.co/docs/transformers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" ></a>
