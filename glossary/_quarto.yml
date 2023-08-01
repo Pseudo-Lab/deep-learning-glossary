@@ -12,8 +12,8 @@ website:
     - dictionary/glossary.qmd
     - section: "사전 사용법"
       contents:
+        - term_page_intro.qmd
         - markdown.qmd
-        - register_edit.qmd
         - pr.qmd
     - contribution.qmd
   google-analytics: "G-TFCJQ03RNB"

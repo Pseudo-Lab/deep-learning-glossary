@@ -1,9 +1,27 @@
 # Quarto 문서 작성하기 {.unnumbered}
 
-용어 사전은 quarto를 이용하여 작성되었기 때문에 quarto 프로그램이 필요합니다. [Quarto 웹사이트](https://quarto.org/docs/get-started/)로 이동하여 프로그램을 설치하면 용어 사전을 작성할 준비가 끝납니다.
+## 준비 하기
+딥러닝 용어 사전은 `quarto`를 이용하여 작성되었습니다. [Quarto 웹사이트](https://quarto.org/docs/get-started/)로 이동하여 프로그램을 설치 해주세요.
 
-이제 본격적으로 문서를 작성할 준비를 합니다. 딥러닝 용어사전은 깃헙 레포지토리(repository)로 관리되기 때문에 문서 작성을 위해서 Pseudo-Lab 레포지토리를 Fork하여 문서를 작업합니다. Fork된 레포지토리에서 수정할 웹페이지의 html 파일명과 동일한 이름의 `qmd` 확장자 파일을 열어 문서를 수정할 수 있습니다.
+설치가 완료되었다면 이제 본격적으로 문서를 작성할 준비를 합니다. 딥러닝 용어사전은 깃헙 레포지토리(repository)로 관리되기 때문에 문서 작성을 위해서 Pseudo-Lab 레포지토리를 Fork하여 문서를 작업합니다. Fork된 레포지토리에서 수정할 웹페이지의 html 파일명과 동일한 이름의 `qmd` 확장자 파일을 열어 문서를 수정할 수 있습니다.
 
+용어 사전의 구조를 살펴볼까요? 용어 사전에 작성된 용어들은 아래의 `terms`폴더에 하나의 파일 형태로 생성됩니다. 예를 들어 `convolution`을 수정하는 경우 `terms` 폴더에 생성된 `convolution.qmd`파일을 수정합니다. 만약 공백이 있다면 `_`로 변경하여 파일명이 생성됩니다.
+
+```
+├── glossary
+│   ├── dictionary
+|   │   └── terms
+|   |       ├── architecture.qmd
+|   |               ...
+|   |       ├── convolution.qmd
+|   |               ...
+|   │       └── speech_enhancement.qmd
+
+```
+
+ 신규 용어는 `terms`폴더에 새로운 파일을 작성하는 부분이 추가되는 것 외에는 동일합니다. 파일명은 모두 `소문자`로 작성하고 공백은 `_`로 대체하여 사용하고 있습니다.
+
+## 문서 작성
 문서 작성은 기본적으로 markdown언어를 이용하여 작성하지만 markdown에 익숙하지 않은 경우라면 Visual Code를 이용하는 것을 추천드립니다. Visual Code의 extention 메뉴에서 `quarto`를 검색하여 익스텐션을 설치할 수 있으며  @fig-quarto_extension 의 quarto 익스텐션은 GUI환경에서 문서를 쉽게 작성있도록 도와줍니다.
 
 ![Quarto Extention](images/paste-1.png){fig-align="center" #fig-quarto_extension}
@@ -13,19 +31,16 @@ Visual Code에서 자신이 수정할 문서를 선택하고 마우스 우측 �
 
 ![VS Code Visual Mode](images/paste-3.png){fig-align="center" #fig-guieditor}
 
-GUI방식으로 문서를 작성하지 않는 경우 아래의 `quarto preview`명령을 이용해서 문서를 로컬 웹브라우져에서 확인할 수 있습니다.
+## 확인 하기
+
+VS Code등의 에디터를 사용했다면 자신이 수정한 내용을 바로 확인할 수 있습니다. 만일 GUI방식으로 문서를 작성하지 않는 경우 아래의 `quarto preview`명령을 이용해서 문서를 로컬 웹브라우져에서 확인할 수 있습니다.
 
 ```python
 cd glossary
 quarto preview
 ```
 
-
-<br/>
-<br/>
-
-
-
+`preview`명령을 수행하면 로컬 컴퓨터에 브라우져가 실행되고 수정된 웹사이트를 바로 확인할 수 있습니다. 변경사항에 문제가 없다면 이제 PR(Pull Request)를 진행할 수 있습니다.
 
 
 [^markdown-1]: wysiwyg(What You See is What You Get)의 약자로 문서 작성 방법을 GUI로 구현한 에디터 입니다.
