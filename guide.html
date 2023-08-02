@@ -179,31 +179,29 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
 
 <section id="가이드-문서" class="level1 unnumbered">
 <h1 class="unnumbered">가이드 문서</h1>
+<p>이 문서는 용어 사전을 사용하는 방법과 용어를 등록하기 위한 정보를 전달하기 위해 작성되었습니다.</p>
 <section id="용어-페이지-구조" class="level2">
 <h2 class="anchored" data-anchor-id="용어-페이지-구조">용어 페이지 구조</h2>
-<p>용어 사전에 등록된 용어 설명 페이지의 구조를 알아봅니다. 이 문서를 통해서 기존에 등록되 용어 수정하거나 새로운 용어를 등록하는 방법을 이해할 수 있습니다.</p>
-<p>아래의 <code>archirecture</code>로 등록된 용어 페이지를 선택하여 상세 페이지로 이동하여 용어 사전 페이지의 구조를 이해합니다.</p>
+<p>용어 사전에 등록된 용어 설명 페이지의 구조를 알아봅니다. 등록된 용어의 정보를 보여주는 페이지를 생성하는 코드의 구조를 이해할 수 있습니다. 아래의 <code>archirecture</code>로 등록된 용어 페이지를 선택하여 상세 페이지를 기준으로 용어 사전 페이지의 구조를 이해합니다.</p>
 <p><img src="images/paste-4.png" class="img-fluid"></p>
-<p>이 페이지는 <code>archirecture.qmd</code>파일의 정보로 생성되며 아래의 코드를 이용하여 영어와 한국어 용어 이름이 표시됩니다.</p>
+<p><code>arcitrecture</code>용어에 대한 웹페이지는 <code>archirecture.qmd</code>파일의 정보로 생성되며 아래의 코드를 이용하여 영어와 한국어 용어 이름이 표시됩니다.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>title: 'architecture'</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>description: '아키텍처'</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>url: https://huggingface.co/docs/transformers/index</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>---</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><code>title</code>과 <code>description</code>은 각각 용어의 영어와 한국어 표현을 나타내고 <code>url</code>은 용어가 나온 원본 문서의 위치를 의미합니다.</p>
-<p>동일한 용어가 사용되는 딥러닝 분야에 따라 다른 뜻으로 사용될 수 있으니 원본 문서에 대한 링크를 추가하고 있습니다.</p>
-<p>상세 페이지에서는 <code>image shields io</code> 마크다운 배지를 이용하여 원본 문서로 이동이 가능한 링크를 생성합니다. 아래의 코드는 마크다운 배지를 생성하는 코드입니다.</p>
+<p>코드의 상단의 <code>title</code>과 <code>description</code>은 각각 용어의 영어와 한국어 표현을 나타내고 <code>url</code>은 용어가 나온 원본 문서의 위치를 의미합니다. 동일한 용어가 사용되는 딥러닝 분야에 따라 다른 뜻으로 사용될 수 있으니 원본 문서에 대한 링크를 추가하고 있습니다. 각 용어의 상세 페이지에서는 <code>image shields io</code> 마크다운 배지를 이용하여 원본 문서로 이동이 가능한 링크를 생성합니다. 아래의 코드는 마크다운 배지를 생성하는 코드입니다.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://huggingface.co/docs/transformers/index"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;img</span> <span class="er">loading</span><span class="ot">=</span><span class="st">"lazy"</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ot">     alt=</span><span class="st">"src: HuggingFace Transformer"</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ot">     src=</span><span class="st">"https://img.shields.io/badge/문서-Huggingface_Transformer-blue"</span> <span class="kw">&gt;</span></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/a&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>마크다운 배지에 표시되는 문구는 <code>img shields io</code>에 전달하는 URL을 통해서 작성됩니다. 위의 코드에서는 <code>문서-Huggingface_Transformer-blue</code>를 사용했습니다.</p>
-<p><code>-</code>를 통해서 <code>문서</code>, <code>Huggingface_Transformer</code>, <code>blue</code>의 3개의 배지 정보가 전달되었습니다. 최종 결과물과 비교하면 각각의 의미를 이해할 수 있습니다. 공백을 <code>_</code>로 표시했음을 기억하세요.</p>
+<p>마크다운 배지에 표시되는 문구는 <code>img shields io</code>에 전달하는 URL을 통해서 작성됩니다. 위의 코드에서는 <code>문서-Huggingface_Transformer-blue</code>를 사용했습니다. <code>문서</code>, <code>Huggingface_Transformer</code>, <code>blue</code>의 3개의 배지 정보는 <code>-</code>를 통해서 구분됩니다. 최종 결과물과 비교하면 각각의 의미를 이해할 수 있습니다. 공백을 <code>_</code>로 표시했음을 기억하세요.</p>
 </section>
 </section>
 <section id="quarto-문서-작성하기" class="level1 unnumbered">
 <h1 class="unnumbered">Quarto 문서 작성하기</h1>
+<p>문서를 작성을 위해 <code>quarto</code>에 대해서 배워봅니다.</p>
 <section id="준비-하기" class="level2">
 <h2 class="anchored" data-anchor-id="준비-하기">준비 하기</h2>
 <p>딥러닝 용어 사전은 <code>quarto</code>를 이용하여 작성되었습니다. <a href="https://quarto.org/docs/get-started/">Quarto 웹사이트</a>로 이동하여 프로그램을 설치 해주세요.</p>
