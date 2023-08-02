@@ -1,6 +1,6 @@
 ---
-title: 'license'
-description: '라이선스'
+title: 'inference'
+description: '추론'
 url: https://huggingface.co/docs/diffusers/index
 ---
 <a href="https://huggingface.co/docs/diffusers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Diffuser-blue" ></a>
