@@ -1,0 +1,106 @@
+# 가이드 문서 {.unnumbered}
+
+## 용어 페이지 구조
+
+용어 사전에 등록된 용어 설명 페이지의 구조를 알아봅니다. 이 문서를 통해서 기존에 등록되 용어 수정하거나 새로운 용어를 등록하는 방법을 이해할 수 있습니다.
+
+아래의 `archirecture`로 등록된 용어 페이지를 선택하여 상세 페이지로 이동하여 용어 사전 페이지의 구조를 이해합니다.
+
+![](images/paste-4.png)
+
+이 페이지는 `archirecture.qmd`파일의 정보로 생성되며 아래의 코드를 이용하여 영어와 한국어 용어 이름이 표시됩니다.
+
+```html
+---
+title: 'architecture'
+description: '아키텍처'
+url: https://huggingface.co/docs/transformers/index
+---
+```
+
+`title`과 `description`은 각각 용어의 영어와 한국어 표현을 나타내고 `url`은 용어가 나온 원본 문서의 위치를 의미합니다.
+
+동일한 용어가 사용되는 딥러닝 분야에 따라 다른 뜻으로 사용될 수 있으니 원본 문서에 대한 링크를 추가하고 있습니다.
+
+상세 페이지에서는 `image shields io` 마크다운 배지를 이용하여 원본 문서로 이동이 가능한 링크를 생성합니다. 아래의 코드는 마크다운 배지를 생성하는 코드입니다.
+
+```html
+<a href="https://huggingface.co/docs/transformers/index" target="_blank">
+    <img loading="lazy"
+     alt="src: HuggingFace Transformer"
+     src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" >
+</a>
+```
+
+마크다운 배지에 표시되는 문구는 `img shields io`에 전달하는 URL을 통해서 작성됩니다. 위의 코드에서는 `문서-Huggingface_Transformer-blue`를 사용했습니다.
+
+`-`를 통해서 `문서`, `Huggingface_Transformer`, `blue`의 3개의 배지 정보가 전달되었습니다. 최종 결과물과 비교하면 각각의 의미를 이해할 수 있습니다. 공백을 `_`로 표시했음을 기억하세요.
+
+# Quarto 문서 작성하기 {.unnumbered}
+
+## 준비 하기
+딥러닝 용어 사전은 `quarto`를 이용하여 작성되었습니다. [Quarto 웹사이트](https://quarto.org/docs/get-started/)로 이동하여 프로그램을 설치 해주세요.
+
+설치가 완료되었다면 이제 본격적으로 문서를 작성할 준비를 합니다. 딥러닝 용어사전은 깃헙 레포지토리(repository)로 관리되기 때문에 문서 작성을 위해서 Pseudo-Lab 레포지토리를 Fork하여 문서를 작업합니다. Fork된 레포지토리에서 수정할 웹페이지의 html 파일명과 동일한 이름의 `qmd` 확장자 파일을 열어 문서를 수정할 수 있습니다.
+
+용어 사전의 구조를 살펴볼까요? 용어 사전에 작성된 용어들은 아래의 `terms`폴더에 하나의 파일 형태로 생성됩니다. 예를 들어 `convolution`을 수정하는 경우 `terms` 폴더에 생성된 `convolution.qmd`파일을 수정합니다. 만약 공백이 있다면 `_`로 변경하여 파일명이 생성됩니다.
+
+```
+├── glossary
+│   ├── dictionary
+|   │   └── terms
+|   |       ├── architecture.qmd
+|   |               ...
+|   |       ├── convolution.qmd
+|   |               ...
+|   │       └── speech_enhancement.qmd
+
+```
+
+ 신규 용어는 `terms`폴더에 새로운 파일을 작성하는 부분이 추가되는 것 외에는 동일합니다. 파일명은 모두 `소문자`로 작성하고 공백은 `_`로 대체하여 사용하고 있습니다.
+
+## 문서 작성
+문서 작성은 기본적으로 markdown언어를 이용하여 작성하지만 markdown에 익숙하지 않은 경우라면 Visual Code를 이용하는 것을 추천드립니다. Visual Code의 extention 메뉴에서 `quarto`를 검색하여 익스텐션을 설치할 수 있으며  @fig-quarto_extension 의 quarto 익스텐션은 GUI환경에서 문서를 쉽게 작성있도록 도와줍니다.
+
+![Quarto Extention](images/paste-1.png){fig-align="center" #fig-quarto_extension}
+
+
+Visual Code에서 자신이 수정할 문서를 선택하고 마우스 우측 버튼을 누르면 `Edit in Visual Mode`를 선택할 수 있습니다. 선택을 완료하면 markdown형태로 표시되던 문서가 wysiwyg[^markdown-1] 에디터로 변경되고 @fig-guieditor 와 같이 메뉴를 통해서 문서를 작성할 수 있습니다.
+
+![VS Code Visual Mode](images/paste-3.png){fig-align="center" #fig-guieditor}
+
+## 확인 하기
+
+VS Code등의 에디터를 사용했다면 자신이 수정한 내용을 바로 확인할 수 있습니다. 만일 GUI방식으로 문서를 작성하지 않는 경우 아래의 `quarto preview`명령을 이용해서 문서를 로컬 웹브라우져에서 확인할 수 있습니다.
+
+```python
+cd glossary
+quarto preview
+```
+
+`preview`명령을 수행하면 로컬 컴퓨터에 브라우져가 실행되고 수정된 웹사이트를 바로 확인할 수 있습니다. 변경사항에 문제가 없다면 이제 PR(Pull Request)를 진행할 수 있습니다.
+
+
+[^markdown-1]: wysiwyg(What You See is What You Get)의 약자로 문서 작성 방법을 GUI로 구현한 에디터 입니다.
+
+# Pull Request 작성하기 {.unnumbered}
+
+PR(Pull Request)는 오픈소스 개발에서 주로 사용되는 개념입니다. 변경 사항을 다른 개발자들와 리뷰하고 통합하기 위해 사용됩니다. 일반적인 진행 방식은 아래와 같습니다.
+
+- 변경점 적용을 위해서 깃헙 사이드에서 `딥러닝 용어사전` 원본 레포지토리를 `Fork`하여 레포지토리를 새롭게 생성합니다.
+
+- `Fork`한 레포지토리에서 수정을 진행하기 위한 branch를 생성하고 수정을 진행합니다. (이 때 하나의 PR이 하나의 변경점을 갖도록 작업합니다. 변경점에 대한 이해와 다른 개발자들의 리뷰에 도움이 됩니다.)
+
+- 레포지토리로 `push`를 진행하면 자신의 깃헙 사이트에 PR 버튼이 생성된 것을 확인할 수 있습니다. 변경점에 대한 설명을 [PR 템플릿](https://gist.github.com/gabrielwithappy/4eee95b79af5fb0445b205925bc9a4ec)을 이용해 작성하고 PR버튼을 누르면 원본 레포지토리에 PR이 생성됩니다.
+
+- 다른 개발자들의 리뷰가 진행되어 수정사항이 있다면 내용을 반영하고 `push`하는 과정을 반복합니다.
+
+- 리뷰에 대한 수정이 완료되었다면 PR 템플릿을 참고하여 머지를 요청합니다. 승인이 완료되면 원본 레포지토리에 변경점이 적용됩니다.
+
+이제 여러분이 작성한 용어를 용어 사전에서 확인할 수 있습니다! PR에 대한 좀 더 자세한 설명을 원하신다면 참고 링크[^pr-detail-1] [^pr-detail-2]를 확인 부탁드립니다.
+
+
+[^pr-detail-1]: https://won.hashnode.dev/a-comprehensive-guide-to-mastering-github-pr-reviews
+[^pr-detail-2]: http://www.publickrdata.com/blog/74/
+
+

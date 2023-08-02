@@ -5,24 +5,28 @@ website:
   title: "딥러닝 용어사전"
   search: true
   navbar:
+    left:
+      - dictionary/glossary.qmd
+      - guide.qmd
+      - contribution.qmd
     right:
       - icon: github
         href: https://github.com/Pseudo-Lab/deep-learning-glossary
-  sidebar:
-    style: "docked"
-    search: true
 
 
-    contents:
+  # sidebar:
+  #   style: "docked"
+  #   search: true
+  #   contents:
+  #     # - index.qmd
+  #     # - dictionary/glossary.qmd
+  #     - section: "사전 사용법"
+  #       contents:
+  #         - term_page_intro.qmd
+  #         - markdown.qmd
+  #         - pr.qmd
+  #     - contribution.qmd
 
-    - index.qmd
-    - dictionary/glossary.qmd
-    - section: "사전 사용법"
-      contents:
-        - term_page_intro.qmd
-        - markdown.qmd
-        - pr.qmd
-    - contribution.qmd
   google-analytics: "G-TFCJQ03RNB"
   page-footer:
     center: "by HuggingFace KREW"
@@ -32,9 +36,9 @@ website:
 
 format:
   html:
+    toc: true
     theme: cosmo
     code-copy: true
-  # pdf:
-  #   documentclass: scrreprt
+
 
 
