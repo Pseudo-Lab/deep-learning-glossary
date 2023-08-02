@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="다중 이미지 배치(multi-image batches)">
 
-<title>딥러닝 용어사전</title>
+<title>딥러닝 용어사전 - multi-image batches</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,7 +80,7 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">딥러닝 용어사전</span>
     </a>
   </div>
@@ -90,15 +91,15 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./dictionary/glossary.html" rel="" target="">
+    <a class="nav-link" href="../../dictionary/glossary.html" rel="" target="">
  <span class="menu-text">용어 사전</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./guide.html" rel="" target="">
+    <a class="nav-link" href="../../guide.html" rel="" target="">
  <span class="menu-text">가이드 문서</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contribution.html" rel="" target="">
+    <a class="nav-link" href="../../contribution.html" rel="" target="">
  <span class="menu-text">기여하신 분</span></a>
   </li>  
 </ul>
@@ -120,63 +121,38 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#딥러닝-용어-사전" id="toc-딥러닝-용어-사전" class="nav-link active" data-scroll-target="#딥러닝-용어-사전">딥러닝 용어 사전</a>
-  <ul class="collapse">
-  <li><a href="#시작하기-전에" id="toc-시작하기-전에" class="nav-link" data-scroll-target="#시작하기-전에">시작하기 전에</a></li>
-  <li><a href="#번역-프로젝트" id="toc-번역-프로젝트" class="nav-link" data-scroll-target="#번역-프로젝트">번역 프로젝트</a></li>
-  </ul></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">multi-image batches</h1>
+</div>
 
-
-<section id="딥러닝-용어-사전" class="level1 unnumbered">
-<h1 class="unnumbered">딥러닝 용어 사전</h1>
-<p>딥러닝 영어문서를 한국어로 번역하는 과정에서 용어를 통일하여 사용하기 위한 오픈소스 용어 사전입니다.</p>
-<section id="시작하기-전에" class="level2">
-<h2 class="anchored" data-anchor-id="시작하기-전에">시작하기 전에</h2>
-<p>용어 사전은 여러분의 도움이 필요합니다. 빠르게 발전하고 있는 딥러닝 분야는 새로운 용어가 많아 정확한 의미를 찾기 어렵습니다.그리고 기계 번역으로 생성되는 한글 문서는 편리하긴 하지만 통일되지 않은 한국어 용어가 사용되는 문제점이 있어 실제 원문에서 전달하려는 의미가 다르게 전달될 수 있습니다.</p>
-<p>각자가 공부했던 내용을 조금씩 정리하며 모으면서 함께 발전할 수 있다면 어떨까요? 문서를 읽으며 궁금했던 용어를 찾아보는 것으로 시작해보셔도 좋습니다. 아직 용어 사전은 부족해서 내가 찾는 용어에 대한 한국어 용어와 설명이 없을 수 있습니다. 용어 사전이 딥러닝을 공부하는 사람들에게 일관성 있는 의사 소통을 도와주고 명확한 의미를 전달할 수 있도록 <a href="./dictionary/glossary.html">용어사전</a>에 함께 해주시길 바랍니다.</p>
-</section>
-<section id="번역-프로젝트" class="level2">
-<h2 class="anchored" data-anchor-id="번역-프로젝트">번역 프로젝트</h2>
-<p>아래의 프로젝트를 번역 작업 중 논의된 용어들이 사전에 업데이트 되고 있습니다.</p>
 <div>
-
-<div class="grid">
-<div class="g-col-12">
-<div class="feature">
-<p><strong>🤗 HuggingFace</strong><br> Transformers <a href="https://huggingface.co/docs/transformers/index">Link »</a></p>
+  <div class="description">
+    다중 이미지 배치(multi-image batches)
+  </div>
 </div>
-</div>
-<div class="g-col-12">
-<div class="feature">
-<p><strong>🤗 HuggingFace</strong><br> Audio Course <a href="https://huggingface.co/learn/audio-course/chapter0/introduction">Link »</a></p>
-</div>
-</div>
-<div class="g-col-12">
-<div class="feature">
-<p><strong>🤗 HuggingFace</strong><br> Diffuser <a href="https://huggingface.co/docs/diffusers/index">Link »</a></p>
-</div>
-</div>
-<div class="g-col-6">
-<div class="feature">
-<p><strong>함께 해요</strong><br> 새로운 프로젝트를 기다립니다.</p>
-</div>
-</div>
-</div>
-<p><a href="./intro.html/googleb64f32a1f0de3b5f.html"></a></p>
 
 
-</div></section>
-</section>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p><a href="https://huggingface.co/docs/diffusers/index" target="_blank"><img loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Diffuser-blue"></a></p>
+<hr>
+<p>설명을 추가해주세요.</p>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
