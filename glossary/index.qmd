@@ -21,15 +21,15 @@ callout-icon: false
 ::: g-col-12
 
 ::: {.callout-note appearance="simple" }
-**🤗 HuggingFace - Transformers** [Link »](https://huggingface.co/docs/transformers/index)
+**🤗 HuggingFace - Transformers** <a href="https://huggingface.co/docs/transformers/index" target="_blank">[Link »]</a>
 :::
 
 ::: {.callout-note appearance="simple"}
-**🤗 HuggingFace - Audio Course** [Link »](https://huggingface.co/learn/audio-course/chapter0/introduction)
+**🤗 HuggingFace - Audio Course** <a href="https://huggingface.co/learn/audio-course/chapter0/introduction" target="_blank">[Link »]</a>
 :::
 
 ::: {.callout-note appearance="simple"}
-**🤗 HuggingFace - Diffuser** [Link »](https://huggingface.co/docs/diffusers/index)
+**🤗 HuggingFace - Diffuser** <a href="https://huggingface.co/docs/diffusers/index" target="_blank">[Link »]</a>
 :::
 
 ::: {.callout-note appearance="simple"}
