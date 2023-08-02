@@ -166,7 +166,7 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
   <ul class="collapse">
   <li><a href="#준비-하기" id="toc-준비-하기" class="nav-link" data-scroll-target="#준비-하기">준비 하기</a></li>
   <li><a href="#문서-작성" id="toc-문서-작성" class="nav-link" data-scroll-target="#문서-작성">문서 작성</a></li>
-  <li><a href="#확인-하기" id="toc-확인-하기" class="nav-link" data-scroll-target="#확인-하기">확인 하기</a></li>
+  <li><a href="#미리-보기" id="toc-미리-보기" class="nav-link" data-scroll-target="#미리-보기">미리 보기</a></li>
   </ul></li>
   <li><a href="#pull-request-작성하기" id="toc-pull-request-작성하기" class="nav-link" data-scroll-target="#pull-request-작성하기">Pull Request 작성하기</a></li>
   </ul>
@@ -182,21 +182,21 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
 <p>이 문서는 용어 사전을 사용하는 방법과 용어를 등록하기 위한 정보를 전달하기 위해 작성되었습니다.</p>
 <section id="용어-페이지-구조" class="level2">
 <h2 class="anchored" data-anchor-id="용어-페이지-구조">용어 페이지 구조</h2>
-<p>용어 사전에 등록된 용어 설명 페이지의 구조를 알아봅니다. 등록된 용어의 정보를 보여주는 페이지를 생성하는 코드의 구조를 이해할 수 있습니다. 아래의 <code>archirecture</code>로 등록된 용어 페이지를 선택하여 상세 페이지를 기준으로 용어 사전 페이지의 구조를 이해합니다.</p>
+<p>용어 사전에 등록된 용어 설명 페이지의 구조를 알아봅니다. 용어 사전에 등록된 상세 페이지는 영어와 한국어 용어 이름으로 구성됩니다. 아래의 <code>archirecture</code>로 등록된 상세 페이지를 통해 좀 더 자세히 알아보겠습니다. <code>architecture</code> 라는 영어에 대한 한국어 용어명이 바로 <code>아키텍처</code> 로 표시됩니다. 바로 밑에는 마크다운 배지로 영어 용어가 사용되었던 원본 문서 링크가 연결되었습니다.</p>
 <p><img src="images/paste-4.png" class="img-fluid"></p>
-<p><code>arcitrecture</code>용어에 대한 웹페이지는 <code>archirecture.qmd</code>파일의 정보로 생성되며 아래의 코드를 이용하여 영어와 한국어 용어 이름이 표시됩니다.</p>
+<p><code>arcitrecture</code>용어에 대한 웹페이지는 용어 사전 소스파일의 <code>archirecture.qmd</code>파일의 정보로 생성됩니다. 코드의 상단의 <code>title</code>과 <code>description</code>은 각각 용어의 영어와 한국어 표현을 나타내고 <code>url</code>은 용어가 나온 원본 문서의 위치를 의미합니다. 용어 사전의 정보가 코드로 어떻게 표현되었는 지 아래의 코드에서 확인할 수 있습니다.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>title: 'architecture'</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>description: '아키텍처'</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>url: https://huggingface.co/docs/transformers/index</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>---</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>코드의 상단의 <code>title</code>과 <code>description</code>은 각각 용어의 영어와 한국어 표현을 나타내고 <code>url</code>은 용어가 나온 원본 문서의 위치를 의미합니다. 동일한 용어가 사용되는 딥러닝 분야에 따라 다른 뜻으로 사용될 수 있으니 원본 문서에 대한 링크를 추가하고 있습니다. 각 용어의 상세 페이지에서는 <code>image shields io</code> 마크다운 배지를 이용하여 원본 문서로 이동이 가능한 링크를 생성합니다. 아래의 코드는 마크다운 배지를 생성하는 코드입니다.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://huggingface.co/docs/transformers/index"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;img</span> <span class="er">loading</span><span class="ot">=</span><span class="st">"lazy"</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ot">     alt=</span><span class="st">"src: HuggingFace Transformer"</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ot">     src=</span><span class="st">"https://img.shields.io/badge/문서-Huggingface_Transformer-blue"</span> <span class="kw">&gt;</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/a&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>마크다운 배지에 표시되는 문구는 <code>img shields io</code>에 전달하는 URL을 통해서 작성됩니다. 위의 코드에서는 <code>문서-Huggingface_Transformer-blue</code>를 사용했습니다. <code>문서</code>, <code>Huggingface_Transformer</code>, <code>blue</code>의 3개의 배지 정보는 <code>-</code>를 통해서 구분됩니다. 최종 결과물과 비교하면 각각의 의미를 이해할 수 있습니다. 공백을 <code>_</code>로 표시했음을 기억하세요.</p>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://huggingface.co/docs/transformers/index"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;img</span> <span class="er">loading</span><span class="ot">=</span><span class="st">"lazy"</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="ot">     alt=</span><span class="st">"src: HuggingFace Transformer"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="ot">     src=</span><span class="st">"https://img.shields.io/badge/문서-Huggingface_Transformer-blue"</span> <span class="kw">&gt;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/a&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>딥러닝 분야에 따라 동일한 용어가 다른 뜻으로 사용되거나 문서에 따라 한국어 번역 방식이 다를 수 있습니다. 각 문서에는 원본 문서에 대한 링크가 있기 때문에 문서별로 일관성있게 번역 용어가 사용될 수 있습니다. 마크다운 배지는 <code>image shields io</code> 를 이용합니다. 코드에서 이미지 소스의 주소를 잘 살펴보면 배지에 사용되는 text정보와 동일한 것을 알 수 있습니다.</p>
+<p>좀 더 자세히 알아볼까요? 마크다운 배지에 표시되는 문구는 <code>img shields io</code>에 전달하는 URL을 통해서 작성됩니다. 위의 코드에서는 <code>문서-Huggingface_Transformer-blue</code> 를 이미지 위치로 전달했고 <code>문서</code>, <code>Huggingface_Transformer</code>, <code>blue</code>의 3개의 배지 정보는 구분자 <code>-</code>로 분리됩니다. 공백을 <code>_</code>로 표시했음을 주의하세요.</p>
 </section>
 </section>
 <section id="quarto-문서-작성하기" class="level1 unnumbered">
@@ -204,9 +204,8 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
 <p>문서를 작성을 위해 <code>quarto</code>에 대해서 배워봅니다.</p>
 <section id="준비-하기" class="level2">
 <h2 class="anchored" data-anchor-id="준비-하기">준비 하기</h2>
-<p>딥러닝 용어 사전은 <code>quarto</code>를 이용하여 작성되었습니다. <a href="https://quarto.org/docs/get-started/">Quarto 웹사이트</a>로 이동하여 프로그램을 설치 해주세요.</p>
-<p>설치가 완료되었다면 이제 본격적으로 문서를 작성할 준비를 합니다. 딥러닝 용어사전은 깃헙 레포지토리(repository)로 관리되기 때문에 문서 작성을 위해서 Pseudo-Lab 레포지토리를 Fork하여 문서를 작업합니다. Fork된 레포지토리에서 수정할 웹페이지의 html 파일명과 동일한 이름의 <code>qmd</code> 확장자 파일을 열어 문서를 수정할 수 있습니다.</p>
-<p>용어 사전의 구조를 살펴볼까요? 용어 사전에 작성된 용어들은 아래의 <code>terms</code>폴더에 하나의 파일 형태로 생성됩니다. 예를 들어 <code>convolution</code>을 수정하는 경우 <code>terms</code> 폴더에 생성된 <code>convolution.qmd</code>파일을 수정합니다. 만약 공백이 있다면 <code>_</code>로 변경하여 파일명이 생성됩니다.</p>
+<p>딥러닝 용어 사전은 <code>quarto</code>를 이용하여 작성되었습니다. <a href="https://quarto.org/docs/get-started/">Quarto 웹사이트</a>로 이동하여 프로그램을 설치 해주세요. 설치가 완료되었다면 이제 본격적으로 문서를 작성할 준비를 끝났습니다.</p>
+<p>용어 사전의 구조를 살펴볼까요? 용어 사전에 작성된 용어들은 아래의 <code>terms</code>폴더에 하나의 파일 형태로 생성됩니다. 예를 들어 <code>convolution</code>을 수정하는 경우 <code>terms</code> 폴더에 생성된 <code>convolution.qmd</code>파일을 수정합니다. 만약 공백이 있다면 <code>_</code>로 변경하여 파일명이 생성됩니다. 신규 용어는 <code>terms</code>폴더에 새로운 파일을 작성하는 부분이 추가되는 것 외에는 동일합니다. 파일명은 모두 <code>소문자</code>로 작성하고 공백은 <code>_</code>로 대체하여 사용하고 있습니다.</p>
 <pre><code>├── glossary
 │   ├── dictionary
 |   │   └── terms
@@ -214,12 +213,11 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
 |   |               ...
 |   |       ├── convolution.qmd
 |   |               ...
-|   │       └── speech_enhancement.qmd
-</code></pre>
-<p>신규 용어는 <code>terms</code>폴더에 새로운 파일을 작성하는 부분이 추가되는 것 외에는 동일합니다. 파일명은 모두 <code>소문자</code>로 작성하고 공백은 <code>_</code>로 대체하여 사용하고 있습니다.</p>
+|   │       └── speech_enhancement.qmd</code></pre>
 </section>
 <section id="문서-작성" class="level2">
 <h2 class="anchored" data-anchor-id="문서-작성">문서 작성</h2>
+<p>딥러닝 용어사전은 깃헙 리포지토리(repository)로 관리되기 때문에 문서 작성을 위해서 Pseudo-Lab 깃 리포지토리를 Fork하여 문서를 작업합니다. Fork된 리포지토리에서 수정할 웹페이지의 html 파일명과 동일한 이름의 <code>qmd</code> 확장자 파일을 열어 문서를 수정할 수 있습니다.</p>
 <p>문서 작성은 기본적으로 markdown언어를 이용하여 작성하지만 markdown에 익숙하지 않은 경우라면 Visual Code를 이용하는 것을 추천드립니다. Visual Code의 extention 메뉴에서 <code>quarto</code>를 검색하여 익스텐션을 설치할 수 있으며 <a href="#fig-quarto_extension">Figure&nbsp;1</a> 의 quarto 익스텐션은 GUI환경에서 문서를 쉽게 작성있도록 도와줍니다.</p>
 <div id="fig-quarto_extension" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
@@ -235,11 +233,11 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
 </figure>
 </div>
 </section>
-<section id="확인-하기" class="level2">
-<h2 class="anchored" data-anchor-id="확인-하기">확인 하기</h2>
+<section id="미리-보기" class="level2">
+<h2 class="anchored" data-anchor-id="미리-보기">미리 보기</h2>
 <p>VS Code등의 에디터를 사용했다면 자신이 수정한 내용을 바로 확인할 수 있습니다. 만일 GUI방식으로 문서를 작성하지 않는 경우 아래의 <code>quarto preview</code>명령을 이용해서 문서를 로컬 웹브라우져에서 확인할 수 있습니다.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>cd glossary</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>quarto preview</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>cd glossary</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>quarto preview</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><code>preview</code>명령을 수행하면 로컬 컴퓨터에 브라우져가 실행되고 수정된 웹사이트를 바로 확인할 수 있습니다. 변경사항에 문제가 없다면 이제 PR(Pull Request)를 진행할 수 있습니다.</p>
 </section>
 </section>
@@ -247,11 +245,11 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
 <h1 class="unnumbered">Pull Request 작성하기</h1>
 <p>PR(Pull Request)는 오픈소스 개발에서 주로 사용되는 개념입니다. 변경 사항을 다른 개발자들와 리뷰하고 통합하기 위해 사용됩니다. 일반적인 진행 방식은 아래와 같습니다.</p>
 <ul>
-<li><p>변경점 적용을 위해서 깃헙 사이드에서 <code>딥러닝 용어사전</code> 원본 레포지토리를 <code>Fork</code>하여 레포지토리를 새롭게 생성합니다.</p></li>
-<li><p><code>Fork</code>한 레포지토리에서 수정을 진행하기 위한 branch를 생성하고 수정을 진행합니다. (이 때 하나의 PR이 하나의 변경점을 갖도록 작업합니다. 변경점에 대한 이해와 다른 개발자들의 리뷰에 도움이 됩니다.)</p></li>
-<li><p>레포지토리로 <code>push</code>를 진행하면 자신의 깃헙 사이트에 PR 버튼이 생성된 것을 확인할 수 있습니다. 변경점에 대한 설명을 <a href="https://gist.github.com/gabrielwithappy/4eee95b79af5fb0445b205925bc9a4ec">PR 템플릿</a>을 이용해 작성하고 PR버튼을 누르면 원본 레포지토리에 PR이 생성됩니다.</p></li>
+<li><p>변경점 적용을 위해서 깃헙 사이드에서 <code>딥러닝 용어사전</code> 원본 리포지토리를 <code>Fork</code>하여 리포지토리를 새롭게 생성합니다.</p></li>
+<li><p><code>Fork</code>한 리포지토리에서 수정을 진행하기 위한 branch를 생성하고 수정을 진행합니다. (이 때 하나의 PR이 하나의 변경점을 갖도록 작업합니다. 변경점에 대한 이해와 다른 개발자들의 리뷰에 도움이 됩니다.)</p></li>
+<li><p>리포지토리로 <code>push</code>를 진행하면 자신의 깃헙 사이트에 PR 버튼이 생성된 것을 확인할 수 있습니다. 변경점에 대한 설명을 <a href="https://gist.github.com/gabrielwithappy/4eee95b79af5fb0445b205925bc9a4ec">PR 템플릿</a>을 이용해 작성하고 PR버튼을 누르면 원본 리포지토리에 PR이 생성됩니다.</p></li>
 <li><p>다른 개발자들의 리뷰가 진행되어 수정사항이 있다면 내용을 반영하고 <code>push</code>하는 과정을 반복합니다.</p></li>
-<li><p>리뷰에 대한 수정이 완료되었다면 PR 템플릿을 참고하여 머지를 요청합니다. 승인이 완료되면 원본 레포지토리에 변경점이 적용됩니다.</p></li>
+<li><p>리뷰에 대한 수정이 완료되었다면 PR 템플릿을 참고하여 머지를 요청합니다. 승인이 완료되면 원본 리포지토리에 변경점이 적용됩니다.</p></li>
 </ul>
 <p>이제 여러분이 작성한 용어를 용어 사전에서 확인할 수 있습니다! PR에 대한 좀 더 자세한 설명을 원하신다면 참고 링크<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>를 확인 부탁드립니다.</p>
 
