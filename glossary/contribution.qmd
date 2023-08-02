@@ -8,11 +8,21 @@
 
 | 이름   |                                     조직 |           소개|
 |:----- |:----------------------------------------|:--------------|
-| 서원형 |  seudo Lab. HuggingFace 리서치팀         |               |
-| 손기훈 |  seudo Lab. HuggingFace 리서치팀         |               |
-| 심소현 |  seudo Lab. HuggingFace 리서치팀         |               |
-| 양성모 |  seudo Lab. HuggingFace 리서치팀         | [Github](https://github.com/gabrielwithappy)         |
-| 윤현서 |  seudo Lab. HuggingFace 리서치팀         |        |
+| 서원형 |  Pseudo Lab. HuggingFace 리서치팀         |               |
+| 손기훈 |  Pseudo Lab. HuggingFace 리서치팀         |               |
+| 심소현 |  Pseudo Lab. HuggingFace 리서치팀         |               |
+| 양성모 |  Pseudo Lab. HuggingFace 리서치팀         | [Github](https://github.com/gabrielwithappy)         |
+| 윤현서 |  Pseudo Lab. HuggingFace 리서치팀         |        |
 | 정우준 | Pseudo Lab. HuggingFace 리서치팀         | [Github](https://github.com/jungnerd)       |
 | 한나연 | Pseudo Lab. HuggingFace 리서치팀         |        |
 
+## 허깅페이스 Diffuser 번역 팀
+
+| 이름   |                                     조직 |           소개|
+|:-----  |:----------------------------------------|:--------------|
+| 이홍규 |  Pseudo Lab. Diffuser 번역팀            |               |
+| 박성수 |  Pseudo Lab. Diffuser 번역팀            |               |
+| 이준형 |  Pseudo Lab. Diffuser 번역팀            |               |
+| 윤형석 |  Pseudo Lab. Diffuser 번역팀            |               |
+| 김지환 |  Pseudo Lab. Diffuser 번역팀            |               |
+| 안혜민 | Pseudo Lab. Diffuser 번역팀             |               |

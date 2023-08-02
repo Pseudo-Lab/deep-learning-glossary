@@ -11,6 +11,7 @@
 
 ## 번역 프로젝트
 아래의 프로젝트를 번역 작업 중 논의된 용어들이 사전에 업데이트 되고 있습니다.
+
 <div>
 
 ::: {.grid}
@@ -18,11 +19,7 @@
 ::: {.g-col-12}
 ::: {.feature}
 **🤗 HuggingFace**<br/>
-Transformers
-
-::: {.learn-more}
-[Link »](https://huggingface.co/docs/transformers/index)
-:::
+Transformers [Link »](https://huggingface.co/docs/transformers/index)
 :::
 :::
 
@@ -30,23 +27,21 @@ Transformers
 ::: {.g-col-12}
 ::: {.feature}
 **🤗 HuggingFace**<br/>
-Audio Course
-
-::: {.learn-more}
-[Link »](https://huggingface.co/learn/audio-course/chapter0/introduction)
-:::
+Audio Course [Link »](https://huggingface.co/learn/audio-course/chapter0/introduction)
 :::
 :::
 
+::: {.g-col-12}
+::: {.feature}
+**🤗 HuggingFace**<br/>
+Diffuser [Link »](https://huggingface.co/docs/diffusers/index)
+:::
+:::
 
 ::: {.g-col-6}
 ::: {.feature}
 **함께 해요**<br/>
 새로운 프로젝트를 기다립니다.
-
-::: {.learn-more}
-
-:::
 :::
 :::
 :::
