@@ -147,46 +147,60 @@
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "markdown.html",
-    "href": "markdown.html",
-    "title": "Quarto 문서 작성하기",
+    "objectID": "guide.html",
+    "href": "guide.html",
+    "title": "가이드 문서",
     "section": "",
-    "text": "딥러닝 용어 사전은 quarto를 이용하여 작성되었습니다. Quarto 웹사이트로 이동하여 프로그램을 설치 해주세요.\n설치가 완료되었다면 이제 본격적으로 문서를 작성할 준비를 합니다. 딥러닝 용어사전은 깃헙 레포지토리(repository)로 관리되기 때문에 문서 작성을 위해서 Pseudo-Lab 레포지토리를 Fork하여 문서를 작업합니다. Fork된 레포지토리에서 수정할 웹페이지의 html 파일명과 동일한 이름의 qmd 확장자 파일을 열어 문서를 수정할 수 있습니다.\n용어 사전의 구조를 살펴볼까요? 용어 사전에 작성된 용어들은 아래의 terms폴더에 하나의 파일 형태로 생성됩니다. 예를 들어 convolution을 수정하는 경우 terms 폴더에 생성된 convolution.qmd파일을 수정합니다. 만약 공백이 있다면 _로 변경하여 파일명이 생성됩니다.\n├── glossary\n│   ├── dictionary\n|   │   └── terms\n|   |       ├── architecture.qmd\n|   |               ...\n|   |       ├── convolution.qmd\n|   |               ...\n|   │       └── speech_enhancement.qmd\n\n신규 용어는 terms폴더에 새로운 파일을 작성하는 부분이 추가되는 것 외에는 동일합니다. 파일명은 모두 소문자로 작성하고 공백은 _로 대체하여 사용하고 있습니다.\n\n\n\n문서 작성은 기본적으로 markdown언어를 이용하여 작성하지만 markdown에 익숙하지 않은 경우라면 Visual Code를 이용하는 것을 추천드립니다. Visual Code의 extention 메뉴에서 quarto를 검색하여 익스텐션을 설치할 수 있으며 Figure 1 의 quarto 익스텐션은 GUI환경에서 문서를 쉽게 작성있도록 도와줍니다.\n\n\n\nFigure 1: Quarto Extention\n\n\nVisual Code에서 자신이 수정할 문서를 선택하고 마우스 우측 버튼을 누르면 Edit in Visual Mode를 선택할 수 있습니다. 선택을 완료하면 markdown형태로 표시되던 문서가 wysiwyg1 에디터로 변경되고 Figure 2 와 같이 메뉴를 통해서 문서를 작성할 수 있습니다.\n\n\n\nFigure 2: VS Code Visual Mode\n\n\n\n\n\nVS Code등의 에디터를 사용했다면 자신이 수정한 내용을 바로 확인할 수 있습니다. 만일 GUI방식으로 문서를 작성하지 않는 경우 아래의 quarto preview명령을 이용해서 문서를 로컬 웹브라우져에서 확인할 수 있습니다.\ncd glossary\nquarto preview\npreview명령을 수행하면 로컬 컴퓨터에 브라우져가 실행되고 수정된 웹사이트를 바로 확인할 수 있습니다. 변경사항에 문제가 없다면 이제 PR(Pull Request)를 진행할 수 있습니다."
+    "text": "용어 사전에 등록된 용어 설명 페이지의 구조를 알아봅니다. 이 문서를 통해서 기존에 등록되 용어 수정하거나 새로운 용어를 등록하는 방법을 이해할 수 있습니다.\n아래의 archirecture로 등록된 용어 페이지를 선택하여 상세 페이지로 이동하여 용어 사전 페이지의 구조를 이해합니다.\n\n이 페이지는 archirecture.qmd파일의 정보로 생성되며 아래의 코드를 이용하여 영어와 한국어 용어 이름이 표시됩니다.\n---\ntitle: 'architecture'\ndescription: '아키텍처'\nurl: https://huggingface.co/docs/transformers/index\n---\ntitle과 description은 각각 용어의 영어와 한국어 표현을 나타내고 url은 용어가 나온 원본 문서의 위치를 의미합니다.\n동일한 용어가 사용되는 딥러닝 분야에 따라 다른 뜻으로 사용될 수 있으니 원본 문서에 대한 링크를 추가하고 있습니다.\n상세 페이지에서는 image shields io 마크다운 배지를 이용하여 원본 문서로 이동이 가능한 링크를 생성합니다. 아래의 코드는 마크다운 배지를 생성하는 코드입니다.\n&lt;a href=\"https://huggingface.co/docs/transformers/index\" target=\"_blank\"&gt;\n    &lt;img loading=\"lazy\"\n     alt=\"src: HuggingFace Transformer\"\n     src=\"https://img.shields.io/badge/문서-Huggingface_Transformer-blue\" &gt;\n&lt;/a&gt;\n마크다운 배지에 표시되는 문구는 img shields io에 전달하는 URL을 통해서 작성됩니다. 위의 코드에서는 문서-Huggingface_Transformer-blue를 사용했습니다.\n-를 통해서 문서, Huggingface_Transformer, blue의 3개의 배지 정보가 전달되었습니다. 최종 결과물과 비교하면 각각의 의미를 이해할 수 있습니다. 공백을 _로 표시했음을 기억하세요."
   },
   {
-    "objectID": "markdown.html#준비-하기",
-    "href": "markdown.html#준비-하기",
-    "title": "Quarto 문서 작성하기",
+    "objectID": "guide.html#용어-페이지-구조",
+    "href": "guide.html#용어-페이지-구조",
+    "title": "가이드 문서",
     "section": "",
-    "text": "딥러닝 용어 사전은 quarto를 이용하여 작성되었습니다. Quarto 웹사이트로 이동하여 프로그램을 설치 해주세요.\n설치가 완료되었다면 이제 본격적으로 문서를 작성할 준비를 합니다. 딥러닝 용어사전은 깃헙 레포지토리(repository)로 관리되기 때문에 문서 작성을 위해서 Pseudo-Lab 레포지토리를 Fork하여 문서를 작업합니다. Fork된 레포지토리에서 수정할 웹페이지의 html 파일명과 동일한 이름의 qmd 확장자 파일을 열어 문서를 수정할 수 있습니다.\n용어 사전의 구조를 살펴볼까요? 용어 사전에 작성된 용어들은 아래의 terms폴더에 하나의 파일 형태로 생성됩니다. 예를 들어 convolution을 수정하는 경우 terms 폴더에 생성된 convolution.qmd파일을 수정합니다. 만약 공백이 있다면 _로 변경하여 파일명이 생성됩니다.\n├── glossary\n│   ├── dictionary\n|   │   └── terms\n|   |       ├── architecture.qmd\n|   |               ...\n|   |       ├── convolution.qmd\n|   |               ...\n|   │       └── speech_enhancement.qmd\n\n신규 용어는 terms폴더에 새로운 파일을 작성하는 부분이 추가되는 것 외에는 동일합니다. 파일명은 모두 소문자로 작성하고 공백은 _로 대체하여 사용하고 있습니다."
+    "text": "용어 사전에 등록된 용어 설명 페이지의 구조를 알아봅니다. 이 문서를 통해서 기존에 등록되 용어 수정하거나 새로운 용어를 등록하는 방법을 이해할 수 있습니다.\n아래의 archirecture로 등록된 용어 페이지를 선택하여 상세 페이지로 이동하여 용어 사전 페이지의 구조를 이해합니다.\n\n이 페이지는 archirecture.qmd파일의 정보로 생성되며 아래의 코드를 이용하여 영어와 한국어 용어 이름이 표시됩니다.\n---\ntitle: 'architecture'\ndescription: '아키텍처'\nurl: https://huggingface.co/docs/transformers/index\n---\ntitle과 description은 각각 용어의 영어와 한국어 표현을 나타내고 url은 용어가 나온 원본 문서의 위치를 의미합니다.\n동일한 용어가 사용되는 딥러닝 분야에 따라 다른 뜻으로 사용될 수 있으니 원본 문서에 대한 링크를 추가하고 있습니다.\n상세 페이지에서는 image shields io 마크다운 배지를 이용하여 원본 문서로 이동이 가능한 링크를 생성합니다. 아래의 코드는 마크다운 배지를 생성하는 코드입니다.\n&lt;a href=\"https://huggingface.co/docs/transformers/index\" target=\"_blank\"&gt;\n    &lt;img loading=\"lazy\"\n     alt=\"src: HuggingFace Transformer\"\n     src=\"https://img.shields.io/badge/문서-Huggingface_Transformer-blue\" &gt;\n&lt;/a&gt;\n마크다운 배지에 표시되는 문구는 img shields io에 전달하는 URL을 통해서 작성됩니다. 위의 코드에서는 문서-Huggingface_Transformer-blue를 사용했습니다.\n-를 통해서 문서, Huggingface_Transformer, blue의 3개의 배지 정보가 전달되었습니다. 최종 결과물과 비교하면 각각의 의미를 이해할 수 있습니다. 공백을 _로 표시했음을 기억하세요."
   },
   {
-    "objectID": "markdown.html#문서-작성",
-    "href": "markdown.html#문서-작성",
-    "title": "Quarto 문서 작성하기",
-    "section": "",
-    "text": "문서 작성은 기본적으로 markdown언어를 이용하여 작성하지만 markdown에 익숙하지 않은 경우라면 Visual Code를 이용하는 것을 추천드립니다. Visual Code의 extention 메뉴에서 quarto를 검색하여 익스텐션을 설치할 수 있으며 Figure 1 의 quarto 익스텐션은 GUI환경에서 문서를 쉽게 작성있도록 도와줍니다.\n\n\n\nFigure 1: Quarto Extention\n\n\nVisual Code에서 자신이 수정할 문서를 선택하고 마우스 우측 버튼을 누르면 Edit in Visual Mode를 선택할 수 있습니다. 선택을 완료하면 markdown형태로 표시되던 문서가 wysiwyg1 에디터로 변경되고 Figure 2 와 같이 메뉴를 통해서 문서를 작성할 수 있습니다.\n\n\n\nFigure 2: VS Code Visual Mode"
+    "objectID": "guide.html#준비-하기",
+    "href": "guide.html#준비-하기",
+    "title": "가이드 문서",
+    "section": "준비 하기",
+    "text": "준비 하기\n딥러닝 용어 사전은 quarto를 이용하여 작성되었습니다. Quarto 웹사이트로 이동하여 프로그램을 설치 해주세요.\n설치가 완료되었다면 이제 본격적으로 문서를 작성할 준비를 합니다. 딥러닝 용어사전은 깃헙 레포지토리(repository)로 관리되기 때문에 문서 작성을 위해서 Pseudo-Lab 레포지토리를 Fork하여 문서를 작업합니다. Fork된 레포지토리에서 수정할 웹페이지의 html 파일명과 동일한 이름의 qmd 확장자 파일을 열어 문서를 수정할 수 있습니다.\n용어 사전의 구조를 살펴볼까요? 용어 사전에 작성된 용어들은 아래의 terms폴더에 하나의 파일 형태로 생성됩니다. 예를 들어 convolution을 수정하는 경우 terms 폴더에 생성된 convolution.qmd파일을 수정합니다. 만약 공백이 있다면 _로 변경하여 파일명이 생성됩니다.\n├── glossary\n│   ├── dictionary\n|   │   └── terms\n|   |       ├── architecture.qmd\n|   |               ...\n|   |       ├── convolution.qmd\n|   |               ...\n|   │       └── speech_enhancement.qmd\n\n신규 용어는 terms폴더에 새로운 파일을 작성하는 부분이 추가되는 것 외에는 동일합니다. 파일명은 모두 소문자로 작성하고 공백은 _로 대체하여 사용하고 있습니다."
   },
   {
-    "objectID": "markdown.html#확인-하기",
-    "href": "markdown.html#확인-하기",
-    "title": "Quarto 문서 작성하기",
-    "section": "",
-    "text": "VS Code등의 에디터를 사용했다면 자신이 수정한 내용을 바로 확인할 수 있습니다. 만일 GUI방식으로 문서를 작성하지 않는 경우 아래의 quarto preview명령을 이용해서 문서를 로컬 웹브라우져에서 확인할 수 있습니다.\ncd glossary\nquarto preview\npreview명령을 수행하면 로컬 컴퓨터에 브라우져가 실행되고 수정된 웹사이트를 바로 확인할 수 있습니다. 변경사항에 문제가 없다면 이제 PR(Pull Request)를 진행할 수 있습니다."
+    "objectID": "guide.html#문서-작성",
+    "href": "guide.html#문서-작성",
+    "title": "가이드 문서",
+    "section": "문서 작성",
+    "text": "문서 작성\n문서 작성은 기본적으로 markdown언어를 이용하여 작성하지만 markdown에 익숙하지 않은 경우라면 Visual Code를 이용하는 것을 추천드립니다. Visual Code의 extention 메뉴에서 quarto를 검색하여 익스텐션을 설치할 수 있으며 Figure 1 의 quarto 익스텐션은 GUI환경에서 문서를 쉽게 작성있도록 도와줍니다.\n\n\n\nFigure 1: Quarto Extention\n\n\nVisual Code에서 자신이 수정할 문서를 선택하고 마우스 우측 버튼을 누르면 Edit in Visual Mode를 선택할 수 있습니다. 선택을 완료하면 markdown형태로 표시되던 문서가 wysiwyg1 에디터로 변경되고 Figure 2 와 같이 메뉴를 통해서 문서를 작성할 수 있습니다.\n\n\n\nFigure 2: VS Code Visual Mode"
   },
   {
-    "objectID": "markdown.html#footnotes",
-    "href": "markdown.html#footnotes",
-    "title": "Quarto 문서 작성하기",
+    "objectID": "guide.html#확인-하기",
+    "href": "guide.html#확인-하기",
+    "title": "가이드 문서",
+    "section": "확인 하기",
+    "text": "확인 하기\nVS Code등의 에디터를 사용했다면 자신이 수정한 내용을 바로 확인할 수 있습니다. 만일 GUI방식으로 문서를 작성하지 않는 경우 아래의 quarto preview명령을 이용해서 문서를 로컬 웹브라우져에서 확인할 수 있습니다.\ncd glossary\nquarto preview\npreview명령을 수행하면 로컬 컴퓨터에 브라우져가 실행되고 수정된 웹사이트를 바로 확인할 수 있습니다. 변경사항에 문제가 없다면 이제 PR(Pull Request)를 진행할 수 있습니다."
+  },
+  {
+    "objectID": "guide.html#footnotes",
+    "href": "guide.html#footnotes",
+    "title": "가이드 문서",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nwysiwyg(What You See is What You Get)의 약자로 문서 작성 방법을 GUI로 구현한 에디터 입니다.↩︎"
+    "text": "Footnotes\n\n\nwysiwyg(What You See is What You Get)의 약자로 문서 작성 방법을 GUI로 구현한 에디터 입니다.↩︎\nhttps://won.hashnode.dev/a-comprehensive-guide-to-mastering-github-pr-reviews↩︎\nhttp://www.publickrdata.com/blog/74/↩︎"
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
+    "objectID": "contribution.html",
+    "href": "contribution.html",
+    "title": "기여하신 분",
     "section": "",
-    "text": "References"
+    "text": "용어 사전에 기여해주신 모든 분들께 감사드립니다. 새로운 기여자와 팀을 찾습니다. 함께 해주실꺼죠?\n\n\nHuggingFace 리서치팀에서는 허깅페이스와 다른 딥러닝 관련 프로젝트를 한글화하고 있습니다. 관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다. 딥러닝 문서 번역에 관심 있는 분들 모두 참가가 가능하니 많은 참여 부탁드립니다.\n\n\n\n이름\n조직\n소개\n\n\n\n\n서원형\nseudo Lab. HuggingFace 리서치팀\n\n\n\n손기훈\nseudo Lab. HuggingFace 리서치팀\n\n\n\n심소현\nseudo Lab. HuggingFace 리서치팀\n\n\n\n양성모\nseudo Lab. HuggingFace 리서치팀\nGithub\n\n\n윤현서\nseudo Lab. HuggingFace 리서치팀\n\n\n\n정우준\nPseudo Lab. HuggingFace 리서치팀\nGithub\n\n\n한나연\nPseudo Lab. HuggingFace 리서치팀"
+  },
+  {
+    "objectID": "contribution.html#허깅페이스-리서치-팀",
+    "href": "contribution.html#허깅페이스-리서치-팀",
+    "title": "기여하신 분",
+    "section": "",
+    "text": "HuggingFace 리서치팀에서는 허깅페이스와 다른 딥러닝 관련 프로젝트를 한글화하고 있습니다. 관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다. 딥러닝 문서 번역에 관심 있는 분들 모두 참가가 가능하니 많은 참여 부탁드립니다.\n\n\n\n이름\n조직\n소개\n\n\n\n\n서원형\nseudo Lab. HuggingFace 리서치팀\n\n\n\n손기훈\nseudo Lab. HuggingFace 리서치팀\n\n\n\n심소현\nseudo Lab. HuggingFace 리서치팀\n\n\n\n양성모\nseudo Lab. HuggingFace 리서치팀\nGithub\n\n\n윤현서\nseudo Lab. HuggingFace 리서치팀\n\n\n\n정우준\nPseudo Lab. HuggingFace 리서치팀\nGithub\n\n\n한나연\nPseudo Lab. HuggingFace 리서치팀"
   },
   {
     "objectID": "index.html",
@@ -208,41 +222,6 @@
     "title": "딥러닝 용어 사전",
     "section": "",
     "text": "아래의 프로젝트를 번역 작업 중 논의된 용어들이 사전에 업데이트 되고 있습니다.\n\n\n\n\n\n🤗 HuggingFace Transformers\n\nLink »\n\n\n\n\n\n🤗 HuggingFace Audio Course\n\nLink »\n\n\n\n\n\n함께 해요 새로운 프로젝트를 기다립니다."
-  },
-  {
-    "objectID": "contribution.html",
-    "href": "contribution.html",
-    "title": "기여하신 분",
-    "section": "",
-    "text": "용어 사전에 기여해주신 모든 분들께 감사드립니다. 새로운 기여자와 팀을 찾습니다. 함께 해주실꺼죠?\n\n\nHuggingFace 리서치팀에서는 허깅페이스와 다른 딥러닝 관련 프로젝트를 한글화하고 있습니다. 관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다. 딥러닝 문서 번역에 관심 있는 분들 모두 참가가 가능하니 많은 참여 부탁드립니다.\n\n\n\n이름\n조직\n소개\n\n\n\n\n서원형\nseudo Lab. HuggingFace 리서치팀\n\n\n\n손기훈\nseudo Lab. HuggingFace 리서치팀\n\n\n\n심소현\nseudo Lab. HuggingFace 리서치팀\n\n\n\n양성모\nseudo Lab. HuggingFace 리서치팀\nGithub\n\n\n윤현서\nseudo Lab. HuggingFace 리서치팀\n\n\n\n정우준\nPseudo Lab. HuggingFace 리서치팀\nGithub\n\n\n한나연\nPseudo Lab. HuggingFace 리서치팀"
-  },
-  {
-    "objectID": "contribution.html#허깅페이스-리서치-팀",
-    "href": "contribution.html#허깅페이스-리서치-팀",
-    "title": "기여하신 분",
-    "section": "",
-    "text": "HuggingFace 리서치팀에서는 허깅페이스와 다른 딥러닝 관련 프로젝트를 한글화하고 있습니다. 관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다. 딥러닝 문서 번역에 관심 있는 분들 모두 참가가 가능하니 많은 참여 부탁드립니다.\n\n\n\n이름\n조직\n소개\n\n\n\n\n서원형\nseudo Lab. HuggingFace 리서치팀\n\n\n\n손기훈\nseudo Lab. HuggingFace 리서치팀\n\n\n\n심소현\nseudo Lab. HuggingFace 리서치팀\n\n\n\n양성모\nseudo Lab. HuggingFace 리서치팀\nGithub\n\n\n윤현서\nseudo Lab. HuggingFace 리서치팀\n\n\n\n정우준\nPseudo Lab. HuggingFace 리서치팀\nGithub\n\n\n한나연\nPseudo Lab. HuggingFace 리서치팀"
-  },
-  {
-    "objectID": "term_page_intro.html",
-    "href": "term_page_intro.html",
-    "title": "용어 사전 살펴보기",
-    "section": "",
-    "text": "용어 사전 살펴보기\n용어 사전에 등록된 용어 설명 페이지의 구조를 알아봅니다. 이 문서를 통해서 기존에 등록되 용어 수정하거나 새로운 용어를 등록하는 방법을 이해할 수 있습니다.\n아래의 archirecture로 등록된 용어 페이지를 선택하여 상세 페이지로 이동하여 용어 사전 페이지의 구조를 이해합니다.\n\n이 페이지는 archirecture.qmd파일의 정보로 생성되며 아래의 코드를 이용하여 영어와 한국어 용어 이름이 표시됩니다.\n---\ntitle: 'architecture'\ndescription: '아키텍처'\nurl: https://huggingface.co/docs/transformers/index\n---\ntitle과 description은 각각 용어의 영어와 한국어 표현을 나타내고 url은 용어가 나온 원본 문서의 위치를 의미합니다.\n동일한 용어가 사용되는 딥러닝 분야에 따라 다른 뜻으로 사용될 수 있으니 원본 문서에 대한 링크를 추가하고 있습니다.\n상세 페이지에서는 image shields io 마크다운 배지를 이용하여 원본 문서로 이동이 가능한 링크를 생성합니다. 아래의 코드는 마크다운 배지를 생성하는 코드입니다.\n&lt;a href=\"https://huggingface.co/docs/transformers/index\" target=\"_blank\"&gt;\n    &lt;img loading=\"lazy\"\n     alt=\"src: HuggingFace Transformer\"\n     src=\"https://img.shields.io/badge/문서-Huggingface_Transformer-blue\" &gt;\n&lt;/a&gt;\n마크다운 배지에 표시되는 문구는 img shields io에 전달하는 URL을 통해서 작성됩니다. 위의 코드에서는 문서-Huggingface_Transformer-blue를 사용했습니다.\n-를 통해서 문서, Huggingface_Transformer, blue의 3개의 배지 정보가 전달되었습니다. 최종 결과물과 비교하면 각각의 의미를 이해할 수 있습니다. 공백을 _로 표시했음을 기억하세요."
-  },
-  {
-    "objectID": "pr.html",
-    "href": "pr.html",
-    "title": "Pull Request 작성하기",
-    "section": "",
-    "text": "PR(Pull Request)는 오픈소스 개발에서 주로 사용되는 개념입니다. 변경 사항을 다른 개발자들와 리뷰하고 통합하기 위해 사용됩니다. 일반적인 진행 방식은 아래와 같습니다.\n\n변경점 적용을 위해서 깃헙 사이드에서 딥러닝 용어사전 원본 레포지토리를 Fork하여 레포지토리를 새롭게 생성합니다.\nFork한 레포지토리에서 수정을 진행하기 위한 branch를 생성하고 수정을 진행합니다. (이 때 하나의 PR이 하나의 변경점을 갖도록 작업합니다. 변경점에 대한 이해와 다른 개발자들의 리뷰에 도움이 됩니다.)\n레포지토리로 push를 진행하면 자신의 깃헙 사이트에 PR 버튼이 생성된 것을 확인할 수 있습니다. 변경점에 대한 설명을 PR 템플릿을 이용해 작성하고 PR버튼을 누르면 원본 레포지토리에 PR이 생성됩니다.\n다른 개발자들의 리뷰가 진행되어 수정사항이 있다면 내용을 반영하고 push하는 과정을 반복합니다.\n리뷰에 대한 수정이 완료되었다면 PR 템플릿을 참고하여 머지를 요청합니다. 승인이 완료되면 원본 레포지토리에 변경점이 적용됩니다.\n\n이제 여러분이 작성한 용어를 용어 사전에서 확인할 수 있습니다! PR에 대한 좀 더 자세한 설명을 원하신다면 참고 링크1 2를 확인 부탁드립니다."
-  },
-  {
-    "objectID": "pr.html#footnotes",
-    "href": "pr.html#footnotes",
-    "title": "Pull Request 작성하기",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nhttps://won.hashnode.dev/a-comprehensive-guide-to-mastering-github-pr-reviews↩︎\nhttp://www.publickrdata.com/blog/74/↩︎"
   },
   {
     "objectID": "dictionary/glossary.html",
