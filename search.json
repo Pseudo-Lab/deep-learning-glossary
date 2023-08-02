@@ -1,78 +1,120 @@
 [
   {
-    "objectID": "dictionary/terms/speech_enhancement.html",
-    "href": "dictionary/terms/speech_enhancement.html",
-    "title": "speech enhancement",
+    "objectID": "dictionary/terms/half_precision.html",
+    "href": "dictionary/terms/half_precision.html",
+    "title": "half precision",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/spectrogram.html",
-    "href": "dictionary/terms/spectrogram.html",
-    "title": "spectrogram",
+    "objectID": "dictionary/terms/data_collator.html",
+    "href": "dictionary/terms/data_collator.html",
+    "title": "data collator",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/argumentation.html",
-    "href": "dictionary/terms/argumentation.html",
-    "title": "argumentation",
+    "objectID": "dictionary/terms/clustering.html",
+    "href": "dictionary/terms/clustering.html",
+    "title": "clustering",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/training.html",
-    "href": "dictionary/terms/training.html",
-    "title": "training",
+    "objectID": "dictionary/terms/push.html",
+    "href": "dictionary/terms/push.html",
+    "title": "push",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/architecture.html",
-    "href": "dictionary/terms/architecture.html",
-    "title": "architecture",
+    "objectID": "dictionary/terms/lesson.html",
+    "href": "dictionary/terms/lesson.html",
+    "title": "lesson",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/batch.html",
-    "href": "dictionary/terms/batch.html",
-    "title": "batch",
+    "objectID": "dictionary/terms/seperator.html",
+    "href": "dictionary/terms/seperator.html",
+    "title": "seperator",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/convolution.html",
-    "href": "dictionary/terms/convolution.html",
-    "title": "convolution",
+    "objectID": "dictionary/terms/prior-preserving.html",
+    "href": "dictionary/terms/prior-preserving.html",
+    "title": "prior-preserving",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/directory_1.html",
-    "href": "dictionary/terms/directory_1.html",
+    "objectID": "dictionary/terms/directory.html",
+    "href": "dictionary/terms/directory.html",
     "title": "directory",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/mixed_precision.html",
-    "href": "dictionary/terms/mixed_precision.html",
-    "title": "mixed precision",
+    "objectID": "dictionary/terms/arguments.html",
+    "href": "dictionary/terms/arguments.html",
+    "title": "arguments",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/hidden_state.html",
-    "href": "dictionary/terms/hidden_state.html",
-    "title": "hidden state",
+    "objectID": "dictionary/terms/step.html",
+    "href": "dictionary/terms/step.html",
+    "title": "step",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/denoise.html",
-    "href": "dictionary/terms/denoise.html",
-    "title": "denoise",
+    "objectID": "dictionary/terms/method.html",
+    "href": "dictionary/terms/method.html",
+    "title": "method",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/inpainting.html",
+    "href": "dictionary/terms/inpainting.html",
+    "title": "inpainting",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/automatic_speech_recognition.html",
+    "href": "dictionary/terms/automatic_speech_recognition.html",
+    "title": "automatic speech recognition",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/attention_mask.html",
+    "href": "dictionary/terms/attention_mask.html",
+    "title": "attention mask",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/load.html",
+    "href": "dictionary/terms/load.html",
+    "title": "load",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/convolution_1.html",
+    "href": "dictionary/terms/convolution_1.html",
+    "title": "convolution",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/pad.html",
+    "href": "dictionary/terms/pad.html",
+    "title": "parameter",
     "section": "",
     "text": "설명을 추가해주세요."
   },
@@ -80,20 +122,6 @@
     "objectID": "dictionary/terms/tokenizer.html",
     "href": "dictionary/terms/tokenizer.html",
     "title": "tokenizer",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/fine_tunning_1.html",
-    "href": "dictionary/terms/fine_tunning_1.html",
-    "title": "fine tunning",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/silent_error.html",
-    "href": "dictionary/terms/silent_error.html",
-    "title": "silent error",
     "section": "",
     "text": "설명을 추가해주세요."
   },
@@ -112,107 +140,9 @@
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/inference.html",
-    "href": "dictionary/terms/inference.html",
-    "title": "inference",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/multi-image_batches.html",
-    "href": "dictionary/terms/multi-image_batches.html",
-    "title": "multi-image batches",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/arguments.html",
-    "href": "dictionary/terms/arguments.html",
-    "title": "arguments",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/down_stream.html",
-    "href": "dictionary/terms/down_stream.html",
-    "title": "down stream",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/dimensions_ordering.html",
-    "href": "dictionary/terms/dimensions_ordering.html",
-    "title": "dimensions ordering",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/submodule.html",
-    "href": "dictionary/terms/submodule.html",
-    "title": "submodule",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/inpainting.html",
-    "href": "dictionary/terms/inpainting.html",
-    "title": "inpainting",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/sequence.html",
-    "href": "dictionary/terms/sequence.html",
-    "title": "sequence",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/automatic_speech_recognition.html",
-    "href": "dictionary/terms/automatic_speech_recognition.html",
-    "title": "automatic speech recognition",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/autoregressive_model.html",
-    "href": "dictionary/terms/autoregressive_model.html",
-    "title": "autoregressive model",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/casual_language_model.html",
-    "href": "dictionary/terms/casual_language_model.html",
-    "title": "causal language model",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/half_precision.html",
-    "href": "dictionary/terms/half_precision.html",
-    "title": "half precision",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/branch.html",
-    "href": "dictionary/terms/branch.html",
-    "title": "branch",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/resume.html",
-    "href": "dictionary/terms/resume.html",
-    "title": "resume",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/license.html",
-    "href": "dictionary/terms/license.html",
-    "title": "license",
+    "objectID": "dictionary/terms/directory_1.html",
+    "href": "dictionary/terms/directory_1.html",
+    "title": "directory",
     "section": "",
     "text": "설명을 추가해주세요."
   },
@@ -224,23 +154,93 @@
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/learning.html",
-    "href": "dictionary/terms/learning.html",
-    "title": "learning",
+    "objectID": "dictionary/terms/convolution.html",
+    "href": "dictionary/terms/convolution.html",
+    "title": "convolution",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/checkpoint.html",
-    "href": "dictionary/terms/checkpoint.html",
-    "title": "checkpoint",
+    "objectID": "dictionary/terms/fine_tunning.html",
+    "href": "dictionary/terms/fine_tunning.html",
+    "title": "fine tunning",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/seperator.html",
-    "href": "dictionary/terms/seperator.html",
-    "title": "seperator",
+    "objectID": "dictionary/terms/fine_tunning_1.html",
+    "href": "dictionary/terms/fine_tunning_1.html",
+    "title": "fine tunning",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/dataset.html",
+    "href": "dictionary/terms/dataset.html",
+    "title": "dataset",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/reproducibility.html",
+    "href": "dictionary/terms/reproducibility.html",
+    "title": "reproducibility",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/prompt.html",
+    "href": "dictionary/terms/prompt.html",
+    "title": "prompt",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/entity.html",
+    "href": "dictionary/terms/entity.html",
+    "title": "entity",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/feature_matrix.html",
+    "href": "dictionary/terms/feature_matrix.html",
+    "title": "feature matrix",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/optimizer.html",
+    "href": "dictionary/terms/optimizer.html",
+    "title": "optimizer",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/branch.html",
+    "href": "dictionary/terms/branch.html",
+    "title": "branch",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/architecture.html",
+    "href": "dictionary/terms/architecture.html",
+    "title": "architecture",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/hyperparameter.html",
+    "href": "dictionary/terms/hyperparameter.html",
+    "title": "hyperparameter",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/batch.html",
+    "href": "dictionary/terms/batch.html",
+    "title": "batch",
     "section": "",
     "text": "설명을 추가해주세요."
   },
@@ -249,14 +249,14 @@
     "href": "dictionary/glossary.html",
     "title": "용어 사전",
     "section": "",
-    "text": "딥러닝관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다. 딥러닝 문서 번역에 관심있는 분들 모두 참가가 가능하니 관심있는 분들의 많은 참여 부탁드립니다.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\narchitecture\n\n\n\n\n\n아키텍처\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nargumentation\n\n\n\n\n\n증강\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\narguments\n\n\n\n\n\n인수\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nattention mask\n\n\n\n\n\n어텐션 마스크\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nautomatic speech recognition\n\n\n\n\n\n자동음성인식\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nautoregressive model\n\n\n\n\n\n자기회귀 모델\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nbackward\n\n\n\n\n\n역방향\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nbatch\n\n\n\n\n\n배치\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nbranch\n\n\n\n\n\n브랜치\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ncausal language model\n\n\n\n\n\n인과적 언어 모델링\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncheckpoint\n\n\n\n\n\n체크포인트\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nchunk\n\n\n\n\n\n묶음\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nclustering\n\n\n\n\n\n군집화\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncode snippet\n\n\n\n\n\n예시 코드\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nconvolution\n\n\n\n\n\n컨볼루션\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nconvolution\n\n\n\n\n\n합성곱\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncrob\n\n\n\n\n\n자르기\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncustom\n\n\n\n\n\n사용자정의\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncustom\n\n\n\n\n\n커스텀\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndata collator\n\n\n\n\n\n데이터 콜레이터\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndataset\n\n\n\n\n\n데이터 세트\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndenoise\n\n\n\n\n\n디노이즈\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndimensions ordering\n\n\n\n\n\n차원순서(dimensions ordering)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndirectory\n\n\n\n\n\n디렉터리\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndirectory\n\n\n\n\n\n디렉토리\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndistributed training\n\n\n\n\n\n분산 학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndown stream\n\n\n\n\n\n다운 스트림\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nentity\n\n\n\n\n\n개체\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nepoch\n\n\n\n\n\n에폭\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nevaluation method\n\n\n\n\n\n평가 방법\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfeature extraction\n\n\n\n\n\n특성 추출\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfeature matrix\n\n\n\n\n\n특성 행렬\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfine tunning\n\n\n\n\n\n미세 조정\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfine tunning\n\n\n\n\n\n파인튜닝\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ngradient\n\n\n\n\n\n그래디언트\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nhalf precision\n\n\n\n\n\n반정밀도(half precision)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nhidden state\n\n\n\n\n\n은닉 상태\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nhyperparameter\n\n\n\n\n\n하이퍼파라미터\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ninference\n\n\n\n\n\n추론\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ninpainting\n\n\n\n\n\n인페인팅\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ninstance\n\n\n\n\n\n인스턴스\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nlearning\n\n\n\n\n\n학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nlesson\n\n\n\n\n\n단원\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nlicense\n\n\n\n\n\n라이선스\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nload\n\n\n\n\n\n가져오다\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nmethod\n\n\n\n\n\n매소드\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nmixed precision\n\n\n\n\n\n혼합 정밀도(mixed precision)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nmodel\n\n\n\n\n\n모델\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nmulti-image batches\n\n\n\n\n\n다중 이미지 배치(multi-image batches)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\noptimizer\n\n\n\n\n\n옵티마이저\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nparameter\n\n\n\n\n\n매개변수\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\npre-train\n\n\n\n\n\n사전학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nprior-preserving\n\n\n\n\n\n사전 보존(prior-preserving)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nprompt\n\n\n\n\n\n프롬프트\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\npush\n\n\n\n\n\n푸시\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nrepository\n\n\n\n\n\n리포지토리\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nreproducibility\n\n\n\n\n\n재현성\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nresume\n\n\n\n\n\n재개\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nsection\n\n\n\n\n\n섹션\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nseperator\n\n\n\n\n\n분할 토큰\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nsequence\n\n\n\n\n\n시퀀스\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nsilent error\n\n\n\n\n\n조용한 오류\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nspectrogram\n\n\n\n\n\n음성 향상\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/chapter0/introduction\n\n\n\n\n\n\n\n\nspeech enhancement\n\n\n\n\n\n음성 향상\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/\n\n\n\n\n\n\n\n\nstep\n\n\n\n\n\n스텝\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nsubmodule\n\n\n\n\n\n서브모듈\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ntoken\n\n\n\n\n\n토큰\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ntokenizer\n\n\n\n\n\n토크나이저\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ntraining\n\n\n\n\n\n훈련\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nvocoder\n\n\n\n\n\n보코더\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/chapter0/introduction\n\n\n\n\n\n\nNo matching items"
+    "text": "딥러닝관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다. 딥러닝 문서 번역에 관심있는 분들 모두 참가가 가능하니 관심있는 분들의 많은 참여 부탁드립니다.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\narchitecture\n\n\n\n\n\n아키텍처\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nargumentation\n\n\n\n\n\n증강\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\narguments\n\n\n\n\n\n인수\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nattention mask\n\n\n\n\n\n어텐션 마스크\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nautomatic speech recognition\n\n\n\n\n\n자동음성인식\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nautoregressive model\n\n\n\n\n\n자기회귀 모델\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nbackward\n\n\n\n\n\n역방향\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nbatch\n\n\n\n\n\n배치\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nbranch\n\n\n\n\n\n브랜치\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ncausal language model\n\n\n\n\n\n인과적 언어 모델링\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncheckpoint\n\n\n\n\n\n체크포인트\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nchunk\n\n\n\n\n\n묶음\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nclustering\n\n\n\n\n\n군집화\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncode snippet\n\n\n\n\n\n예시 코드\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nconvolution\n\n\n\n\n\n합성곱\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nconvolution\n\n\n\n\n\n컨볼루션\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ncrob\n\n\n\n\n\n자르기\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncustom\n\n\n\n\n\n사용자정의\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncustom\n\n\n\n\n\n커스텀\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndata collator\n\n\n\n\n\n데이터 콜레이터\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndataset\n\n\n\n\n\n데이터 세트\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndenoise\n\n\n\n\n\n디노이즈\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndimensions ordering\n\n\n\n\n\n차원순서(dimensions ordering)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndirectory\n\n\n\n\n\n디렉토리\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndirectory\n\n\n\n\n\n디렉터리\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndistributed training\n\n\n\n\n\n분산 학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndown stream\n\n\n\n\n\n다운 스트림\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nentity\n\n\n\n\n\n개체\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nepoch\n\n\n\n\n\n에폭\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nevaluation method\n\n\n\n\n\n평가 방법\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfeature extraction\n\n\n\n\n\n특성 추출\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfeature matrix\n\n\n\n\n\n특성 행렬\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfine tunning\n\n\n\n\n\n파인튜닝\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfine tunning\n\n\n\n\n\n미세 조정\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ngradient\n\n\n\n\n\n그래디언트\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nhalf precision\n\n\n\n\n\n반정밀도(half precision)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nhidden state\n\n\n\n\n\n은닉 상태\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nhyperparameter\n\n\n\n\n\n하이퍼파라미터\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ninference\n\n\n\n\n\n추론\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ninpainting\n\n\n\n\n\n인페인팅\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ninstance\n\n\n\n\n\n인스턴스\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nlearning\n\n\n\n\n\n학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nlesson\n\n\n\n\n\n단원\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nlicense\n\n\n\n\n\n라이선스\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nload\n\n\n\n\n\n가져오다\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nmethod\n\n\n\n\n\n매소드\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nmixed precision\n\n\n\n\n\n혼합 정밀도(mixed precision)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nmodel\n\n\n\n\n\n모델\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nmulti-image batches\n\n\n\n\n\n다중 이미지 배치(multi-image batches)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\noptimizer\n\n\n\n\n\n옵티마이저\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nparameter\n\n\n\n\n\n매개변수\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\npre-train\n\n\n\n\n\n사전학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nprior-preserving\n\n\n\n\n\n사전 보존(prior-preserving)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nprompt\n\n\n\n\n\n프롬프트\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\npush\n\n\n\n\n\n푸시\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nrepository\n\n\n\n\n\n리포지토리\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nreproducibility\n\n\n\n\n\n재현성\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nresume\n\n\n\n\n\n재개\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nsection\n\n\n\n\n\n섹션\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nseperator\n\n\n\n\n\n분할 토큰\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nsequence\n\n\n\n\n\n시퀀스\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nsilent error\n\n\n\n\n\n조용한 오류\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nspectrogram\n\n\n\n\n\n음성 향상\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/chapter0/introduction\n\n\n\n\n\n\n\n\nspeech enhancement\n\n\n\n\n\n음성 향상\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/\n\n\n\n\n\n\n\n\nstep\n\n\n\n\n\n스텝\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nsubmodule\n\n\n\n\n\n서브모듈\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ntoken\n\n\n\n\n\n토큰\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ntokenizer\n\n\n\n\n\n토크나이저\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ntraining\n\n\n\n\n\n훈련\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nvocoder\n\n\n\n\n\n보코더\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/chapter0/introduction\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "딥러닝 용어 사전",
     "section": "",
-    "text": "딥러닝 영어문서를 한국어로 번역하는 과정에서 용어를 통일하여 사용하기 위한 오픈소스 용어 사전입니다.\n\n\n용어 사전은 여러분의 도움이 필요합니다. 빠르게 발전하고 있는 딥러닝 분야는 새로운 용어가 많아 정확한 의미를 찾기 어렵습니다.그리고 기계 번역으로 생성되는 한글 문서는 편리하긴 하지만 통일되지 않은 한국어 용어가 사용되는 문제점이 있어 실제 원문에서 전달하려는 의미가 다르게 전달될 수 있습니다.\n각자가 공부했던 내용을 조금씩 정리하며 모으면서 함께 발전할 수 있다면 어떨까요? 문서를 읽으며 궁금했던 용어를 찾아보는 것으로 시작해보셔도 좋습니다.\n아직 용어 사전은 부족해서 내가 찾는 용어에 대한 한국어 용어와 설명이 없을 수 있습니다. 딥러닝을 공부할 때 어려웠던 기억을 떠올리며 사람들에게 여러분의 지식을 나누어 주세요. 용어사전을 통해서 함께 발전 하길 바랍니다.\n\n\n\n만약 번역 작업을 진행하는 문서가 있다면 깃헙에서 프로젝트 카드를 등록을 요청할 수 있습니다. 용어 사전과 함께 번역작업을 진행하는 건 어떨까요?\n\n\n\n\n\n\n\n🤗 HuggingFace - Transformers Link »\n\n\n\n\n\n\n\n\n\n🤗 HuggingFace - Audio Course Link »\n\n\n\n\n\n\n\n\n\n🤗 HuggingFace - Diffuser Link »\n\n\n\n\n\n\n\n\n\n함께 해요 - 새로운 프로젝트를 기다립니다."
+    "text": "딥러닝 영어문서를 한국어로 번역하는 과정에서 용어를 통일하여 사용하기 위한 오픈소스 용어 사전입니다.\n\n\n용어 사전은 여러분의 도움이 필요합니다. 빠르게 발전하고 있는 딥러닝 분야는 새로운 용어가 많아 정확한 의미를 찾기 어렵습니다.그리고 기계 번역으로 생성되는 한글 문서는 편리하긴 하지만 통일되지 않은 한국어 용어가 사용되는 문제점이 있어 실제 원문에서 전달하려는 의미가 다르게 전달될 수 있습니다.\n각자가 공부했던 내용을 조금씩 정리하며 모으면서 함께 발전할 수 있다면 어떨까요? 문서를 읽으며 궁금했던 용어를 찾아보는 것으로 시작해보셔도 좋습니다.\n아직 용어 사전은 부족해서 내가 찾는 용어에 대한 한국어 용어와 설명이 없을 수 있습니다. 딥러닝을 공부할 때 어려웠던 기억을 떠올리며 사람들에게 여러분의 지식을 나누어 주세요. 용어사전을 통해서 함께 발전 하길 바랍니다.\n\n\n\n만약 번역 작업을 진행하는 문서가 있다면 깃헙에서 프로젝트 카드를 등록을 요청할 수 있습니다. 용어 사전과 함께 번역작업을 진행하는 건 어떨까요?\n\n\n\n\n\n\n\n🤗 HuggingFace - Transformers [Link »]\n\n\n\n\n\n\n\n\n\n🤗 HuggingFace - Audio Course [Link »]\n\n\n\n\n\n\n\n\n\n🤗 HuggingFace - Diffuser [Link »]\n\n\n\n\n\n\n\n\n\n함께 해요 - 새로운 프로젝트를 기다립니다."
   },
   {
     "objectID": "index.html#시작하기-전에",
@@ -270,7 +270,28 @@
     "href": "index.html#번역-프로젝트",
     "title": "딥러닝 용어 사전",
     "section": "",
-    "text": "만약 번역 작업을 진행하는 문서가 있다면 깃헙에서 프로젝트 카드를 등록을 요청할 수 있습니다. 용어 사전과 함께 번역작업을 진행하는 건 어떨까요?\n\n\n\n\n\n\n\n🤗 HuggingFace - Transformers Link »\n\n\n\n\n\n\n\n\n\n🤗 HuggingFace - Audio Course Link »\n\n\n\n\n\n\n\n\n\n🤗 HuggingFace - Diffuser Link »\n\n\n\n\n\n\n\n\n\n함께 해요 - 새로운 프로젝트를 기다립니다."
+    "text": "만약 번역 작업을 진행하는 문서가 있다면 깃헙에서 프로젝트 카드를 등록을 요청할 수 있습니다. 용어 사전과 함께 번역작업을 진행하는 건 어떨까요?\n\n\n\n\n\n\n\n🤗 HuggingFace - Transformers [Link »]\n\n\n\n\n\n\n\n\n\n🤗 HuggingFace - Audio Course [Link »]\n\n\n\n\n\n\n\n\n\n🤗 HuggingFace - Diffuser [Link »]\n\n\n\n\n\n\n\n\n\n함께 해요 - 새로운 프로젝트를 기다립니다."
+  },
+  {
+    "objectID": "contribution.html",
+    "href": "contribution.html",
+    "title": "기여하신 분",
+    "section": "",
+    "text": "용어 사전에 기여해주신 모든 분들께 감사드립니다. 새로운 기여자와 팀을 찾습니다. 함께 해주실꺼죠?\n\n\n허깅페이스와 다른 딥러닝 관련 프로젝트를 한글화하고 있습니다. 관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다.\n\n\n\n이름\n조직\n소개\n\n\n\n\n서원형\nPseudo Lab. Huggingface KREW\n\n\n\n손기훈\nPseudo Lab. Huggingface KREW\n\n\n\n심소현\nPseudo Lab. Huggingface KREW\n\n\n\n양성모\nPseudo Lab. Huggingface KREW\nGithub\n\n\n윤현서\nPseudo Lab. Huggingface KREW\n\n\n\n정우준\nPseudo Lab. Huggingface KREW\nGithub\n\n\n한나연\nPseudo Lab. Huggingface KREW\n\n\n\n\n\n\n\n\n\n\n\n이름\n조직\n소개\n\n\n\n\n이홍규\nPseudo Lab. Diffuser 프로젝트\n\n\n\n박성수\nPseudo Lab. Diffuser 프로젝트\n\n\n\n이준형\nPseudo Lab. Diffuser 프로젝트\n\n\n\n윤형석\nPseudo Lab. Diffuser 프로젝트\n\n\n\n김지환\nPseudo Lab. Diffuser 프로젝트\n\n\n\n안혜민\nPseudo Lab. Diffuser 프로젝트"
+  },
+  {
+    "objectID": "contribution.html#huggingface-krew",
+    "href": "contribution.html#huggingface-krew",
+    "title": "기여하신 분",
+    "section": "",
+    "text": "허깅페이스와 다른 딥러닝 관련 프로젝트를 한글화하고 있습니다. 관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다.\n\n\n\n이름\n조직\n소개\n\n\n\n\n서원형\nPseudo Lab. Huggingface KREW\n\n\n\n손기훈\nPseudo Lab. Huggingface KREW\n\n\n\n심소현\nPseudo Lab. Huggingface KREW\n\n\n\n양성모\nPseudo Lab. Huggingface KREW\nGithub\n\n\n윤현서\nPseudo Lab. Huggingface KREW\n\n\n\n정우준\nPseudo Lab. Huggingface KREW\nGithub\n\n\n한나연\nPseudo Lab. Huggingface KREW"
+  },
+  {
+    "objectID": "contribution.html#허깅페이스-diffuser-번역-프로젝트",
+    "href": "contribution.html#허깅페이스-diffuser-번역-프로젝트",
+    "title": "기여하신 분",
+    "section": "",
+    "text": "이름\n조직\n소개\n\n\n\n\n이홍규\nPseudo Lab. Diffuser 프로젝트\n\n\n\n박성수\nPseudo Lab. Diffuser 프로젝트\n\n\n\n이준형\nPseudo Lab. Diffuser 프로젝트\n\n\n\n윤형석\nPseudo Lab. Diffuser 프로젝트\n\n\n\n김지환\nPseudo Lab. Diffuser 프로젝트\n\n\n\n안혜민\nPseudo Lab. Diffuser 프로젝트"
   },
   {
     "objectID": "guide.html",
@@ -315,58 +336,44 @@
     "text": "Footnotes\n\n\nwysiwyg(What You See is What You Get)의 약자로 문서 작성 방법을 GUI로 구현한 에디터 입니다.↩︎\nhttps://won.hashnode.dev/a-comprehensive-guide-to-mastering-github-pr-reviews↩︎\nhttp://www.publickrdata.com/blog/74/↩︎"
   },
   {
-    "objectID": "contribution.html",
-    "href": "contribution.html",
-    "title": "기여하신 분",
-    "section": "",
-    "text": "용어 사전에 기여해주신 모든 분들께 감사드립니다. 새로운 기여자와 팀을 찾습니다. 함께 해주실꺼죠?\n\n\n허깅페이스와 다른 딥러닝 관련 프로젝트를 한글화하고 있습니다. 관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다.\n\n\n\n이름\n조직\n소개\n\n\n\n\n서원형\nPseudo Lab. Huggingface KREW\n\n\n\n손기훈\nPseudo Lab. Huggingface KREW\n\n\n\n심소현\nPseudo Lab. Huggingface KREW\n\n\n\n양성모\nPseudo Lab. Huggingface KREW\nGithub\n\n\n윤현서\nPseudo Lab. Huggingface KREW\n\n\n\n정우준\nPseudo Lab. Huggingface KREW\nGithub\n\n\n한나연\nPseudo Lab. Huggingface KREW\n\n\n\n\n\n\n\n\n\n\n\n이름\n조직\n소개\n\n\n\n\n이홍규\nPseudo Lab. Diffuser 프로젝트\n\n\n\n박성수\nPseudo Lab. Diffuser 프로젝트\n\n\n\n이준형\nPseudo Lab. Diffuser 프로젝트\n\n\n\n윤형석\nPseudo Lab. Diffuser 프로젝트\n\n\n\n김지환\nPseudo Lab. Diffuser 프로젝트\n\n\n\n안혜민\nPseudo Lab. Diffuser 프로젝트"
-  },
-  {
-    "objectID": "contribution.html#huggingface-krew",
-    "href": "contribution.html#huggingface-krew",
-    "title": "기여하신 분",
-    "section": "",
-    "text": "허깅페이스와 다른 딥러닝 관련 프로젝트를 한글화하고 있습니다. 관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다.\n\n\n\n이름\n조직\n소개\n\n\n\n\n서원형\nPseudo Lab. Huggingface KREW\n\n\n\n손기훈\nPseudo Lab. Huggingface KREW\n\n\n\n심소현\nPseudo Lab. Huggingface KREW\n\n\n\n양성모\nPseudo Lab. Huggingface KREW\nGithub\n\n\n윤현서\nPseudo Lab. Huggingface KREW\n\n\n\n정우준\nPseudo Lab. Huggingface KREW\nGithub\n\n\n한나연\nPseudo Lab. Huggingface KREW"
-  },
-  {
-    "objectID": "contribution.html#허깅페이스-diffuser-번역-프로젝트",
-    "href": "contribution.html#허깅페이스-diffuser-번역-프로젝트",
-    "title": "기여하신 분",
-    "section": "",
-    "text": "이름\n조직\n소개\n\n\n\n\n이홍규\nPseudo Lab. Diffuser 프로젝트\n\n\n\n박성수\nPseudo Lab. Diffuser 프로젝트\n\n\n\n이준형\nPseudo Lab. Diffuser 프로젝트\n\n\n\n윤형석\nPseudo Lab. Diffuser 프로젝트\n\n\n\n김지환\nPseudo Lab. Diffuser 프로젝트\n\n\n\n안혜민\nPseudo Lab. Diffuser 프로젝트"
-  },
-  {
-    "objectID": "dictionary/terms/load.html",
-    "href": "dictionary/terms/load.html",
-    "title": "load",
+    "objectID": "dictionary/terms/mixed_precision.html",
+    "href": "dictionary/terms/mixed_precision.html",
+    "title": "mixed precision",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/pre_train.html",
-    "href": "dictionary/terms/pre_train.html",
-    "title": "pre-train",
+    "objectID": "dictionary/terms/speech_enhancement.html",
+    "href": "dictionary/terms/speech_enhancement.html",
+    "title": "speech enhancement",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/distributed_training.html",
-    "href": "dictionary/terms/distributed_training.html",
-    "title": "distributed training",
+    "objectID": "dictionary/terms/down_stream.html",
+    "href": "dictionary/terms/down_stream.html",
+    "title": "down stream",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/instance.html",
-    "href": "dictionary/terms/instance.html",
-    "title": "instance",
+    "objectID": "dictionary/terms/casual_language_model.html",
+    "href": "dictionary/terms/casual_language_model.html",
+    "title": "causal language model",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/reproducibility.html",
-    "href": "dictionary/terms/reproducibility.html",
-    "title": "reproducibility",
+    "objectID": "dictionary/terms/submodule.html",
+    "href": "dictionary/terms/submodule.html",
+    "title": "submodule",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/argumentation.html",
+    "href": "dictionary/terms/argumentation.html",
+    "title": "argumentation",
     "section": "",
     "text": "설명을 추가해주세요."
   },
@@ -378,93 +385,16 @@
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/crob.html",
-    "href": "dictionary/terms/crob.html",
-    "title": "crob",
+    "objectID": "dictionary/terms/resume.html",
+    "href": "dictionary/terms/resume.html",
+    "title": "resume",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/lesson.html",
-    "href": "dictionary/terms/lesson.html",
-    "title": "lesson",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/training copy.html",
-    "href": "dictionary/terms/training copy.html",
-    "title": "vocoder",
-    "section": "",
-    "text": "–&gt; –&gt;\n\n설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/pad.html",
-    "href": "dictionary/terms/pad.html",
-    "title": "parameter",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/feature_extraction.html",
-    "href": "dictionary/terms/feature_extraction.html",
-    "title": "feature extraction",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/step.html",
-    "href": "dictionary/terms/step.html",
-    "title": "step",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/prior-preserving.html",
-    "href": "dictionary/terms/prior-preserving.html",
-    "title": "prior-preserving",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/token.html",
-    "href": "dictionary/terms/token.html",
-    "title": "token",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/fine_tunning.html",
-    "href": "dictionary/terms/fine_tunning.html",
-    "title": "fine tunning",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/directory.html",
-    "href": "dictionary/terms/directory.html",
-    "title": "directory",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/method copy.html",
-    "href": "dictionary/terms/method copy.html",
-    "title": "model",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/push.html",
-    "href": "dictionary/terms/push.html",
-    "title": "push",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/feature_matrix.html",
-    "href": "dictionary/terms/feature_matrix.html",
-    "title": "feature matrix",
+    "objectID": "dictionary/terms/autoregressive_model.html",
+    "href": "dictionary/terms/autoregressive_model.html",
+    "title": "autoregressive model",
     "section": "",
     "text": "설명을 추가해주세요."
   },
@@ -476,86 +406,16 @@
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/custom_1.html",
-    "href": "dictionary/terms/custom_1.html",
-    "title": "custom",
+    "objectID": "dictionary/terms/training copy.html",
+    "href": "dictionary/terms/training copy.html",
+    "title": "vocoder",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "–&gt; –&gt;\n\n설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/hyperparameter.html",
-    "href": "dictionary/terms/hyperparameter.html",
-    "title": "hyperparameter",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/dataset.html",
-    "href": "dictionary/terms/dataset.html",
-    "title": "dataset",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/data_collator.html",
-    "href": "dictionary/terms/data_collator.html",
-    "title": "data collator",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/method.html",
-    "href": "dictionary/terms/method.html",
-    "title": "method",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/attention_mask.html",
-    "href": "dictionary/terms/attention_mask.html",
-    "title": "attention mask",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/optimizer.html",
-    "href": "dictionary/terms/optimizer.html",
-    "title": "optimizer",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/clustering.html",
-    "href": "dictionary/terms/clustering.html",
-    "title": "clustering",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/convolution_1.html",
-    "href": "dictionary/terms/convolution_1.html",
-    "title": "convolution",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/epoch.html",
-    "href": "dictionary/terms/epoch.html",
-    "title": "epoch",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/evaluation_method.html",
-    "href": "dictionary/terms/evaluation_method.html",
-    "title": "evaluation method",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/chunk.html",
-    "href": "dictionary/terms/chunk.html",
-    "title": "chunk",
+    "objectID": "dictionary/terms/spectrogram.html",
+    "href": "dictionary/terms/spectrogram.html",
+    "title": "spectrogram",
     "section": "",
     "text": "설명을 추가해주세요."
   },
@@ -567,16 +427,156 @@
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/entity.html",
-    "href": "dictionary/terms/entity.html",
-    "title": "entity",
+    "objectID": "dictionary/terms/token.html",
+    "href": "dictionary/terms/token.html",
+    "title": "token",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/prompt.html",
-    "href": "dictionary/terms/prompt.html",
-    "title": "prompt",
+    "objectID": "dictionary/terms/distributed_training.html",
+    "href": "dictionary/terms/distributed_training.html",
+    "title": "distributed training",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/chunk.html",
+    "href": "dictionary/terms/chunk.html",
+    "title": "chunk",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/feature_extraction.html",
+    "href": "dictionary/terms/feature_extraction.html",
+    "title": "feature extraction",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/denoise.html",
+    "href": "dictionary/terms/denoise.html",
+    "title": "denoise",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/evaluation_method.html",
+    "href": "dictionary/terms/evaluation_method.html",
+    "title": "evaluation method",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/instance.html",
+    "href": "dictionary/terms/instance.html",
+    "title": "instance",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/checkpoint.html",
+    "href": "dictionary/terms/checkpoint.html",
+    "title": "checkpoint",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/license.html",
+    "href": "dictionary/terms/license.html",
+    "title": "license",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/custom_1.html",
+    "href": "dictionary/terms/custom_1.html",
+    "title": "custom",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/hidden_state.html",
+    "href": "dictionary/terms/hidden_state.html",
+    "title": "hidden state",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/learning.html",
+    "href": "dictionary/terms/learning.html",
+    "title": "learning",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/sequence.html",
+    "href": "dictionary/terms/sequence.html",
+    "title": "sequence",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/inference.html",
+    "href": "dictionary/terms/inference.html",
+    "title": "inference",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/epoch.html",
+    "href": "dictionary/terms/epoch.html",
+    "title": "epoch",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/dimensions_ordering.html",
+    "href": "dictionary/terms/dimensions_ordering.html",
+    "title": "dimensions ordering",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/method copy.html",
+    "href": "dictionary/terms/method copy.html",
+    "title": "model",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/silent_error.html",
+    "href": "dictionary/terms/silent_error.html",
+    "title": "silent error",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/training.html",
+    "href": "dictionary/terms/training.html",
+    "title": "training",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/crob.html",
+    "href": "dictionary/terms/crob.html",
+    "title": "crob",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/multi-image_batches.html",
+    "href": "dictionary/terms/multi-image_batches.html",
+    "title": "multi-image batches",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/pre_train.html",
+    "href": "dictionary/terms/pre_train.html",
+    "title": "pre-train",
     "section": "",
     "text": "설명을 추가해주세요."
   }
