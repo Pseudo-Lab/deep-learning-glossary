@@ -81,7 +81,7 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./markdown.html">사전 사용법</a></li><li class="breadcrumb-item"><a href="./pr.html">Pull Request 작성하기</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./term_page_intro.html">사전 사용법</a></li><li class="breadcrumb-item"><a href="./pr.html">Pull Request 작성하기</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -129,14 +129,14 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./markdown.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Quarto 문서 작성하기</span></a>
+  <a href="./term_page_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">용어 사전 살펴보기</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./register_edit.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">용어 등록 및 수정</span></a>
+  <a href="./markdown.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quarto 문서 작성하기</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -166,12 +166,27 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
 
 <section id="pull-request-작성하기" class="level1 unnumbered">
 <h1 class="unnumbered">Pull Request 작성하기</h1>
-<p>사전에 용어를 등록하는 과정을 작성해주세요.</p>
+<p>PR(Pull Request)는 오픈소스 개발에서 주로 사용되는 개념입니다. 변경 사항을 다른 개발자들와 리뷰하고 통합하기 위해 사용됩니다. 일반적인 진행 방식은 아래와 같습니다.</p>
+<ul>
+<li><p>변경점 적용을 위해서 깃헙 사이드에서 <code>딥러닝 용어사전</code> 원본 레포지토리를 <code>Fork</code>하여 레포지토리를 새롭게 생성합니다.</p></li>
+<li><p><code>Fork</code>한 레포지토리에서 수정을 진행하기 위한 branch를 생성하고 수정을 진행합니다. (이 때 하나의 PR이 하나의 변경점을 갖도록 작업합니다. 변경점에 대한 이해와 다른 개발자들의 리뷰에 도움이 됩니다.)</p></li>
+<li><p>레포지토리로 <code>push</code>를 진행하면 자신의 깃헙 사이트에 PR 버튼이 생성된 것을 확인할 수 있습니다. 변경점에 대한 설명을 <a href="https://gist.github.com/gabrielwithappy/4eee95b79af5fb0445b205925bc9a4ec">PR 템플릿</a>을 이용해 작성하고 PR버튼을 누르면 원본 레포지토리에 PR이 생성됩니다.</p></li>
+<li><p>다른 개발자들의 리뷰가 진행되어 수정사항이 있다면 내용을 반영하고 <code>push</code>하는 과정을 반복합니다.</p></li>
+<li><p>리뷰에 대한 수정이 완료되었다면 PR 템플릿을 참고하여 머지를 요청합니다. 승인이 완료되면 원본 레포지토리에 변경점이 적용됩니다.</p></li>
+</ul>
+<p>이제 여러분이 작성한 용어를 용어 사전에서 확인할 수 있습니다! PR에 대한 좀 더 자세한 설명을 원하신다면 참고 링크<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>를 확인 부탁드립니다.</p>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>https://won.hashnode.dev/a-comprehensive-guide-to-mastering-github-pr-reviews<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>http://www.publickrdata.com/blog/74/<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

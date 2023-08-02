@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>딥러닝 용어사전 – register_edit</title>
+<title>딥러닝 용어사전 – term_page_intro</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -81,7 +115,7 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./markdown.html">사전 사용법</a></li><li class="breadcrumb-item"><a href="./register_edit.html">용어 등록 및 수정</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./term_page_intro.html">사전 사용법</a></li><li class="breadcrumb-item"><a href="./term_page_intro.html">용어 사전 살펴보기</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -129,14 +163,14 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./markdown.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Quarto 문서 작성하기</span></a>
+  <a href="./term_page_intro.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">용어 사전 살펴보기</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./register_edit.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">용어 등록 및 수정</span></a>
+  <a href="./markdown.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quarto 문서 작성하기</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -164,9 +198,27 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
 
 
 
-<section id="용어-등록-및-수정" class="level1 unnumbered">
-<h1 class="unnumbered">용어 등록 및 수정</h1>
-<p>사전에 용어를 등록하는 과정을 작성해주세요.</p>
+<section id="용어-사전-살펴보기" class="level1 unnumbered">
+<h1 class="unnumbered">용어 사전 살펴보기</h1>
+<p>용어 사전에 등록된 용어 설명 페이지의 구조를 알아봅니다. 이 문서를 통해서 기존에 등록되 용어 수정하거나 새로운 용어를 등록하는 방법을 이해할 수 있습니다.</p>
+<p>아래의 <code>archirecture</code>로 등록된 용어 페이지를 선택하여 상세 페이지로 이동하여 용어 사전 페이지의 구조를 이해합니다.</p>
+<p><img src="images/paste-4.png" class="img-fluid"></p>
+<p>이 페이지는 <code>archirecture.qmd</code>파일의 정보로 생성되며 아래의 코드를 이용하여 영어와 한국어 용어 이름이 표시됩니다.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>title: 'architecture'</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>description: '아키텍처'</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>url: https://huggingface.co/docs/transformers/index</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>---</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><code>title</code>과 <code>description</code>은 각각 용어의 영어와 한국어 표현을 나타내고 <code>url</code>은 용어가 나온 원본 문서의 위치를 의미합니다.</p>
+<p>동일한 용어가 사용되는 딥러닝 분야에 따라 다른 뜻으로 사용될 수 있으니 원본 문서에 대한 링크를 추가하고 있습니다.</p>
+<p>상세 페이지에서는 <code>image shields io</code> 마크다운 배지를 이용하여 원본 문서로 이동이 가능한 링크를 생성합니다. 아래의 코드는 마크다운 배지를 생성하는 코드입니다.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://huggingface.co/docs/transformers/index"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;img</span> <span class="er">loading</span><span class="ot">=</span><span class="st">"lazy"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ot">     alt=</span><span class="st">"src: HuggingFace Transformer"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ot">     src=</span><span class="st">"https://img.shields.io/badge/문서-Huggingface_Transformer-blue"</span> <span class="kw">&gt;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/a&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>마크다운 배지에 표시되는 문구는 <code>img shields io</code>에 전달하는 URL을 통해서 작성됩니다. 위의 코드에서는 <code>문서-Huggingface_Transformer-blue</code>를 사용했습니다.</p>
+<p><code>-</code>를 통해서 <code>문서</code>, <code>Huggingface_Transformer</code>, <code>blue</code>의 3개의 배지 정보가 전달되었습니다. 최종 결과물과 비교하면 각각의 의미를 이해할 수 있습니다. 공백을 <code>_</code>로 표시했음을 기억하세요.</p>
 
 
 </section>
