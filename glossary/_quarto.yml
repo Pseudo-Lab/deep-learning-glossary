@@ -3,6 +3,7 @@ project:
 
 website:
   title: "딥러닝 용어사전"
+  description: "딥러닝 영어문서를 한국어로 번역하는 과정에서 용어를 통일하여 사용하기 위한 오픈소스 용어 사전입니다."
   search: true
   navbar:
     left:
@@ -12,6 +13,16 @@ website:
     right:
       - icon: github
         href: https://github.com/Pseudo-Lab/deep-learning-glossary
+  favicon: images/pseudo-lab-pavicon.png
+  open-graph: 
+    title: "딥러닝 용어사전"
+    description: "딥러닝 영어문서를 한국어로 번역하는 과정에서 용어를 통일하여 사용하기 위한 오픈소스 용어 사전입니다."
+    image: images/pseudo-lab-1200x630.png
+  twitter-card: 
+    title: "딥러닝 용어사전"
+    description: "딥러닝 영어문서를 한국어로 번역하는 과정에서 용어를 통일하여 사용하기 위한 오픈소스 용어 사전입니다."
+    image: images/pseudo-lab-1200x630.png
+
 
 
   # sidebar:
