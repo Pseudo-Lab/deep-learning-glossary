@@ -130,7 +130,13 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#참조" id="toc-참조" class="nav-link active" data-scroll-target="#참조">참조</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -157,11 +163,29 @@ gtag('config', 'G-TFCJQ03RNB', { 'anonymize_ip': true});
 
 </header>
 
-<p><a href="https://huggingface.co/docs/transformers/index" target="_blank"><img loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue"></a></p>
-<hr>
-<p>설명을 추가해주세요.</p>
+<p><a href="https://huggingface.co/docs/transformers/index" target="_blank"> <img src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" alt="src: HuggingFace Transformer" loading="lazy"></a></p>
+<p>딥러닝 영상처리 모델의 데이터 증강(augmentation)은 훈련 데이터를 다양하게 변형시켜 모델의 성능을 향상시키는 기법을 말합니다. 데이터 증강은 원본 훈련 데이터를 변형하여 새로운 데이터를 생성하고 이를 훈련에 활용하는 것입니다. 이로 인해 모델은 더 다양한 상황과 조건에서 일반화하고, 과적합을 줄이는데 도움이 됩니다.</p>
+<p>딥러닝 모델은 많은 훈련 데이터를 필요로 하기 때문에, 특히 영상처리 분야에서는 많은 양의 라벨링된 데이터를 구하기 어려울 수 있습니다. 데이터 증강은 이러한 한계를 극복하고, 작은 데이터셋으로도 더 효과적인 훈련이 가능하도록 돕습니다.</p>
+<p>영상처리 분야에서 흔히 사용되는 데이터 증강 방법들은 다음과 같습니다:</p>
+<ul>
+<li><p>이미지 뒤집기 (Flip): 이미지를 수평 또는 수직으로 뒤집어서 새로운 이미지를 생성합니다.</p></li>
+<li><p>회전 (Rotation): 이미지를 특정 각도로 회전시켜 다양한 각도에서의 객체 인식 능력을 향상시킵니다.</p></li>
+<li><p>크롭 (Crop): 이미지의 일부 영역을 잘라내거나 적절한 크기로 확대/축소하여 다양한 크기와 위치에서 객체를 인식할 수 있도록 돕습니다.</p></li>
+<li><p>밝기 조정 (Brightness): 이미지의 밝기를 변화시켜 다양한 조명 조건에서의 객체 인식 능력을 강화합니다.</p></li>
+<li><p>색상 변환 (Color Transformation): 이미지의 색상을 변환하거나 조정하여 다양한 환경에서의 색 변화에 대응할 수 있도록 합니다.</p></li>
+<li><p>노이즈 추가 (Noise Addition): 이미지에 노이즈를 추가하여 모델이 노이즈에 강건한 특성을 학습하게 합니다.</p></li>
+<li><p>확대/축소 (Scaling): 이미지를 확대하거나 축소하여 객체의 크기 변화에 대응할 수 있도록 합니다.</p></li>
+</ul>
+<p>데이터 증강은 더 다양한 데이터를 확보하고, 모델의 일반화 능력을 향상시켜 영상처리 애플리케이션에서 더 좋은 성능을 달성하는데 도움이 됩니다.</p>
+<section id="참조" class="level2">
+<h2 class="anchored" data-anchor-id="참조">참조</h2>
+<ol type="1">
+<li>Chatgpt3.5. (2023, 8월 4일). OpenAI. [딥러닝 영상처리 모델, augumentation 의미]. https://chat.openai.com/</li>
+<li>APA 출처 생성기 (2023, 8월 4일). ESSAYREVIEW. https://essayreview.co.kr/citation-generator</li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

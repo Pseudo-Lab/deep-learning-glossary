@@ -18,7 +18,14 @@
     "href": "dictionary/terms/argumentation.html",
     "title": "argumentation",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "딥러닝 영상처리 모델의 데이터 증강(augmentation)은 훈련 데이터를 다양하게 변형시켜 모델의 성능을 향상시키는 기법을 말합니다. 데이터 증강은 원본 훈련 데이터를 변형하여 새로운 데이터를 생성하고 이를 훈련에 활용하는 것입니다. 이로 인해 모델은 더 다양한 상황과 조건에서 일반화하고, 과적합을 줄이는데 도움이 됩니다.\n딥러닝 모델은 많은 훈련 데이터를 필요로 하기 때문에, 특히 영상처리 분야에서는 많은 양의 라벨링된 데이터를 구하기 어려울 수 있습니다. 데이터 증강은 이러한 한계를 극복하고, 작은 데이터셋으로도 더 효과적인 훈련이 가능하도록 돕습니다.\n영상처리 분야에서 흔히 사용되는 데이터 증강 방법들은 다음과 같습니다:\n데이터 증강은 더 다양한 데이터를 확보하고, 모델의 일반화 능력을 향상시켜 영상처리 애플리케이션에서 더 좋은 성능을 달성하는데 도움이 됩니다."
+  },
+  {
+    "objectID": "dictionary/terms/argumentation.html#참조",
+    "href": "dictionary/terms/argumentation.html#참조",
+    "title": "argumentation",
+    "section": "참조",
+    "text": "참조\n\nChatgpt3.5. (2023, 8월 4일). OpenAI. [딥러닝 영상처리 모델, augumentation 의미]. https://chat.openai.com/\nAPA 출처 생성기 (2023, 8월 4일). ESSAYREVIEW. https://essayreview.co.kr/citation-generator"
   },
   {
     "objectID": "dictionary/terms/training.html",
