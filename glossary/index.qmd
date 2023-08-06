@@ -1,6 +1,9 @@
 ---
 callout-icon: false
 ---
+
+![](images/paste-6.png)
+
 # 딥러닝 용어 사전 {.unnumbered}
 
 딥러닝 영어문서를 일관성 있게 한국어로 번역하고 용어의 의미를 정리하기 위한 오픈소스 용어 사전입니다.
@@ -18,23 +21,21 @@ callout-icon: false
 용어 사전은 아래의 번역 프로젝트와 함께하고 있습니다. 번역 작업 중인 문서가 있다면 깃헙에서 프로젝트 카드를 등록을 요청할 수 있습니다. 용어 사전과 함께 번역 작업을 진행하는 건 어떨까요?
 
 ::: g-col-12
-
-::: {.callout-note appearance="simple" }
-**🤗 HuggingFace - Transformers** <a href="https://huggingface.co/docs/transformers/index" target="_blank">[Link »]</a>
+::: {.callout-note appearance="simple"}
+**🤗 HuggingFace - Transformers** <a href="https://huggingface.co/docs/transformers/index" target="_blank">\[Link »\]</a>
 :::
 
 ::: {.callout-note appearance="simple"}
-**🤗 HuggingFace - Audio Course** <a href="https://huggingface.co/learn/audio-course/chapter0/introduction" target="_blank">[Link »]</a>
+**🤗 HuggingFace - Audio Course** <a href="https://huggingface.co/learn/audio-course/chapter0/introduction" target="_blank">\[Link »\]</a>
 :::
 
 ::: {.callout-note appearance="simple"}
-**🤗 HuggingFace - Diffuser** <a href="https://huggingface.co/docs/diffusers/index" target="_blank">[Link »]</a>
+**🤗 HuggingFace - Diffuser** <a href="https://huggingface.co/docs/diffusers/index" target="_blank">\[Link »\]</a>
 :::
 
 ::: {.callout-note appearance="simple"}
 **함께 해요** - 새로운 프로젝트를 기다립니다.
 :::
-
 :::
 
 <a href="./intro.html/googleb64f32a1f0de3b5f.html"></a>
