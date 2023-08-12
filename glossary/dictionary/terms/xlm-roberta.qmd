@@ -1,0 +1,16 @@
+---
+title: 'XLM-RoBERTa'
+description: 'XLM-RoBERTa'
+url: https://huggingface.co/docs/transformers/model_doc/xlm-roberta
+---
+
+## <a href="https://huggingface.co/docs/transformers/model_doc/xlm-roberta" target="_blank"><img src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" alt="src: HuggingFace Transformer" loading="lazy"/></a>
+
+XLM-RoBERTa 모델은 Unsupervised Cross-lingual Representation Learning at Scale에서 제안 되었습니다 . 2019년에 출시된 Facebook의 RoBERTa 모델을 기반으로 합니다. 2.5TB의 필터링된 CommonCrawl 데이터에서 훈련된 대규모 다국어 언어 모델입니다.
+
+RoBERTa 모델은 RoBERTa: A Robustly Optimized BERT Pretraining Approach에서 제안되었습니다. 2018년에 출시된 Google의 BERT 모델을 기반으로 합니다. BERT를 기반으로 하며 주요 하이퍼파라미터를 수정하여 다음 문장 사전 훈련 목표를 제거하고 훨씬 더 큰 미니 배치 및 학습 속도로 훈련합니다.
+
+
+## 참조
+1.  https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment
+2.  https://github.com/facebookresearch/fairseq/tree/main/examples/xlmr

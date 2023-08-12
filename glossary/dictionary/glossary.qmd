@@ -5,7 +5,7 @@ listing:
   - id: terms
     contents: terms
     sort:
-      - "title asc"
+      - "title desc"
     categories: false
     filter-ui: [title, description]
     type: default
