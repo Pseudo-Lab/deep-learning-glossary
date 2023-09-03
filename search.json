@@ -340,7 +340,14 @@
     "href": "dictionary/terms/vocoder.html",
     "title": "vocoder",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "오디오를 생성하는 모델은 로그 멜 스펙트로그램을 출력으로 생성하는 것이 일반적입니다. 사람이 인지할 수 있는 파형으로 변경하는 신경망인 보코더를 사용합니다. Bark와 같은 오디오 딥러닝 모델은 원시 음성 파형을 직접 생성합니다. 이와 같은 모델들은 별도의 보코더가 필요하지 않습니다."
+  },
+  {
+    "objectID": "dictionary/terms/vocoder.html#참조",
+    "href": "dictionary/terms/vocoder.html#참조",
+    "title": "vocoder",
+    "section": "참조",
+    "text": "참조\n\nhttps://huggingface.co/learn/audio-course/en/chapter6/pre-trained_models"
   },
   {
     "objectID": "dictionary/terms/crob.html",
