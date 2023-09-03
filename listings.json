@@ -2,7 +2,7 @@
   {
     "listing": "/dictionary/glossary.html",
     "items": [
-      "/dictionary/terms/training copy.html",
+      "/dictionary/terms/vocoder.html",
       "/dictionary/terms/training.html",
       "/dictionary/terms/tokenizer.html",
       "/dictionary/terms/token.html",
@@ -53,8 +53,8 @@
       "/dictionary/terms/denoise.html",
       "/dictionary/terms/dataset.html",
       "/dictionary/terms/data_collator.html",
-      "/dictionary/terms/custom.html",
       "/dictionary/terms/custom_1.html",
+      "/dictionary/terms/custom.html",
       "/dictionary/terms/crob.html",
       "/dictionary/terms/convolution_1.html",
       "/dictionary/terms/convolution.html",
