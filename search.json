@@ -18,7 +18,7 @@
     "href": "guide.html#준비-하기",
     "title": "가이드 문서",
     "section": "준비 하기",
-    "text": "준비 하기\n딥러닝 용어 사전은 quarto를 이용하여 작성되었습니다. Quarto 웹사이트로 이동하여 프로그램을 설치해주세요. 설치가 완료되었다면 이제 본격적으로 문서를 작성할 준비를 끝났습니다.\n용어 사전의 구조를 살펴볼까요? 용어 사전에 작성된 용어들은 아래의 terms폴더에 하나의 파일 형태로 생성됩니다. 예를 들어 convolution을 수정하는 경우 terms 폴더에 생성된 convolution.qmd파일을 수정합니다. 신규 용어는 모두 소문자이며 공백은 _로 변경하여 파일명을 생성합니다. terms폴더에 새로운 파일이 추가된 이후 문서를 작성하는 부분은 수정과 동일합니다.파일명은 모두 소문자로 작성하고 공백은 _로 대체하여 사용하고 있습니다.\n├── glossary\n│   ├── dictionary\n|   │   └── terms\n|   |       ├── architecture.qmd\n|   |               ...\n|   |       ├── convolution.qmd\n|   |               ...\n|   │       └── speech_enhancement.qmd"
+    "text": "준비 하기\n딥러닝 용어 사전은 quarto를 이용하여 작성되었습니다. Quarto 웹사이트로 이동하여 프로그램을 설치해주세요. 설치가 완료되었다면 이제 본격적으로 문서를 작성할 준비를 끝났습니다.\n용어 사전의 구조를 살펴볼까요? 용어 사전에 작성된 용어들은 아래의 terms폴더에 하나의 파일 형태로 생성됩니다. 예를 들어 convolution을 수정하는 경우 terms 폴더에 생성된 convolution.qmd파일을 수정합니다.\n├── glossary\n│   ├── dictionary\n|   │   └── terms\n|   |       ├── architecture.qmd\n|   |               ...\n|   |       ├── convolution.qmd\n|   |               ...\n|   │       └── speech_enhancement.qmd\n\n새로운 용어 작성\n앗, 제가 찾는 용어가 없습니다! 새로운 용어를 등록하는 경우 terms폴더에 등록하려는 용어명과 동일한 파일명으로 qmd파일을 생성합니다.\n\n\n\n\n\n\n신규용어 파일명 생성 규칙\n\n\n\n\n신규 용어는 모두 소문자이며 공백은 _로 변경하여 파일명을 생성합니다.\n파일명은 모두 소문자로 작성하고 공백은 _로 대체하여 사용하고 있습니다.\n같은 파일명이 있는 경우 _1, _2와 같이 postfix를 붙여 추가합니다.\n\ndirectory.qmd\ndirectory_1.qmd\n\n\n\n\n신규 용어 파일명 생성 규칙에 맞게 파일을 생성한 후 문서 작성을 시작합니다."
   },
   {
     "objectID": "guide.html#문서-작성",
