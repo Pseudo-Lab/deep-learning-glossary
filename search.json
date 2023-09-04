@@ -312,7 +312,14 @@
     "href": "dictionary/terms/epoch.html",
     "title": "epoch",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "딥러닝에서 에폭은 학습 데이터 전체를 한 번 순회하는 것을 의미합니다. 딥러닝 모델의 가중치는 데이터 묶음인 배치를 통해 업데이트 됩니다. 따라서 배치 크기에 따라서 1 에폭에 훈련되는 횟수가 달라집니다. 예를 들어 전체 100개의 데이터를 10개의 샘플을 갖는 배치 사이즈로 훈련하는 경우 1 에폭에 10회의 훈련이 진행됩니다."
+  },
+  {
+    "objectID": "dictionary/terms/epoch.html#참조",
+    "href": "dictionary/terms/epoch.html#참조",
+    "title": "epoch",
+    "section": "참조",
+    "text": "참조\n\nhttps://machinelearningmastery.com/difference-between-a-batch-and-an-epoch"
   },
   {
     "objectID": "dictionary/terms/autoregressive_model.html",
