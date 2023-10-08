@@ -5,4 +5,13 @@ url: https://huggingface.co/docs/transformers/index
 ---
 <a href="https://huggingface.co/docs/transformers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" ></a>
 ---
-설명을 추가해주세요.
+
+
+"Attention mask"는 주로 자연어 처리와 관련된 딥 러닝 모델에서 사용되는 개념입니다. 이것은 주로 트랜스포머(Transformer) 아키텍처와 관련이 있으며, 특히 어텐션 메커니즘(attention mechanism)을 사용하는 모델에서 주로 나타납니다.
+
+어텐션 메커니즘은 입력 시퀀스의 각 요소에 가중치를 할당하여 중요한 부분을 강조하고, 모델이 해당 부분에 집중하도록 돕는 기술입니다. 이 때, 어텐션 가중치(attention weights)를 결정하는 데 사용되는 정보가 "attention mask"입니다.
+
+
+## 참조
+
+1. Chatgpt3.5. (2023, 10월 8일). OpenAI. [attention mask의 의미]. https://chat.openai.com/
