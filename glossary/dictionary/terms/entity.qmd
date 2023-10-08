@@ -7,4 +7,11 @@ url: https://huggingface.co/docs/transformers/index
 ---
 <a href="https://huggingface.co/docs/transformers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" ></a>
 ---
-설명을 추가해주세요.
+
+소프트웨어 엔티티는 소프트웨어 시스템 또는 소프트웨어 구성 요소 내에서 독립적으로 식별 가능하며, 개별적인 역할 또는 기능을 수행하는 추상적인 개체를 나타냅니다. 이 용어는 소프트웨어 엔지니어링 및 소프트웨어 설계 분야에서 주로 사용되며, 소프트웨어를 구조화하고 이해하는 데 도움이 됩니다. 대표적인 소프트웨어 엔티티는 `클래스(Class)`, `객체(Object)`, `모듈(Module)` 등이 있습니다.
+
+소프트웨어 엔티티는 소프트웨어 시스템을 설계, 개발 및 관리하는 데 중요한 역할을 합니다. 이러한 엔티티는 소프트웨어의 모듈화, 재사용성, 유지 보수 등과 관련된 다양한 소프트웨어 엔지니어링 원칙을 따르는 데 도움이 됩니다.
+
+## 참조
+
+1. [소프트웨어 entity의 의미]. https://chat.openai.com/
