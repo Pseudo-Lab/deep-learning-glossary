@@ -39,7 +39,7 @@
     "href": "dictionary/terms/tokenizer.html",
     "title": "tokenizer",
     "section": "",
-    "text": "토크나이저(Tokenizer)는 자연어 처리(Natural Language Processing, NLP) 분야에서 텍스트를 작은 단위로 나누는 도구 또는 프로세스를 가리킵니다. 이 작은 단위는 토큰(Token)이라고 불리며, 일반적으로 단어, 문장 부호, 혹은 하나의 글자와 같은 작은 텍스트 조각을 말합니다.\n토크나이저의 주요 목적은 텍스트를 기계 학습 알고리즘, 딥러닝 모델 또는 다른 자연어 처리 작업에 입력으로 사용할 수 있는 형식으로 변환하는 것입니다. 이렇게 텍스트를 토큰으로 분할하면 기계는 더 쉽게 텍스트를 이해하고 처리할 수 있습니다."
+    "text": "토크나이저는 자연어 처리(Natural Language Processing, NLP) 분야에서 텍스트를 작은 단위로 나누는 도구 또는 프로세스를 가리킵니다. 이 작은 단위는 토큰(Token)이라고 불리며, 일반적으로 단어, 문장 부호, 혹은 하나의 글자와 같은 작은 텍스트 조각을 말합니다.\n토크나이저의 주요 목적은 텍스트를 기계 학습 알고리즘, 딥러닝 모델 또는 다른 자연어 처리 작업에 입력으로 사용할 수 있는 형식으로 변환하는 것입니다. 이렇게 텍스트를 토큰으로 분할하면 기계는 더 쉽게 텍스트를 이해하고 처리할 수 있습니다."
   },
   {
     "objectID": "dictionary/terms/tokenizer.html#참조",
@@ -56,214 +56,200 @@
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/method copy.html",
-    "href": "dictionary/terms/method copy.html",
-    "title": "model",
+    "objectID": "dictionary/terms/section.html",
+    "href": "dictionary/terms/section.html",
+    "title": "section",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/epoch.html",
-    "href": "dictionary/terms/epoch.html",
-    "title": "epoch",
+    "objectID": "dictionary/terms/license.html",
+    "href": "dictionary/terms/license.html",
+    "title": "license",
     "section": "",
-    "text": "딥러닝에서 에폭은 학습 데이터 전체를 한 번 순회하는 것을 의미합니다. 딥러닝 모델의 가중치는 데이터 묶음인 배치를 통해 업데이트 됩니다. 따라서 배치 크기에 따라서 1 에폭에 훈련되는 횟수가 달라집니다. 예를 들어 전체 100개의 데이터를 10개의 샘플을 갖는 배치 사이즈로 훈련하는 경우 1 에폭에 10회의 훈련이 진행됩니다."
+    "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/epoch.html#참조",
-    "href": "dictionary/terms/epoch.html#참조",
-    "title": "epoch",
+    "objectID": "dictionary/terms/pre_train.html",
+    "href": "dictionary/terms/pre_train.html",
+    "title": "pre-train",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/training.html",
+    "href": "dictionary/terms/training.html",
+    "title": "training",
+    "section": "",
+    "text": "딥러닝에서 훈련(training)은 모델을 데이터에 훈련시키는 과정을 의미합니다. 이 과정은 모델이 데이터에서 패턴을 이해하고 문제를 해결하기 위한 모델을 조정하는 것을 포함합니다.\n훈련은 입력 데이터를 모델에 주입하고, 모델은 예측을 수행한 후 손실 함수를 사용하여 오차를 계산하고 역전파(backpropagation)를 통해 파라미터를 업데이트합니다. 이 과정은 여러 에폭(epochs) 동안 반복됩니다."
+  },
+  {
+    "objectID": "dictionary/terms/training.html#참조",
+    "href": "dictionary/terms/training.html#참조",
+    "title": "training",
     "section": "참조",
-    "text": "참조\n\nhttps://machinelearningmastery.com/difference-between-a-batch-and-an-epoch"
+    "text": "참조\n\n[딥러닝 training의 의미]. https://chat.openai.com/"
   },
   {
-    "objectID": "dictionary/terms/pad.html",
-    "href": "dictionary/terms/pad.html",
-    "title": "parameter",
+    "objectID": "dictionary/terms/code_snippet.html",
+    "href": "dictionary/terms/code_snippet.html",
+    "title": "code snippet",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/custom_1.html",
-    "href": "dictionary/terms/custom_1.html",
+    "objectID": "dictionary/terms/directory_1.html",
+    "href": "dictionary/terms/directory_1.html",
+    "title": "directory",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/xlm-roberta.html",
+    "href": "dictionary/terms/xlm-roberta.html",
+    "title": "XLM-RoBERTa",
+    "section": "",
+    "text": "XLM-RoBERTa 모델은 Unsupervised Cross-lingual Representation Learning at Scale에서 제안 되었습니다 . 2019년에 출시된 Facebook의 RoBERTa 모델을 기반으로 합니다. 2.5TB의 필터링된 CommonCrawl 데이터에서 훈련된 대규모 다국어 언어 모델입니다.\nRoBERTa 모델은 RoBERTa: A Robustly Optimized BERT Pretraining Approach에서 제안되었습니다. 2018년에 출시된 Google의 BERT 모델을 기반으로 합니다. BERT를 기반으로 하며 주요 하이퍼파라미터를 수정하여 다음 문장 사전 훈련 목표를 제거하고 훨씬 더 큰 미니 배치 및 학습 속도로 훈련합니다."
+  },
+  {
+    "objectID": "dictionary/terms/xlm-roberta.html#section",
+    "href": "dictionary/terms/xlm-roberta.html#section",
+    "title": "XLM-RoBERTa",
+    "section": "",
+    "text": "XLM-RoBERTa 모델은 Unsupervised Cross-lingual Representation Learning at Scale에서 제안 되었습니다 . 2019년에 출시된 Facebook의 RoBERTa 모델을 기반으로 합니다. 2.5TB의 필터링된 CommonCrawl 데이터에서 훈련된 대규모 다국어 언어 모델입니다.\nRoBERTa 모델은 RoBERTa: A Robustly Optimized BERT Pretraining Approach에서 제안되었습니다. 2018년에 출시된 Google의 BERT 모델을 기반으로 합니다. BERT를 기반으로 하며 주요 하이퍼파라미터를 수정하여 다음 문장 사전 훈련 목표를 제거하고 훨씬 더 큰 미니 배치 및 학습 속도로 훈련합니다."
+  },
+  {
+    "objectID": "dictionary/terms/xlm-roberta.html#참조",
+    "href": "dictionary/terms/xlm-roberta.html#참조",
+    "title": "XLM-RoBERTa",
+    "section": "참조",
+    "text": "참조\n\nhttps://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment\nhttps://github.com/facebookresearch/fairseq/tree/main/examples/xlmr"
+  },
+  {
+    "objectID": "dictionary/terms/clustering.html",
+    "href": "dictionary/terms/clustering.html",
+    "title": "clustering",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/seperator.html",
+    "href": "dictionary/terms/seperator.html",
+    "title": "seperator",
+    "section": "",
+    "text": "딥러닝에서 분할 토큰은 주로 언어 모델(예: GPT, BERT)을 사용하는 자연어 처리(NLP) 작업에서 텍스트를 토큰(token)으로 분할하고, 분할된 토큰 중 하나가 텍스트의 끝이나 다른 문맥적 경계를 나타내는 데 사용되는 특수한 토큰을 가리킵니다.\n일반적으로 언어 모델은 입력 텍스트를 토큰 단위로 분할하고, 각 토큰에 대한 임베딩 벡터를 생성하여 텍스트를 처리합니다. 이때 텍스트의 문맥을 이해하기 위해 각 문장이나 문단의 끝을 나타내는 특별한 토큰이 필요할 수 있습니다. 이 특별한 토큰은 문장 또는 문단 간의 경계를 표시하고 모델에게 언어의 문맥을 알리는 데 사용됩니다.\n예를 들어, 문장 “나는 고양이를 좋아해.”와 “고양이는 너무 귀여워.”가 있다고 가정해 봅시다. 이 두 문장을 토큰화하면 다음과 같을 수 있습니다:\n문장 1: [“나”, “는”, “고양이”, “를”, “좋아해”, “.”] 문장 2: [“고양이”, “는”, “너무”, “귀여워”, “.”] 여기서 마침표(“.”)는 각 문장의 끝을 나타내는 특수한 토큰으로 분할 토큰입니다. 이를 통해 모델은 두 문장이 서로 다른 문장임을 이해하고, 문장 간의 관계를 파악할 수 있습니다.\n또한, 분할 토큰은 대화형 언어 처리 작업에서 각 대화 발화를 구분하는 데도 사용될 수 있습니다. 대화 형식에서는 대개 대화 참가자의 발화 간에 경계를 나타내기 위해 분할 토큰을 사용합니다."
+  },
+  {
+    "objectID": "dictionary/terms/seperator.html#참조",
+    "href": "dictionary/terms/seperator.html#참조",
+    "title": "seperator",
+    "section": "참조",
+    "text": "참조\n\n[딥러닝 분할토큰의 의미]. https://chat.openai.com/"
+  },
+  {
+    "objectID": "dictionary/terms/hyperparameter.html",
+    "href": "dictionary/terms/hyperparameter.html",
+    "title": "hyperparameter",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/lesson.html",
+    "href": "dictionary/terms/lesson.html",
+    "title": "lesson",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/directory.html",
+    "href": "dictionary/terms/directory.html",
+    "title": "directory",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/resume.html",
+    "href": "dictionary/terms/resume.html",
+    "title": "resume",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/learning.html",
+    "href": "dictionary/terms/learning.html",
+    "title": "learning",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/convolution_1.html",
+    "href": "dictionary/terms/convolution_1.html",
+    "title": "convolution",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/speech_enhancement.html",
+    "href": "dictionary/terms/speech_enhancement.html",
+    "title": "speech enhancement",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/casual_language_model.html",
+    "href": "dictionary/terms/casual_language_model.html",
+    "title": "causal language model",
+    "section": "",
+    "text": "“Causal language model”은 언어 모델링과 자연어 처리 분야에서 사용되는 모델 중 하나로, 주로 시퀀스 데이터에서 다음 단어나 토큰을 예측하기 위해 사용됩니다. 이 모델은 인과 관계(causal relationship)를 고려하여 시퀀스 데이터를 생성하거나 분석하는 데 중요한 역할을 합니다.\n이러한 이유로 Causal language model은 다양한 응용 분야에서 데이터 분석, 예측, 생성, 이해, 추천 등의 작업을 효과적으로 수행하는 데 활용되며, 자연어 처리 분야에서 매우 중요한 역할을 합니다."
+  },
+  {
+    "objectID": "dictionary/terms/casual_language_model.html#참조",
+    "href": "dictionary/terms/casual_language_model.html#참조",
+    "title": "causal language model",
+    "section": "참조",
+    "text": "참조\n\nChatgpt3.5. (2023, 10월 8일). OpenAI. [causal language model의 의미, causal language model을 사용하는 이유]. https://chat.openai.com/"
+  },
+  {
+    "objectID": "dictionary/terms/branch.html",
+    "href": "dictionary/terms/branch.html",
+    "title": "branch",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/custom.html",
+    "href": "dictionary/terms/custom.html",
     "title": "custom",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/fine_tunning.html",
-    "href": "dictionary/terms/fine_tunning.html",
-    "title": "fine tunning",
+    "objectID": "dictionary/terms/inference.html",
+    "href": "dictionary/terms/inference.html",
+    "title": "inference",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/down_stream.html",
-    "href": "dictionary/terms/down_stream.html",
-    "title": "down stream",
+    "objectID": "dictionary/terms/optimizer.html",
+    "href": "dictionary/terms/optimizer.html",
+    "title": "optimizer",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/dimensions_ordering.html",
-    "href": "dictionary/terms/dimensions_ordering.html",
-    "title": "dimensions ordering",
+    "objectID": "dictionary/terms/push.html",
+    "href": "dictionary/terms/push.html",
+    "title": "push",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/evaluation_method.html",
-    "href": "dictionary/terms/evaluation_method.html",
-    "title": "evaluation method",
+    "objectID": "dictionary/terms/step.html",
+    "href": "dictionary/terms/step.html",
+    "title": "step",
     "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/arguments.html",
-    "href": "dictionary/terms/arguments.html",
-    "title": "arguments",
-    "section": "",
-    "text": "“arguments”는 컴퓨터 프로그래밍에서 사용되는 용어로, 함수 내에서 전달된 인자(인수)에 접근하거나 관리하기 위해 사용됩니다. 다양한 프로그래밍 언어에서 이 용어를 사용하지만, 그 구체적인 사용 방법은 언어에 따라 다를 수 있습니다.\n일반적으로 “arguments”는 함수 내에서 다음과 같은 목적으로 사용됩니다:\n인수(Arguments)에 접근: 함수가 호출될 때 전달된 모든 인수(매개변수)에 접근할 수 있도록 합니다. 이를 통해 함수 내에서 인수의 값을 읽을 수 있습니다."
-  },
-  {
-    "objectID": "dictionary/terms/arguments.html#참조",
-    "href": "dictionary/terms/arguments.html#참조",
-    "title": "arguments",
-    "section": "참조",
-    "text": "참조\n\nChatgpt3.5. (2023, 8월 4일). OpenAI. [arguments의 의미]. https://chat.openai.com/"
-  },
-  {
-    "objectID": "dictionary/terms/inpainting.html",
-    "href": "dictionary/terms/inpainting.html",
-    "title": "inpainting",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/multi-image_batches.html",
-    "href": "dictionary/terms/multi-image_batches.html",
-    "title": "multi-image batches",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/argumentation.html",
-    "href": "dictionary/terms/argumentation.html",
-    "title": "argumentation",
-    "section": "",
-    "text": "딥러닝 영상처리 모델의 데이터 증강(augmentation)은 훈련 데이터를 다양하게 변형시켜 모델의 성능을 향상시키는 기법을 말합니다. 데이터 증강은 원본 훈련 데이터를 변형하여 새로운 데이터를 생성하고 이를 훈련에 활용하는 것입니다. 이로 인해 모델은 더 다양한 상황과 조건에서 일반화하고, 과적합을 줄이는데 도움이 됩니다.\n딥러닝 모델은 많은 훈련 데이터를 필요로 하기 때문에, 특히 영상처리 분야에서는 많은 양의 라벨링된 데이터를 구하기 어려울 수 있습니다. 데이터 증강은 이러한 한계를 극복하고, 작은 데이터셋으로도 더 효과적인 훈련이 가능하도록 돕습니다.\n영상처리 분야에서 흔히 사용되는 데이터 증강 방법들은 다음과 같습니다:\n데이터 증강은 더 다양한 데이터를 확보하고, 모델의 일반화 능력을 향상시켜 영상처리 애플리케이션에서 더 좋은 성능을 달성하는데 도움이 됩니다."
-  },
-  {
-    "objectID": "dictionary/terms/argumentation.html#참조",
-    "href": "dictionary/terms/argumentation.html#참조",
-    "title": "argumentation",
-    "section": "참조",
-    "text": "참조\n\nChatgpt3.5. (2023, 8월 4일). OpenAI. [딥러닝 영상처리 모델, augumentation 의미]. https://chat.openai.com/\nAPA 출처 생성기 (2023, 8월 4일). ESSAYREVIEW. https://essayreview.co.kr/citation-generator"
-  },
-  {
-    "objectID": "dictionary/terms/reproducibility.html",
-    "href": "dictionary/terms/reproducibility.html",
-    "title": "reproducibility",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/automatic_speech_recognition.html",
-    "href": "dictionary/terms/automatic_speech_recognition.html",
-    "title": "automatic speech recognition",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/chunk.html",
-    "href": "dictionary/terms/chunk.html",
-    "title": "chunk",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/data_collator.html",
-    "href": "dictionary/terms/data_collator.html",
-    "title": "data collator",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/vocoder.html",
-    "href": "dictionary/terms/vocoder.html",
-    "title": "vocoder",
-    "section": "",
-    "text": "오디오를 생성하는 모델은 로그 멜 스펙트로그램을 출력으로 생성하는 것이 일반적입니다. 사람이 인지할 수 있는 파형으로 변경하는 신경망인 보코더를 사용합니다. Bark와 같은 오디오 딥러닝 모델은 원시 음성 파형을 직접 생성합니다. 이와 같은 모델들은 별도의 보코더가 필요하지 않습니다."
-  },
-  {
-    "objectID": "dictionary/terms/vocoder.html#참조",
-    "href": "dictionary/terms/vocoder.html#참조",
-    "title": "vocoder",
-    "section": "참조",
-    "text": "참조\n\nhttps://huggingface.co/learn/audio-course/en/chapter6/pre-trained_models"
-  },
-  {
-    "objectID": "dictionary/terms/token.html",
-    "href": "dictionary/terms/token.html",
-    "title": "token",
-    "section": "",
-    "text": "딥러닝에서 “token(토큰)”은 텍스트 데이터를 작은 단위로 분할하는 과정에서 나오는 기본적인 단위를 나타냅니다. 이 단위는 일반적으로 단어, 부분 단어, 문자 또는 하위 단어 단위일 수 있습니다. 토큰화(tokenization)는 텍스트 데이터를 이러한 토큰으로 분해하는 과정을 말합니다."
-  },
-  {
-    "objectID": "dictionary/terms/token.html#참조",
-    "href": "dictionary/terms/token.html#참조",
-    "title": "token",
-    "section": "참조",
-    "text": "참조\n\n[딥러닝 token의 의미]. https://chat.openai.com/"
-  },
-  {
-    "objectID": "dictionary/terms/sequence.html",
-    "href": "dictionary/terms/sequence.html",
-    "title": "sequence",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/attention_mask.html",
-    "href": "dictionary/terms/attention_mask.html",
-    "title": "attention mask",
-    "section": "",
-    "text": "“Attention mask”는 주로 자연어 처리와 관련된 딥 러닝 모델에서 사용되는 개념입니다. 이것은 주로 트랜스포머(Transformer) 아키텍처와 관련이 있으며, 특히 어텐션 메커니즘(attention mechanism)을 사용하는 모델에서 주로 나타납니다.\n어텐션 메커니즘은 입력 시퀀스의 각 요소에 가중치를 할당하여 중요한 부분을 강조하고, 모델이 해당 부분에 집중하도록 돕는 기술입니다. 이 때, 어텐션 가중치(attention weights)를 결정하는 데 사용되는 정보가 “attention mask”입니다."
-  },
-  {
-    "objectID": "dictionary/terms/attention_mask.html#참조",
-    "href": "dictionary/terms/attention_mask.html#참조",
-    "title": "attention mask",
-    "section": "참조",
-    "text": "참조\n\nChatgpt3.5. (2023, 10월 8일). OpenAI. [attention mask의 의미]. https://chat.openai.com/"
-  },
-  {
-    "objectID": "dictionary/terms/dataset.html",
-    "href": "dictionary/terms/dataset.html",
-    "title": "dataset",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/hidden_state.html",
-    "href": "dictionary/terms/hidden_state.html",
-    "title": "hidden state",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/silent_error.html",
-    "href": "dictionary/terms/silent_error.html",
-    "title": "silent error",
-    "section": "",
-    "text": "조용한 오류(silent error)는 프로그램 또는 코드 실행 중에 발생하는 오류 중에서 명시적인 오류 메시지나 경고 없이 발생하며, 프로그램이 비정상적으로 동작하거나 예상치 못한 결과를 내는 오류를 가리킵니다. 이러한 오류는 디버깅하기 어려우며, 프로그램의 안정성과 신뢰성에 영향을 미칠 수 있습니다.\n조용한 오류가 발생하는 경우, 프로그램은 오류가 있음에도 불구하고 실행을 계속하며, 이로 인해 예기치 않은 결과를 생성할 수 있습니다."
-  },
-  {
-    "objectID": "dictionary/terms/silent_error.html#참조",
-    "href": "dictionary/terms/silent_error.html#참조",
-    "title": "silent error",
-    "section": "참조",
-    "text": "참조\n\n[silent error의 의미]. https://chat.openai.com/"
+    "text": "딥러닝에서 “step(스텝)”은 주로 훈련 알고리즘을 실행하거나 모델 파라미터를 업데이트하는 한 단위 작업을 나타냅니다. 데이터의 여러 배치(batch)를 사용하여 학습을 진행하며, 전체 학습 데이터를 여러 번(epoch) 사용하는 것이 일반적입니다. 반복 횟수는 학습의 효과와 모델의 수렴에 영향을 미칩니다."
   },
   {
     "objectID": "dictionary/terms/architecture.html",
@@ -476,200 +462,214 @@
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/step.html",
-    "href": "dictionary/terms/step.html",
-    "title": "step",
-    "section": "",
-    "text": "딥러닝에서 “step(스텝)”은 주로 훈련 알고리즘을 실행하거나 모델 파라미터를 업데이트하는 한 단위 작업을 나타냅니다. 데이터의 여러 배치(batch)를 사용하여 학습을 진행하며, 전체 학습 데이터를 여러 번(epoch) 사용하는 것이 일반적입니다. 반복 횟수는 학습의 효과와 모델의 수렴에 영향을 미칩니다."
-  },
-  {
-    "objectID": "dictionary/terms/push.html",
-    "href": "dictionary/terms/push.html",
-    "title": "push",
+    "objectID": "dictionary/terms/method_1.html",
+    "href": "dictionary/terms/method_1.html",
+    "title": "model",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/optimizer.html",
-    "href": "dictionary/terms/optimizer.html",
-    "title": "optimizer",
+    "objectID": "dictionary/terms/silent_error.html",
+    "href": "dictionary/terms/silent_error.html",
+    "title": "silent error",
+    "section": "",
+    "text": "조용한 오류(silent error)는 프로그램 또는 코드 실행 중에 발생하는 오류 중에서 명시적인 오류 메시지나 경고 없이 발생하며, 프로그램이 비정상적으로 동작하거나 예상치 못한 결과를 내는 오류를 가리킵니다. 이러한 오류는 디버깅하기 어려우며, 프로그램의 안정성과 신뢰성에 영향을 미칠 수 있습니다.\n조용한 오류가 발생하는 경우, 프로그램은 오류가 있음에도 불구하고 실행을 계속하며, 이로 인해 예기치 않은 결과를 생성할 수 있습니다."
+  },
+  {
+    "objectID": "dictionary/terms/silent_error.html#참조",
+    "href": "dictionary/terms/silent_error.html#참조",
+    "title": "silent error",
+    "section": "참조",
+    "text": "참조\n\n[silent error의 의미]. https://chat.openai.com/"
+  },
+  {
+    "objectID": "dictionary/terms/hidden_state.html",
+    "href": "dictionary/terms/hidden_state.html",
+    "title": "hidden state",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/inference.html",
-    "href": "dictionary/terms/inference.html",
-    "title": "inference",
+    "objectID": "dictionary/terms/dataset.html",
+    "href": "dictionary/terms/dataset.html",
+    "title": "dataset",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/custom.html",
-    "href": "dictionary/terms/custom.html",
+    "objectID": "dictionary/terms/attention_mask.html",
+    "href": "dictionary/terms/attention_mask.html",
+    "title": "attention mask",
+    "section": "",
+    "text": "“Attention mask”는 주로 자연어 처리와 관련된 딥 러닝 모델에서 사용되는 개념입니다. 이것은 주로 트랜스포머(Transformer) 아키텍처와 관련이 있으며, 특히 어텐션 메커니즘(attention mechanism)을 사용하는 모델에서 주로 나타납니다.\n어텐션 메커니즘은 입력 시퀀스의 각 요소에 가중치를 할당하여 중요한 부분을 강조하고, 모델이 해당 부분에 집중하도록 돕는 기술입니다. 이 때, 어텐션 가중치(attention weights)를 결정하는 데 사용되는 정보가 “attention mask”입니다."
+  },
+  {
+    "objectID": "dictionary/terms/attention_mask.html#참조",
+    "href": "dictionary/terms/attention_mask.html#참조",
+    "title": "attention mask",
+    "section": "참조",
+    "text": "참조\n\nChatgpt3.5. (2023, 10월 8일). OpenAI. [attention mask의 의미]. https://chat.openai.com/"
+  },
+  {
+    "objectID": "dictionary/terms/sequence.html",
+    "href": "dictionary/terms/sequence.html",
+    "title": "sequence",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/token.html",
+    "href": "dictionary/terms/token.html",
+    "title": "token",
+    "section": "",
+    "text": "딥러닝에서 “token(토큰)”은 텍스트 데이터를 작은 단위로 분할하는 과정에서 나오는 기본적인 단위를 나타냅니다. 이 단위는 일반적으로 단어, 부분 단어, 문자 또는 하위 단어 단위일 수 있습니다. 토큰화(tokenization)는 텍스트 데이터를 이러한 토큰으로 분해하는 과정을 말합니다."
+  },
+  {
+    "objectID": "dictionary/terms/token.html#참조",
+    "href": "dictionary/terms/token.html#참조",
+    "title": "token",
+    "section": "참조",
+    "text": "참조\n\n[딥러닝 token의 의미]. https://chat.openai.com/"
+  },
+  {
+    "objectID": "dictionary/terms/vocoder.html",
+    "href": "dictionary/terms/vocoder.html",
+    "title": "vocoder",
+    "section": "",
+    "text": "오디오를 생성하는 모델은 로그 멜 스펙트로그램을 출력으로 생성하는 것이 일반적입니다. 사람이 인지할 수 있는 파형으로 변경하는 신경망인 보코더를 사용합니다. Bark와 같은 오디오 딥러닝 모델은 원시 음성 파형을 직접 생성합니다. 이와 같은 모델들은 별도의 보코더가 필요하지 않습니다."
+  },
+  {
+    "objectID": "dictionary/terms/vocoder.html#참조",
+    "href": "dictionary/terms/vocoder.html#참조",
+    "title": "vocoder",
+    "section": "참조",
+    "text": "참조\n\nhttps://huggingface.co/learn/audio-course/en/chapter6/pre-trained_models"
+  },
+  {
+    "objectID": "dictionary/terms/data_collator.html",
+    "href": "dictionary/terms/data_collator.html",
+    "title": "data collator",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/chunk.html",
+    "href": "dictionary/terms/chunk.html",
+    "title": "chunk",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/automatic_speech_recognition.html",
+    "href": "dictionary/terms/automatic_speech_recognition.html",
+    "title": "automatic speech recognition",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/reproducibility.html",
+    "href": "dictionary/terms/reproducibility.html",
+    "title": "reproducibility",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/argumentation.html",
+    "href": "dictionary/terms/argumentation.html",
+    "title": "argumentation",
+    "section": "",
+    "text": "딥러닝 영상처리 모델의 데이터 증강(augmentation)은 훈련 데이터를 다양하게 변형시켜 모델의 성능을 향상시키는 기법을 말합니다. 데이터 증강은 원본 훈련 데이터를 변형하여 새로운 데이터를 생성하고 이를 훈련에 활용하는 것입니다. 이로 인해 모델은 더 다양한 상황과 조건에서 일반화하고, 과적합을 줄이는데 도움이 됩니다.\n딥러닝 모델은 많은 훈련 데이터를 필요로 하기 때문에, 특히 영상처리 분야에서는 많은 양의 라벨링된 데이터를 구하기 어려울 수 있습니다. 데이터 증강은 이러한 한계를 극복하고, 작은 데이터셋으로도 더 효과적인 훈련이 가능하도록 돕습니다.\n영상처리 분야에서 흔히 사용되는 데이터 증강 방법들은 다음과 같습니다:\n데이터 증강은 더 다양한 데이터를 확보하고, 모델의 일반화 능력을 향상시켜 영상처리 애플리케이션에서 더 좋은 성능을 달성하는데 도움이 됩니다."
+  },
+  {
+    "objectID": "dictionary/terms/argumentation.html#참조",
+    "href": "dictionary/terms/argumentation.html#참조",
+    "title": "argumentation",
+    "section": "참조",
+    "text": "참조\n\nChatgpt3.5. (2023, 8월 4일). OpenAI. [딥러닝 영상처리 모델, augumentation 의미]. https://chat.openai.com/\nAPA 출처 생성기 (2023, 8월 4일). ESSAYREVIEW. https://essayreview.co.kr/citation-generator"
+  },
+  {
+    "objectID": "dictionary/terms/multi-image_batches.html",
+    "href": "dictionary/terms/multi-image_batches.html",
+    "title": "multi-image batches",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/inpainting.html",
+    "href": "dictionary/terms/inpainting.html",
+    "title": "inpainting",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/arguments.html",
+    "href": "dictionary/terms/arguments.html",
+    "title": "arguments",
+    "section": "",
+    "text": "“arguments”는 컴퓨터 프로그래밍에서 사용되는 용어로, 함수 내에서 전달된 인자(인수)에 접근하거나 관리하기 위해 사용됩니다. 다양한 프로그래밍 언어에서 이 용어를 사용하지만, 그 구체적인 사용 방법은 언어에 따라 다를 수 있습니다.\n일반적으로 “arguments”는 함수 내에서 다음과 같은 목적으로 사용됩니다:\n인수(Arguments)에 접근: 함수가 호출될 때 전달된 모든 인수(매개변수)에 접근할 수 있도록 합니다. 이를 통해 함수 내에서 인수의 값을 읽을 수 있습니다."
+  },
+  {
+    "objectID": "dictionary/terms/arguments.html#참조",
+    "href": "dictionary/terms/arguments.html#참조",
+    "title": "arguments",
+    "section": "참조",
+    "text": "참조\n\nChatgpt3.5. (2023, 8월 4일). OpenAI. [arguments의 의미]. https://chat.openai.com/"
+  },
+  {
+    "objectID": "dictionary/terms/evaluation_method.html",
+    "href": "dictionary/terms/evaluation_method.html",
+    "title": "evaluation method",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/dimensions_ordering.html",
+    "href": "dictionary/terms/dimensions_ordering.html",
+    "title": "dimensions ordering",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/down_stream.html",
+    "href": "dictionary/terms/down_stream.html",
+    "title": "down stream",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/fine_tunning.html",
+    "href": "dictionary/terms/fine_tunning.html",
+    "title": "fine tunning",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/custom_1.html",
+    "href": "dictionary/terms/custom_1.html",
     "title": "custom",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/branch.html",
-    "href": "dictionary/terms/branch.html",
-    "title": "branch",
+    "objectID": "dictionary/terms/pad.html",
+    "href": "dictionary/terms/pad.html",
+    "title": "parameter",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/casual_language_model.html",
-    "href": "dictionary/terms/casual_language_model.html",
-    "title": "causal language model",
+    "objectID": "dictionary/terms/epoch.html",
+    "href": "dictionary/terms/epoch.html",
+    "title": "epoch",
     "section": "",
-    "text": "“Causal language model”은 언어 모델링과 자연어 처리 분야에서 사용되는 모델 중 하나로, 주로 시퀀스 데이터에서 다음 단어나 토큰을 예측하기 위해 사용됩니다. 이 모델은 인과 관계(causal relationship)를 고려하여 시퀀스 데이터를 생성하거나 분석하는 데 중요한 역할을 합니다.\n이러한 이유로 Causal language model은 다양한 응용 분야에서 데이터 분석, 예측, 생성, 이해, 추천 등의 작업을 효과적으로 수행하는 데 활용되며, 자연어 처리 분야에서 매우 중요한 역할을 합니다."
+    "text": "딥러닝에서 에폭은 학습 데이터 전체를 한 번 순회하는 것을 의미합니다. 딥러닝 모델의 가중치는 데이터 묶음인 배치를 통해 업데이트 됩니다. 따라서 배치 크기에 따라서 1 에폭에 훈련되는 횟수가 달라집니다. 예를 들어 전체 100개의 데이터를 10개의 샘플을 갖는 배치 사이즈로 훈련하는 경우 1 에폭에 10회의 훈련이 진행됩니다."
   },
   {
-    "objectID": "dictionary/terms/casual_language_model.html#참조",
-    "href": "dictionary/terms/casual_language_model.html#참조",
-    "title": "causal language model",
+    "objectID": "dictionary/terms/epoch.html#참조",
+    "href": "dictionary/terms/epoch.html#참조",
+    "title": "epoch",
     "section": "참조",
-    "text": "참조\n\nChatgpt3.5. (2023, 10월 8일). OpenAI. [causal language model의 의미, causal language model을 사용하는 이유]. https://chat.openai.com/"
-  },
-  {
-    "objectID": "dictionary/terms/speech_enhancement.html",
-    "href": "dictionary/terms/speech_enhancement.html",
-    "title": "speech enhancement",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/convolution_1.html",
-    "href": "dictionary/terms/convolution_1.html",
-    "title": "convolution",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/learning.html",
-    "href": "dictionary/terms/learning.html",
-    "title": "learning",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/resume.html",
-    "href": "dictionary/terms/resume.html",
-    "title": "resume",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/directory.html",
-    "href": "dictionary/terms/directory.html",
-    "title": "directory",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/lesson.html",
-    "href": "dictionary/terms/lesson.html",
-    "title": "lesson",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/hyperparameter.html",
-    "href": "dictionary/terms/hyperparameter.html",
-    "title": "hyperparameter",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/seperator.html",
-    "href": "dictionary/terms/seperator.html",
-    "title": "seperator",
-    "section": "",
-    "text": "딥러닝에서 분할 토큰은 주로 언어 모델(예: GPT, BERT)을 사용하는 자연어 처리(NLP) 작업에서 텍스트를 토큰(token)으로 분할하고, 분할된 토큰 중 하나가 텍스트의 끝이나 다른 문맥적 경계를 나타내는 데 사용되는 특수한 토큰을 가리킵니다.\n일반적으로 언어 모델은 입력 텍스트를 토큰 단위로 분할하고, 각 토큰에 대한 임베딩 벡터를 생성하여 텍스트를 처리합니다. 이때 텍스트의 문맥을 이해하기 위해 각 문장이나 문단의 끝을 나타내는 특별한 토큰이 필요할 수 있습니다. 이 특별한 토큰은 문장 또는 문단 간의 경계를 표시하고 모델에게 언어의 문맥을 알리는 데 사용됩니다.\n예를 들어, 문장 “나는 고양이를 좋아해.”와 “고양이는 너무 귀여워.”가 있다고 가정해 봅시다. 이 두 문장을 토큰화하면 다음과 같을 수 있습니다:\n문장 1: [“나”, “는”, “고양이”, “를”, “좋아해”, “.”] 문장 2: [“고양이”, “는”, “너무”, “귀여워”, “.”] 여기서 마침표(“.”)는 각 문장의 끝을 나타내는 특수한 토큰으로 분할 토큰입니다. 이를 통해 모델은 두 문장이 서로 다른 문장임을 이해하고, 문장 간의 관계를 파악할 수 있습니다.\n또한, 분할 토큰은 대화형 언어 처리 작업에서 각 대화 발화를 구분하는 데도 사용될 수 있습니다. 대화 형식에서는 대개 대화 참가자의 발화 간에 경계를 나타내기 위해 분할 토큰을 사용합니다."
-  },
-  {
-    "objectID": "dictionary/terms/seperator.html#참조",
-    "href": "dictionary/terms/seperator.html#참조",
-    "title": "seperator",
-    "section": "참조",
-    "text": "참조\n\n[딥러닝 분할토큰의 의미]. https://chat.openai.com/"
-  },
-  {
-    "objectID": "dictionary/terms/clustering.html",
-    "href": "dictionary/terms/clustering.html",
-    "title": "clustering",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/xlm-roberta.html",
-    "href": "dictionary/terms/xlm-roberta.html",
-    "title": "XLM-RoBERTa",
-    "section": "",
-    "text": "XLM-RoBERTa 모델은 Unsupervised Cross-lingual Representation Learning at Scale에서 제안 되었습니다 . 2019년에 출시된 Facebook의 RoBERTa 모델을 기반으로 합니다. 2.5TB의 필터링된 CommonCrawl 데이터에서 훈련된 대규모 다국어 언어 모델입니다.\nRoBERTa 모델은 RoBERTa: A Robustly Optimized BERT Pretraining Approach에서 제안되었습니다. 2018년에 출시된 Google의 BERT 모델을 기반으로 합니다. BERT를 기반으로 하며 주요 하이퍼파라미터를 수정하여 다음 문장 사전 훈련 목표를 제거하고 훨씬 더 큰 미니 배치 및 학습 속도로 훈련합니다."
-  },
-  {
-    "objectID": "dictionary/terms/xlm-roberta.html#section",
-    "href": "dictionary/terms/xlm-roberta.html#section",
-    "title": "XLM-RoBERTa",
-    "section": "",
-    "text": "XLM-RoBERTa 모델은 Unsupervised Cross-lingual Representation Learning at Scale에서 제안 되었습니다 . 2019년에 출시된 Facebook의 RoBERTa 모델을 기반으로 합니다. 2.5TB의 필터링된 CommonCrawl 데이터에서 훈련된 대규모 다국어 언어 모델입니다.\nRoBERTa 모델은 RoBERTa: A Robustly Optimized BERT Pretraining Approach에서 제안되었습니다. 2018년에 출시된 Google의 BERT 모델을 기반으로 합니다. BERT를 기반으로 하며 주요 하이퍼파라미터를 수정하여 다음 문장 사전 훈련 목표를 제거하고 훨씬 더 큰 미니 배치 및 학습 속도로 훈련합니다."
-  },
-  {
-    "objectID": "dictionary/terms/xlm-roberta.html#참조",
-    "href": "dictionary/terms/xlm-roberta.html#참조",
-    "title": "XLM-RoBERTa",
-    "section": "참조",
-    "text": "참조\n\nhttps://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment\nhttps://github.com/facebookresearch/fairseq/tree/main/examples/xlmr"
-  },
-  {
-    "objectID": "dictionary/terms/directory_1.html",
-    "href": "dictionary/terms/directory_1.html",
-    "title": "directory",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/code_snippet.html",
-    "href": "dictionary/terms/code_snippet.html",
-    "title": "code snippet",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/training.html",
-    "href": "dictionary/terms/training.html",
-    "title": "training",
-    "section": "",
-    "text": "딥러닝에서 훈련(training)은 모델을 데이터에 훈련시키는 과정을 의미합니다. 이 과정은 모델이 데이터에서 패턴을 이해하고 문제를 해결하기 위한 모델을 조정하는 것을 포함합니다.\n훈련은 입력 데이터를 모델에 주입하고, 모델은 예측을 수행한 후 손실 함수를 사용하여 오차를 계산하고 역전파(backpropagation)를 통해 파라미터를 업데이트합니다. 이 과정은 여러 에폭(epochs) 동안 반복됩니다."
-  },
-  {
-    "objectID": "dictionary/terms/training.html#참조",
-    "href": "dictionary/terms/training.html#참조",
-    "title": "training",
-    "section": "참조",
-    "text": "참조\n\n[딥러닝 training의 의미]. https://chat.openai.com/"
-  },
-  {
-    "objectID": "dictionary/terms/pre_train.html",
-    "href": "dictionary/terms/pre_train.html",
-    "title": "pre-train",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/license.html",
-    "href": "dictionary/terms/license.html",
-    "title": "license",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/section.html",
-    "href": "dictionary/terms/section.html",
-    "title": "section",
-    "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "참조\n\nhttps://machinelearningmastery.com/difference-between-a-batch-and-an-epoch"
   },
   {
     "objectID": "dictionary/terms/distributed_training.html",
@@ -704,6 +704,6 @@
     "href": "dictionary/glossary.html",
     "title": "용어 사전",
     "section": "",
-    "text": "딥러닝관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다. 딥러닝 문서 번역에 관심있는 분들 모두 참가가 가능하니 관심있는 분들의 많은 참여 부탁드립니다.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nvocoder\n\n\n\n\n\n보코더\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/chapter0/introduction\n\n\n\n\n\n\n\n\ntraining\n\n\n\n\n\n훈련\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ntokenizer\n\n\n\n\n\n토크나이저\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ntoken\n\n\n\n\n\n토큰\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nsubmodule\n\n\n\n\n\n서브모듈\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nstep\n\n\n\n\n\n스텝\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nspeech enhancement\n\n\n\n\n\n음성 향상\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/\n\n\n\n\n\n\n\n\nspectrogram\n\n\n\n\n\n스펙토그램\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/chapter0/introduction\n\n\n\n\n\n\n\n\nsilent error\n\n\n\n\n\n조용한 오류\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nsequence\n\n\n\n\n\n시퀀스\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nseperator\n\n\n\n\n\n분할 토큰\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nsection\n\n\n\n\n\n섹션\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nresume\n\n\n\n\n\n재개\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nreproducibility\n\n\n\n\n\n재현성\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nrepository\n\n\n\n\n\n리포지토리\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\npush\n\n\n\n\n\n푸시\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nprompt\n\n\n\n\n\n프롬프트\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nprior-preserving\n\n\n\n\n\n사전 보존(prior-preserving)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\npre-train\n\n\n\n\n\n사전학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nparameter\n\n\n\n\n\n매개변수\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\noptimizer\n\n\n\n\n\n옵티마이저\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nmulti-image batches\n\n\n\n\n\n다중 이미지 배치(multi-image batches)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nmodel\n\n\n\n\n\n모델\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nmixed precision\n\n\n\n\n\n혼합 정밀도(mixed precision)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nmethod\n\n\n\n\n\n매소드\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nload\n\n\n\n\n\n가져오다\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nlicense\n\n\n\n\n\n라이선스\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nlesson\n\n\n\n\n\n단원\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nlearning\n\n\n\n\n\n학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ninstance\n\n\n\n\n\n인스턴스\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ninpainting\n\n\n\n\n\n인페인팅\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ninference\n\n\n\n\n\n추론\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nhyperparameter\n\n\n\n\n\n하이퍼파라미터\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nhidden state\n\n\n\n\n\n은닉 상태\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nhalf precision\n\n\n\n\n\n반정밀도(half precision)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ngradient\n\n\n\n\n\n그래디언트\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nfine tunning\n\n\n\n\n\n파인튜닝\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfine tunning\n\n\n\n\n\n미세 조정\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfeature matrix\n\n\n\n\n\n특성 행렬\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfeature extraction\n\n\n\n\n\n특성 추출\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nevaluation method\n\n\n\n\n\n평가 방법\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nepoch\n\n\n\n\n\n에폭\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nentity\n\n\n\n\n\n개체\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndown stream\n\n\n\n\n\n다운 스트림\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndistributed training\n\n\n\n\n\n분산 학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndirectory\n\n\n\n\n\n디렉터리\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndirectory\n\n\n\n\n\n디렉토리\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndimensions ordering\n\n\n\n\n\n차원순서(dimensions ordering)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndenoise\n\n\n\n\n\n디노이즈\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndataset\n\n\n\n\n\n데이터 세트\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndata collator\n\n\n\n\n\n데이터 콜레이터\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncustom\n\n\n\n\n\n사용자정의\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncustom\n\n\n\n\n\n커스텀\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ncrob\n\n\n\n\n\n자르기\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nconvolution\n\n\n\n\n\n합성곱\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nconvolution\n\n\n\n\n\n컨볼루션\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ncode snippet\n\n\n\n\n\n예시 코드\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nclustering\n\n\n\n\n\n군집화\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nchunk\n\n\n\n\n\n묶음\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncheckpoint\n\n\n\n\n\n체크포인트\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncausal language model\n\n\n\n\n\n인과적 언어 모델링\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nbranch\n\n\n\n\n\n브랜치\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nbatch\n\n\n\n\n\n배치\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nbackward\n\n\n\n\n\n역방향\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nautoregressive model\n\n\n\n\n\n자기회귀 모델\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nautomatic speech recognition\n\n\n\n\n\n자동음성인식\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nattention mask\n\n\n\n\n\n어텐션 마스크\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\narguments\n\n\n\n\n\n인수\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nargumentation\n\n\n\n\n\n증강\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\narchitecture\n\n\n\n\n\n아키텍처\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nXLM-RoBERTa\n\n\n\n\n\nXLM-RoBERTa\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/model_doc/xlm-roberta\n\n\n\n\n\n\nNo matching items"
+    "text": "딥러닝관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다. 딥러닝 문서 번역에 관심있는 분들 모두 참가가 가능하니 관심있는 분들의 많은 참여 부탁드립니다.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nXLM-RoBERTa\n\n\n\n\n\nXLM-RoBERTa\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/model_doc/xlm-roberta\n\n\n\n\n\n\n\n\narchitecture\n\n\n\n\n\n아키텍처\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nargumentation\n\n\n\n\n\n증강\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\narguments\n\n\n\n\n\n인수\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nattention mask\n\n\n\n\n\n어텐션 마스크\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nautomatic speech recognition\n\n\n\n\n\n자동음성인식\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nautoregressive model\n\n\n\n\n\n자기회귀 모델\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nbackward\n\n\n\n\n\n역방향\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nbatch\n\n\n\n\n\n배치\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nbranch\n\n\n\n\n\n브랜치\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ncausal language model\n\n\n\n\n\n인과적 언어 모델링\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncheckpoint\n\n\n\n\n\n체크포인트\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nchunk\n\n\n\n\n\n묶음\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nclustering\n\n\n\n\n\n군집화\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncode snippet\n\n\n\n\n\n예시 코드\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nconvolution\n\n\n\n\n\n합성곱\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nconvolution\n\n\n\n\n\n컨볼루션\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ncrob\n\n\n\n\n\n자르기\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncustom\n\n\n\n\n\n사용자정의\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncustom\n\n\n\n\n\n커스텀\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndata collator\n\n\n\n\n\n데이터 콜레이터\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndataset\n\n\n\n\n\n데이터 세트\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndenoise\n\n\n\n\n\n디노이즈\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndimensions ordering\n\n\n\n\n\n차원순서(dimensions ordering)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndirectory\n\n\n\n\n\n디렉터리\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndirectory\n\n\n\n\n\n디렉토리\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndistributed training\n\n\n\n\n\n분산 학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndown stream\n\n\n\n\n\n다운 스트림\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nentity\n\n\n\n\n\n개체\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nepoch\n\n\n\n\n\n에폭\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nevaluation method\n\n\n\n\n\n평가 방법\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfeature extraction\n\n\n\n\n\n특성 추출\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfeature matrix\n\n\n\n\n\n특성 행렬\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfine tunning\n\n\n\n\n\n파인튜닝\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfine tunning\n\n\n\n\n\n미세 조정\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ngradient\n\n\n\n\n\n그래디언트\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nhalf precision\n\n\n\n\n\n반정밀도(half precision)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nhidden state\n\n\n\n\n\n은닉 상태\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nhyperparameter\n\n\n\n\n\n하이퍼파라미터\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ninference\n\n\n\n\n\n추론\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ninpainting\n\n\n\n\n\n인페인팅\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ninstance\n\n\n\n\n\n인스턴스\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nlearning\n\n\n\n\n\n학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nlesson\n\n\n\n\n\n단원\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nlicense\n\n\n\n\n\n라이선스\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nload\n\n\n\n\n\n가져오다\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nmethod\n\n\n\n\n\n매소드\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nmixed precision\n\n\n\n\n\n혼합 정밀도(mixed precision)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nmodel\n\n\n\n\n\n모델\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nmulti-image batches\n\n\n\n\n\n다중 이미지 배치(multi-image batches)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\noptimizer\n\n\n\n\n\n옵티마이저\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nparameter\n\n\n\n\n\n매개변수\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\npre-train\n\n\n\n\n\n사전학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nprior-preserving\n\n\n\n\n\n사전 보존(prior-preserving)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nprompt\n\n\n\n\n\n프롬프트\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\npush\n\n\n\n\n\n푸시\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nrepository\n\n\n\n\n\n리포지토리\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nreproducibility\n\n\n\n\n\n재현성\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nresume\n\n\n\n\n\n재개\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nsection\n\n\n\n\n\n섹션\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nseperator\n\n\n\n\n\n분할 토큰\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nsequence\n\n\n\n\n\n시퀀스\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nsilent error\n\n\n\n\n\n조용한 오류\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nspectrogram\n\n\n\n\n\n스펙토그램\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/chapter0/introduction\n\n\n\n\n\n\n\n\nspeech enhancement\n\n\n\n\n\n음성 향상\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/\n\n\n\n\n\n\n\n\nstep\n\n\n\n\n\n스텝\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nsubmodule\n\n\n\n\n\n서브모듈\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ntoken\n\n\n\n\n\n토큰\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ntokenizer\n\n\n\n\n\n토크나이저\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ntraining\n\n\n\n\n\n훈련\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nvocoder\n\n\n\n\n\n보코더\n\n\n\n\n\n\nhuggingface_audio\n\n\nhttps://huggingface.co/learn/audio-course/chapter0/introduction\n\n\n\n\n\n\nNo matching items"
   }
 ]
