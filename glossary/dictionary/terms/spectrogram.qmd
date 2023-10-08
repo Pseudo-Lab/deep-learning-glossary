@@ -1,8 +1,14 @@
 ---
 title: 'spectrogram'
-description: '음성 향상'
+description: '스펙토그램'
 url: https://huggingface.co/learn/audio-course/chapter0/introduction
 ---
 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction" target="_blank"><img   loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" ></a>
 ---
-설명을 추가해주세요.
+
+스펙트로그램(Spectrogram)은 시간과 주파수를 2차원 그래픽 형태로 나타내는 시각화 도구입니다. 스펙트로그램은 주로 오디오 신호, 음악, 음성 등의 시계열 데이터를 분석하고 표현하는 데 사용됩니다.
+
+스펙트로그램은 시간에 따른 주파수 변화를 시각적으로 보여줍니다. 가로 축은 시간을, 세로 축은 주파수를 나타내며, 플롯의 색상 농도는 해당 시간과 주파수에서의 신호 강도를 나타냅니다.
+
+## 참조
+1. [spectogram의 의미]. https://chat.openai.com/
