@@ -95,7 +95,14 @@
     "href": "dictionary/terms/code_snippet.html",
     "title": "code snippet",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "“Code snippet”은 일반적으로 소프트웨어 개발에서 사용되는 용어로, 작은 부분의 코드 조각 또는 프로그래밍 코드의 짧은 일부분을 가리킵니다. 이러한 코드 조각은 주로 특정 작업을 수행하기 위해 사용되며, 보통 몇 줄에서 수십 줄 정도의 길이일 수 있습니다."
+  },
+  {
+    "objectID": "dictionary/terms/code_snippet.html#참조",
+    "href": "dictionary/terms/code_snippet.html#참조",
+    "title": "code snippet",
+    "section": "참조",
+    "text": "참조\n\n[code snippet의 의미]. https://chat.openai.com/"
   },
   {
     "objectID": "dictionary/terms/directory_1.html",
@@ -130,7 +137,14 @@
     "href": "dictionary/terms/clustering.html",
     "title": "clustering",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "딥러닝에서 “clustering”은 데이터를 비슷한 특성 또는 패턴을 가진 그룹으로 나누는 기술 또는 과정을 가리킵니다. 클러스터링은 비지도 학습(Unsupervised Learning)의 일부로, 데이터에 숨겨진 구조를 발견하고 이를 사용하여 데이터를 그룹화합니다."
+  },
+  {
+    "objectID": "dictionary/terms/clustering.html#참조",
+    "href": "dictionary/terms/clustering.html#참조",
+    "title": "clustering",
+    "section": "참조",
+    "text": "참조\n\n[딥러닝 clustering의 의미]. https://chat.openai.com/"
   },
   {
     "objectID": "dictionary/terms/seperator.html",
@@ -186,7 +200,14 @@
     "href": "dictionary/terms/convolution_1.html",
     "title": "convolution",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "이 용어는 주로 이미지 처리 및 패턴 인식 작업에서 사용되며, 입력 데이터와 필터(또는 커널) 간의 연산을 나타냅니다. 합성곱은 필터를 입력 데이터 위를 슬라이딩하면서 계산됩니다. 이렇게 필터를 이동시키면 입력 데이터의 다양한 위치에서 특징을 추출할 수 있습니다."
+  },
+  {
+    "objectID": "dictionary/terms/convolution_1.html#참조",
+    "href": "dictionary/terms/convolution_1.html#참조",
+    "title": "convolution",
+    "section": "참조",
+    "text": "참조\n\n[합성곱의 의미]. https://chat.openai.com/"
   },
   {
     "objectID": "dictionary/terms/speech_enhancement.html",
@@ -312,7 +333,14 @@
     "href": "dictionary/terms/convolution.html",
     "title": "convolution",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "이 용어는 주로 이미지 처리 및 패턴 인식 작업에서 사용되며, 입력 데이터와 필터(또는 커널) 간의 연산을 나타냅니다. 합성곱은 필터를 입력 데이터 위를 슬라이딩하면서 계산됩니다. 이렇게 필터를 이동시키면 입력 데이터의 다양한 위치에서 특징을 추출할 수 있습니다."
+  },
+  {
+    "objectID": "dictionary/terms/convolution.html#참조",
+    "href": "dictionary/terms/convolution.html#참조",
+    "title": "convolution",
+    "section": "참조",
+    "text": "참조\n\n[합성곱의 의미]. https://chat.openai.com/"
   },
   {
     "objectID": "dictionary/terms/mixed_precision.html",
@@ -459,7 +487,14 @@
     "href": "dictionary/terms/prompt.html",
     "title": "prompt",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "딥러닝에서 prompt는 모델에게 어떤 작업을 수행하거나 정보를 요청하기 위한 입력 또는 지시사항을 가리킵니다. 이것은 모델이 어떤 작업을 수행해야 하는 것을 지정하는 텍스트 또는 문장으로 제공됩니다."
+  },
+  {
+    "objectID": "dictionary/terms/prompt.html#참조",
+    "href": "dictionary/terms/prompt.html#참조",
+    "title": "prompt",
+    "section": "참조",
+    "text": "참조\n\n[딥러닝 prompt의 의미]. https://chat.openai.com/"
   },
   {
     "objectID": "dictionary/terms/method_1.html",
@@ -536,7 +571,7 @@
     "href": "dictionary/terms/vocoder.html",
     "title": "vocoder",
     "section": "",
-    "text": "오디오를 생성하는 모델은 로그 멜 스펙트로그램을 출력으로 생성하는 것이 일반적입니다. 사람이 인지할 수 있는 파형으로 변경하는 신경망인 보코더를 사용합니다. Bark와 같은 오디오 딥러닝 모델은 원시 음성 파형을 직접 생성합니다. 이와 같은 모델들은 별도의 보코더가 필요하지 않습니다."
+    "text": "오디오를 생성하는 모델은 로그 멜 스펙트로그램을 출력으로 생성하는 것이 일반적입니다. 따라서 사람이 인지할 수 있는 파형으로 변경하는 신경망인 보코더를 최종 출력단으로 사용합니다. 하지만 Bark와 같은 오디오 딥러닝 모델은 원시 음성 파형을 직접 생성하는 모델들은 별도의 보코더가 필요하지 않습니다."
   },
   {
     "objectID": "dictionary/terms/vocoder.html#참조",
@@ -550,14 +585,28 @@
     "href": "dictionary/terms/data_collator.html",
     "title": "data collator",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "데이터 콜레이터는 딥러닝에서 데이터를 준비하고 처리하는 역할을 하는 소프트웨어 또는 코드의 일부분을 가리키는 용어입니다. 데이터 콜렉터는 특히 자연어 처리(NLP) 분야에서 많이 사용되며, 모델의 훈련 데이터를 처리하고 배치를 생성하는 작업을 수행합니다."
+  },
+  {
+    "objectID": "dictionary/terms/data_collator.html#참조",
+    "href": "dictionary/terms/data_collator.html#참조",
+    "title": "data collator",
+    "section": "참조",
+    "text": "참조\n\n[data collator 의미]. https://chat.openai.com/"
   },
   {
     "objectID": "dictionary/terms/chunk.html",
     "href": "dictionary/terms/chunk.html",
     "title": "chunk",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "딥러닝에서 chunk는 일반적으로 데이터를 처리하고 분석하기 위해 입력 데이터를 덩어리로 나누는 작업을 가리키는 용어입니다. 이것은 주로 데이터의 효율적인 처리와 모델의 훈련에 관련이 있습니다\n예를 들어, 이미지 데이터를 처리할 때 이미지를 작은 패치로 나누어 각 패치에 대한 예측을 수행하고, 그 결과를 모아 최종 예측을 만들 수 있습니다. 이렇게 하면 메모리 효율성과 병렬 처리의 이점을 얻을 수 있습니다."
+  },
+  {
+    "objectID": "dictionary/terms/chunk.html#참조",
+    "href": "dictionary/terms/chunk.html#참조",
+    "title": "chunk",
+    "section": "참조",
+    "text": "참조\n\n[딥러닝 chunk의 의미]. https://chat.openai.com/"
   },
   {
     "objectID": "dictionary/terms/automatic_speech_recognition.html",
@@ -620,7 +669,14 @@
     "href": "dictionary/terms/evaluation_method.html",
     "title": "evaluation method",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "딥러닝에서 평가 방법은 모델의 성능을 측정하는 데 사용됩니다. 이것은 모델이 주어진 작업을 얼마나 잘 수행하는지를 나타냅니다. 이를 통해 모델의 예측 정확도, 정밀도, 재현율, F1 점수 등과 같은 성능 지표를 계산할 수 있습니다."
+  },
+  {
+    "objectID": "dictionary/terms/evaluation_method.html#참조",
+    "href": "dictionary/terms/evaluation_method.html#참조",
+    "title": "evaluation method",
+    "section": "참조",
+    "text": "참조\n\n[evaluation method의 의미]. https://chat.openai.com/"
   },
   {
     "objectID": "dictionary/terms/dimensions_ordering.html",
