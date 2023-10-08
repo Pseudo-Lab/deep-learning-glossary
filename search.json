@@ -473,7 +473,14 @@
     "href": "dictionary/terms/entity.html",
     "title": "entity",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "소프트웨어 엔티티는 소프트웨어 시스템 또는 소프트웨어 구성 요소 내에서 독립적으로 식별 가능하며, 개별적인 역할 또는 기능을 수행하는 추상적인 개체를 나타냅니다. 이 용어는 소프트웨어 엔지니어링 및 소프트웨어 설계 분야에서 주로 사용되며, 소프트웨어를 구조화하고 이해하는 데 도움이 됩니다. 대표적인 소프트웨어 엔티티는 클래스(Class), 객체(Object), 모듈(Module) 등이 있습니다.\n소프트웨어 엔티티는 소프트웨어 시스템을 설계, 개발 및 관리하는 데 중요한 역할을 합니다. 이러한 엔티티는 소프트웨어의 모듈화, 재사용성, 유지 보수 등과 관련된 다양한 소프트웨어 엔지니어링 원칙을 따르는 데 도움이 됩니다."
+  },
+  {
+    "objectID": "dictionary/terms/entity.html#참조",
+    "href": "dictionary/terms/entity.html#참조",
+    "title": "entity",
+    "section": "참조",
+    "text": "참조\n\n[소프트웨어 entity의 의미]. https://chat.openai.com/"
   },
   {
     "objectID": "dictionary/terms/fine_tunning_1.html",
@@ -760,7 +767,14 @@
     "href": "dictionary/terms/pre_train.html",
     "title": "pre-train",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "사전 학습은 딥러닝 모델을 처음부터 학습시키는 것이 아니라, 미리 학습된 모델의 가중치(weights)와 특성을 활용하여 초기 가중치를 설정하는 기술입니다.\n미리 학습된 모델은 대규모 데이터로 학습되었으며, 일반적인 특징과 패턴을 잘 파악하고 있습니다. 따라서 새로운 작업을 위해 이러한 모델을 사용하면 초기 가중치가 우수하며, 빠른 수렴과 높은 성능을 제공할 수 있습니다."
+  },
+  {
+    "objectID": "dictionary/terms/pre_train.html#참조",
+    "href": "dictionary/terms/pre_train.html#참조",
+    "title": "pre-train",
+    "section": "참조",
+    "text": "참조\n\n[딥러닝 pre train의 의미]. https://chat.openai.com/"
   },
   {
     "objectID": "dictionary/terms/epoch.html",
