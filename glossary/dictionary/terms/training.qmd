@@ -8,3 +8,9 @@ url: https://huggingface.co/docs/transformers/index
 딥러닝에서 훈련(training)은 모델을 데이터에 훈련시키는 과정을 의미합니다. 이 과정은 모델이 데이터에서 패턴을 이해하고 문제를 해결하기 위한 모델을 조정하는 것을 포함합니다.
 
 훈련은 입력 데이터를 모델에 주입하고, 모델은 예측을 수행한 후 손실 함수를 사용하여 오차를 계산하고 역전파(backpropagation)를 통해 파라미터를 업데이트합니다. 이 과정은 여러 [에폭(epochs)](./epoch.qmd) 동안 반복됩니다.
+
+## 참조
+
+1. [딥러닝 training의 의미]. https://chat.openai.com/
+
+
