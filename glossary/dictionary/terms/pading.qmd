@@ -1,0 +1,15 @@
+---
+title: 'pading'
+description: '패딩'
+categories:
+  - Huggingface Transformer
+url: https://huggingface.co/docs/transformers/index
+---
+<a href="https://huggingface.co/docs/transformers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" ></a>
+---
+
+딥러닝에서 `패딩`은 주로 이미지 또는 시퀀스 데이터와 관련된 작업에서 사용되는 용어입니다. `패딩`은 데이터의 크기나 모양을 조절하고 특정 형식 또는 요구사항을 충족시키기 위해 추가된 빈 공간 또는 값입니다.
+
+## 참조
+
+1. [딥러닝 padding의 의미]. https://chat.openai.com/

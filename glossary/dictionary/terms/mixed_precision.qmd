@@ -7,4 +7,9 @@ url: https://huggingface.co/docs/diffusers/index
 ---
 <a href="https://huggingface.co/docs/diffusers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Diffuser-blue" ></a>
 ---
-설명을 추가해주세요.
+
+혼합 정밀도는 딥러닝 모델의 연산을 고정 정밀도와 부동 소수점 정밀도를 혼합하여 처리하는 기술을 가리킵니다. 이 기술은 딥러닝 모델의 효율성을 높이고 계산 리소스를 절약하기 위해 사용됩니다.
+
+## 참조
+
+1. [mixed precision의 의미]. https://chat.openai.com/

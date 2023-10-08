@@ -7,4 +7,11 @@ url: https://huggingface.co/docs/transformers/index
 ---
 <a href="https://huggingface.co/docs/transformers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" ></a>
 ---
-설명을 추가해주세요.
+
+인공 신경망에서 `은닉 상태`는 모델의 내부 상태를 나타내는 개념입니다. 이것은 네트워크의 중간 레이어 또는 히든 레이어에서 발생하는 활성화 값의 집합을 가리킵니다.
+
+은닉 상태는 딥러닝 모델에서 중요한 역할을 하며, 모델의 학습 및 예측 과정에서 정보를 전달하고 변환하는 데 사용됩니다. 구조와 특성은 모델의 종류와 목적에 따라 달라질 수 있으며, 모델을 이해하고 해석하는 데 중요한 개념 중 하나입니다.
+
+## 참조
+
+1. [hidden state의 의미]. https://chat.openai.com/
