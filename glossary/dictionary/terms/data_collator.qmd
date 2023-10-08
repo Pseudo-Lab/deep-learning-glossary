@@ -1,6 +1,8 @@
 ---
 title: 'data collator'
 description: '데이터 콜레이터'
+categories:
+  - Huggingface Transformer
 url: https://huggingface.co/docs/transformers/index
 ---
 <a href="https://huggingface.co/docs/transformers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" ></a>

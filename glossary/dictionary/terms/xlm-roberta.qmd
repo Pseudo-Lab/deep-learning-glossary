@@ -1,6 +1,8 @@
 ---
 title: 'XLM-RoBERTa'
 description: 'XLM-RoBERTa'
+categories:
+  - Huggingface Models
 url: https://huggingface.co/docs/transformers/model_doc/xlm-roberta
 ---
 

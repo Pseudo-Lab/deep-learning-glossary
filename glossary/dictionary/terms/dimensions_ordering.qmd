@@ -1,6 +1,8 @@
 ---
 title: 'dimensions ordering'
 description: '차원순서(dimensions ordering)'
+categories:
+  - Huggingface Diffuser
 url: https://huggingface.co/docs/diffusers/index
 ---
 <a href="https://huggingface.co/docs/diffusers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Diffuser-blue" ></a>

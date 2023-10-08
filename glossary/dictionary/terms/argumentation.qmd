@@ -1,6 +1,8 @@
 ---
 title: 'argumentation'
 description: '증강'
+categories:
+  - Huggingface Transformer
 url: https://huggingface.co/docs/transformers/index
 ---
 

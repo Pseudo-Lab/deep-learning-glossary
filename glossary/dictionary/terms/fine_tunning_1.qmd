@@ -1,6 +1,8 @@
 ---
 title: 'fine tunning'
 description: '파인튜닝'
+categories:
+  - Huggingface Diffuser
 url: https://huggingface.co/docs/transformers/index
 ---
 <a href="https://huggingface.co/docs/diffusers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Diffuser-blue" ></a>

@@ -5,12 +5,13 @@ listing:
   - id: terms
     contents: terms
     sort:
-      - "title desc"
-    categories: false
-    filter-ui: [title, description]
+      - "title"
+    categories: unnumbered
+    sort-ui: [title]
+    filter-ui: [title, category, description]
     type: default
     page-size: 1000
-    fields: [title, description, url]
+    fields: [title, category, description, url]
     image-align: left
 ---
 

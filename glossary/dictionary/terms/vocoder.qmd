@@ -1,5 +1,8 @@
 ---
 title: 'vocoder'
+category: huggingface_audio
+categories:
+  - Huggingface Audio
 description: '보코더'
 url: https://huggingface.co/learn/audio-course/chapter0/introduction
 ---

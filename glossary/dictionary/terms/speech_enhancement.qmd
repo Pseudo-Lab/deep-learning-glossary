@@ -1,6 +1,8 @@
 ---
 title: 'speech enhancement'
 description: '음성 향상'
+categories:
+  - Huggingface Audio
 url: https://huggingface.co/learn/audio-course/
 ---
 <a href="https://huggingface.co/learn/audio-course/" target="_blank"><img   loading="lazy" alt="src: HuggingFace Audio" src="https://img.shields.io/badge/문서-Huggingface_Audio-blue" ></a>

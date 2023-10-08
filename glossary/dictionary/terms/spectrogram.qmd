@@ -1,6 +1,8 @@
 ---
 title: 'spectrogram'
 description: '스펙토그램'
+categories:
+  - Huggingface Audio
 url: https://huggingface.co/learn/audio-course/chapter0/introduction
 ---
 <a href="https://huggingface.co/learn/audio-course/chapter0/introduction" target="_blank"><img   loading="lazy" alt="src: HuggingFace audio" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" ></a>
