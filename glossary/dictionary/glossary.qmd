@@ -10,7 +10,7 @@ listing:
     sort-ui: [title]
     filter-ui: [title, category, description]
     type: default
-    page-size: 1000
+    page-size: 10
     fields: [title, category, description, url]
     image-align: left
 ---

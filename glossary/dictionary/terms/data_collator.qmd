@@ -7,4 +7,8 @@ url: https://huggingface.co/docs/transformers/index
 ---
 <a href="https://huggingface.co/docs/transformers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" ></a>
 ---
-설명을 추가해주세요.
+`데이터 콜레이터`는 딥러닝에서 데이터를 준비하고 처리하는 역할을 하는 소프트웨어 또는 코드의 일부분을 가리키는 용어입니다. 데이터 콜렉터는 특히 자연어 처리(NLP) 분야에서 많이 사용되며, 모델의 훈련 데이터를 처리하고 배치를 생성하는 작업을 수행합니다.
+
+## 참조
+
+1. [data collator 의미]. https://chat.openai.com/

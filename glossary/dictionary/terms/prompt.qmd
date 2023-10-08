@@ -7,4 +7,9 @@ url: https://huggingface.co/docs/diffusers/index
 ---
 <a href="https://huggingface.co/docs/diffusers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Diffuser-blue" ></a>
 ---
-설명을 추가해주세요.
+
+딥러닝에서 `prompt`는 모델에게 어떤 작업을 수행하거나 정보를 요청하기 위한 입력 또는 지시사항을 가리킵니다. 이것은 모델이 어떤 작업을 수행해야 하는 것을 지정하는 텍스트 또는 문장으로 제공됩니다.
+
+## 참조
+
+1. [딥러닝 prompt의 의미]. https://chat.openai.com/

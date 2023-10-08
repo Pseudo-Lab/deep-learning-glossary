@@ -7,4 +7,9 @@ url: https://huggingface.co/docs/transformers/index
 ---
 <a href="https://huggingface.co/docs/transformers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" ></a>
 ---
-설명을 추가해주세요.
+
+딥러닝에서 평가 방법은 모델의 성능을 측정하는 데 사용됩니다. 이것은 모델이 주어진 작업을 얼마나 잘 수행하는지를 나타냅니다. 이를 통해 모델의 예측 정확도, 정밀도, 재현율, F1 점수 등과 같은 성능 지표를 계산할 수 있습니다.
+
+## 참조
+
+1. [evaluation method의 의미]. https://chat.openai.com/
