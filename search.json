@@ -252,158 +252,179 @@
     "text": "참조\n\nChatgpt3.5. (2023, 10월 8일). OpenAI. [attention mask의 의미]. https://chat.openai.com/"
   },
   {
-    "objectID": "dictionary/terms/pading.html",
-    "href": "dictionary/terms/pading.html",
-    "title": "pading",
+    "objectID": "dictionary/terms/causal_inference.html",
+    "href": "dictionary/terms/causal_inference.html",
+    "title": "causal inference",
     "section": "",
-    "text": "딥러닝에서 패딩은 주로 이미지 또는 시퀀스 데이터와 관련된 작업에서 사용되는 용어입니다. 패딩은 데이터의 크기나 모양을 조절하고 특정 형식 또는 요구사항을 충족시키기 위해 추가된 빈 공간 또는 값입니다."
+    "text": "인과추론에 대한 설명"
   },
   {
-    "objectID": "dictionary/terms/pading.html#참조",
-    "href": "dictionary/terms/pading.html#참조",
-    "title": "pading",
+    "objectID": "dictionary/terms/causal_inference.html#참조",
+    "href": "dictionary/terms/causal_inference.html#참조",
+    "title": "causal inference",
     "section": "참조",
-    "text": "참조\n\n[딥러닝 padding의 의미]. https://chat.openai.com/"
+    "text": "참조"
   },
   {
-    "objectID": "dictionary/terms/optimizer.html",
-    "href": "dictionary/terms/optimizer.html",
-    "title": "optimizer",
+    "objectID": "dictionary/terms/dataset.html",
+    "href": "dictionary/terms/dataset.html",
+    "title": "dataset",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "데이터 세트는 딥러닝 모델을 훈련하고 평가하기 위해 사용되는 데이터의 집합을 가리킵니다.\n딥러닝 모델은 데이터셋을 사용하여 가중치를 조정하며 학습합니다. 모델은 입력 데이터와 해당 데이터에 대한 정답(레이블)사이의 관계를 학습하여 예측을 수행할 수 있도록 됩니다.\n딥러닝 데이터세트는 다양한 도메인에서 사용되며, 이미지 분류, 자연어 처리, 음성 인식, 추천 시스템, 자율 주행 자동차, 의료 이미지 분석 등이 있습니다."
   },
   {
-    "objectID": "dictionary/terms/push.html",
-    "href": "dictionary/terms/push.html",
-    "title": "push",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/step.html",
-    "href": "dictionary/terms/step.html",
-    "title": "step",
-    "section": "",
-    "text": "딥러닝에서 “step(스텝)”은 주로 훈련 알고리즘을 실행하거나 모델 파라미터를 업데이트하는 한 단위 작업을 나타냅니다. 데이터의 여러 배치(batch)를 사용하여 학습을 진행하며, 전체 학습 데이터를 여러 번(epoch) 사용하는 것이 일반적입니다. 반복 횟수는 학습의 효과와 모델의 수렴에 영향을 미칩니다."
-  },
-  {
-    "objectID": "dictionary/terms/architecture.html",
-    "href": "dictionary/terms/architecture.html",
-    "title": "architecture",
-    "section": "",
-    "text": "아키텍처(architecture)는 다양한 분야에서 사용되는 용어로, 그 의미는 맥락에 따라 다를 수 있습니다. 주로 컴퓨터 과학 및 정보 기술 분야에서 아키텍처란 다음과 같은 의미로 사용됩니다.\n소프트웨어 아키텍처(Software Architecture): 소프트웨어 시스템의 구조와 구성 요소 간의 관계를 설계하는 것을 다룹니다. 소프트웨어 아키텍처는 소프트웨어 시스템의 모듈화, 계층화, 컴포넌트 간의 상호 작용, 데이터 흐름 등을 고려하여 시스템의 확장성, 유지보수성, 재사용성을 향상시키기 위해 사용됩니다."
-  },
-  {
-    "objectID": "dictionary/terms/architecture.html#참조",
-    "href": "dictionary/terms/architecture.html#참조",
-    "title": "architecture",
+    "objectID": "dictionary/terms/dataset.html#참조",
+    "href": "dictionary/terms/dataset.html#참조",
+    "title": "dataset",
     "section": "참조",
-    "text": "참조\n\nChatgpt3.5. (2023, 10월 8일). OpenAI. [아키텍처의 의미]. https://chat.openai.com/"
+    "text": "참조\n\n[딥러닝 dataset의 의미]. https://chat.openai.com/"
   },
   {
-    "objectID": "dictionary/terms/method.html",
-    "href": "dictionary/terms/method.html",
-    "title": "method",
+    "objectID": "dictionary/terms/hidden_state.html",
+    "href": "dictionary/terms/hidden_state.html",
+    "title": "hidden state",
     "section": "",
-    "text": "설명을 추가해주세요."
+    "text": "인공 신경망에서 은닉 상태는 모델의 내부 상태를 나타내는 개념입니다. 이것은 네트워크의 중간 레이어 또는 히든 레이어에서 발생하는 활성화 값의 집합을 가리킵니다.\n은닉 상태는 딥러닝 모델에서 중요한 역할을 하며, 모델의 학습 및 예측 과정에서 정보를 전달하고 변환하는 데 사용됩니다. 구조와 특성은 모델의 종류와 목적에 따라 달라질 수 있으며, 모델을 이해하고 해석하는 데 중요한 개념 중 하나입니다."
   },
   {
-    "objectID": "dictionary/terms/load.html",
-    "href": "dictionary/terms/load.html",
-    "title": "load",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/gradient.html",
-    "href": "dictionary/terms/gradient.html",
-    "title": "gradient",
-    "section": "",
-    "text": "설명을 추가해주세요."
-  },
-  {
-    "objectID": "dictionary/terms/autoregressive_model.html",
-    "href": "dictionary/terms/autoregressive_model.html",
-    "title": "autoregressive model",
-    "section": "",
-    "text": "자연어 처리와 시계열 데이터 분석과 같은 다양한 분야에서 사용되는 자기회귀 모델은 시계열 데이터나 순차적 데이터를 모델링하기 위한 통계적 또는 머신 러닝 모델의 일종입니다. 이 모델은 현재 시점의 데이터를 이전 시점의 데이터와 관련하여 예측하거나 모델링하는 데 사용됩니다.\n자기회귀 모델은 시계열 예측, 확률적 시계열 생성, 자연어 처리에서 언어 모델링 등 다양한 응용 분야에서 사용됩니다. 대표적으로 자기회귀 모델로 알려진 것 중 하나는 자연어 처리에서 사용되는 “언어 모델(Language Model)”입니다. 이 모델은 문장을 생성하거나 다음 단어를 예측하는 데 자주 사용됩니다.\n예를 들어, 자연어 처리에서 GPT-3와 같은 모델은 자기회귀 모델의 한 유형으로, 이전 단어들을 사용하여 다음 단어를 예측하는 방식으로 텍스트를 생성합니다."
-  },
-  {
-    "objectID": "dictionary/terms/autoregressive_model.html#참조",
-    "href": "dictionary/terms/autoregressive_model.html#참조",
-    "title": "autoregressive model",
+    "objectID": "dictionary/terms/hidden_state.html#참조",
+    "href": "dictionary/terms/hidden_state.html#참조",
+    "title": "hidden state",
     "section": "참조",
-    "text": "참조\n\nChatgpt3.5. (2023, 10월 8일). OpenAI. [autoregressive model의 의미]. https://chat.openai.com/"
+    "text": "참조\n\n[hidden state의 의미]. https://chat.openai.com/"
   },
   {
-    "objectID": "dictionary/terms/repository.html",
-    "href": "dictionary/terms/repository.html",
-    "title": "repository",
+    "objectID": "dictionary/terms/silent_error.html",
+    "href": "dictionary/terms/silent_error.html",
+    "title": "silent error",
+    "section": "",
+    "text": "조용한 오류(silent error)는 프로그램 또는 코드 실행 중에 발생하는 오류 중에서 명시적인 오류 메시지나 경고 없이 발생하며, 프로그램이 비정상적으로 동작하거나 예상치 못한 결과를 내는 오류를 가리킵니다. 이러한 오류는 디버깅하기 어려우며, 프로그램의 안정성과 신뢰성에 영향을 미칠 수 있습니다.\n조용한 오류가 발생하는 경우, 프로그램은 오류가 있음에도 불구하고 실행을 계속하며, 이로 인해 예기치 않은 결과를 생성할 수 있습니다."
+  },
+  {
+    "objectID": "dictionary/terms/silent_error.html#참조",
+    "href": "dictionary/terms/silent_error.html#참조",
+    "title": "silent error",
+    "section": "참조",
+    "text": "참조\n\n[silent error의 의미]. https://chat.openai.com/"
+  },
+  {
+    "objectID": "dictionary/terms/method_1.html",
+    "href": "dictionary/terms/method_1.html",
+    "title": "model",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/convolution.html",
-    "href": "dictionary/terms/convolution.html",
-    "title": "convolution",
+    "objectID": "dictionary/terms/prompt.html",
+    "href": "dictionary/terms/prompt.html",
+    "title": "prompt",
     "section": "",
-    "text": "합성곱은 주로 이미지 처리 및 패턴 인식 작업에서 사용되며, 입력 데이터와 필터(또는 커널) 간의 연산을 나타냅니다. 합성곱은 필터를 입력 데이터 위를 슬라이딩하면서 계산됩니다. 이렇게 필터를 이동시키면 입력 데이터의 다양한 위치에서 특징을 추출할 수 있습니다."
+    "text": "딥러닝에서 prompt는 모델에게 어떤 작업을 수행하거나 정보를 요청하기 위한 입력 또는 지시사항을 가리킵니다. 이것은 모델이 어떤 작업을 수행해야 하는 것을 지정하는 텍스트 또는 문장으로 제공됩니다."
   },
   {
-    "objectID": "dictionary/terms/convolution.html#참조",
-    "href": "dictionary/terms/convolution.html#참조",
-    "title": "convolution",
+    "objectID": "dictionary/terms/prompt.html#참조",
+    "href": "dictionary/terms/prompt.html#참조",
+    "title": "prompt",
     "section": "참조",
-    "text": "참조\n\n[합성곱의 의미]. https://chat.openai.com/"
+    "text": "참조\n\n[딥러닝 prompt의 의미]. https://chat.openai.com/"
   },
   {
-    "objectID": "dictionary/terms/mixed_precision.html",
-    "href": "dictionary/terms/mixed_precision.html",
-    "title": "mixed precision",
+    "objectID": "dictionary/terms/batch.html",
+    "href": "dictionary/terms/batch.html",
+    "title": "batch",
     "section": "",
-    "text": "혼합 정밀도는 딥러닝 모델의 연산을 고정 정밀도와 부동 소수점 정밀도를 혼합하여 처리하는 기술을 가리킵니다. 이 기술은 딥러닝 모델의 효율성을 높이고 계산 리소스를 절약하기 위해 사용됩니다."
+    "text": "배치는 데이터 처리 및 머신 러닝에서 중요한 개념 중 하나이며, 일괄 처리를 의미합니다. 주로 다음과 같은 두 가지 의미로 사용됩니다."
   },
   {
-    "objectID": "dictionary/terms/mixed_precision.html#참조",
-    "href": "dictionary/terms/mixed_precision.html#참조",
-    "title": "mixed precision",
+    "objectID": "dictionary/terms/batch.html#데이터-배치batch-of-data",
+    "href": "dictionary/terms/batch.html#데이터-배치batch-of-data",
+    "title": "batch",
+    "section": "데이터 배치(Batch of Data):",
+    "text": "데이터 배치(Batch of Data):\n데이터 배치란 데이터 집합(예: 이미지, 텍스트, 숫자 등)을 작은 덩어리로 나눈 것을 의미합니다. 각 덩어리를 배치라고 하며, 한 배치에는 여러 데이터 포인트가 포함됩니다.\n예를 들어, 이미지 처리에서 한 배치는 여러 장의 이미지로 구성됩니다. 배치를 사용하는 이유는 모델 학습의 효율성을 높이고, GPU 또는 CPU와 같은 하드웨어 가속기를 효율적으로 활용하기 위함입니다.\n배치 처리를 통해 여러 데이터 포인트를 동시에 처리하면 병렬 처리가 가능하며 학습 속도를 향상시킬 수 있습니다."
+  },
+  {
+    "objectID": "dictionary/terms/batch.html#일괄-처리-batch-processing",
+    "href": "dictionary/terms/batch.html#일괄-처리-batch-processing",
+    "title": "batch",
+    "section": "일괄 처리( Batch Processing):",
+    "text": "일괄 처리( Batch Processing):\n일괄 처리는 컴퓨터 과학 및 데이터 처리 분야에서 사용되는 용어로, 데이터를 일정 크기의 묶음으로 처리하는 방식을 의미합니다.\n대규모 데이터 처리 작업을 보다 효율적으로 수행하고, 데이터베이스에서 쿼리를 실행하거나 배치 작업을 수행하는 등의 다양한 컴퓨팅 작업에 사용됩니다.\n예를 들어, 머신 러닝에서 데이터를 학습할 때, 훈련 데이터 세트를 작은 배치로 나누어 각 배치를 모델에 공급하여 학습합니다. 이렇게 하면 모델이 전체 데이터 세트를 한 번에 처리하지 않고, 배치 단위로 처리하므로 학습 과정이 효율적으로 이루어집니다.\n데이터를 배치로 나누는 방식은 머신 러닝 모델 및 작업에 따라 다를 수 있으며, 배치 크기(batch size)는 모델의 성능과 학습 속도에 영향을 미칠 수 있습니다. 적절한 배치 크기를 선택하는 것은 모델 학습 및 성능 조정에서 중요한 요소 중 하나입니다."
+  },
+  {
+    "objectID": "dictionary/terms/batch.html#참조",
+    "href": "dictionary/terms/batch.html#참조",
+    "title": "batch",
     "section": "참조",
-    "text": "참조\n\n[mixed precision의 의미]. https://chat.openai.com/"
+    "text": "참조\n\nChatgpt3.5. (2023, 10월 8일). OpenAI. [batch의 의미]. https://chat.openai.com/"
   },
   {
-    "objectID": "dictionary/terms/instance.html",
-    "href": "dictionary/terms/instance.html",
-    "title": "instance",
+    "objectID": "dictionary/terms/feature_extraction.html",
+    "href": "dictionary/terms/feature_extraction.html",
+    "title": "feature extraction",
+    "section": "",
+    "text": "딥러닝에서 특성 추출은 데이터로부터 유용한 정보를 추출하고 이를 기계 학습 모델이나 딥러닝 모델에 입력으로 제공하기 위한 과정을 가리킵니다.\n이 과정은 주로 원시 데이터로부터 고수준 특징이나 표현을 추출하여 데이터를 더 쉽게 처리하고 모델의 성능을 향상시키는 데 사용됩니다"
+  },
+  {
+    "objectID": "dictionary/terms/feature_extraction.html#참조",
+    "href": "dictionary/terms/feature_extraction.html#참조",
+    "title": "feature extraction",
+    "section": "참조",
+    "text": "참조\n\n[feature extraction의 의미]. https://chat.openai.com/"
+  },
+  {
+    "objectID": "dictionary/terms/fine_tunning_1.html",
+    "href": "dictionary/terms/fine_tunning_1.html",
+    "title": "fine tunning",
+    "section": "",
+    "text": "딥러닝에서 파인튜닝은 미리 훈련된(pre-trained) 모델을 가져와서 추가적인 훈련을 수행하는 과정을 가리킵니다.\n이것은 주로 전이 학습(transfer learning)의 한 형태로 사용되며, 이미 훈련된 모델의 일부 레이어나 파라미터를 조정하여 새로운 작업에 맞게 모델을 개선하는데 사용됩니다."
+  },
+  {
+    "objectID": "dictionary/terms/fine_tunning_1.html#참조",
+    "href": "dictionary/terms/fine_tunning_1.html#참조",
+    "title": "fine tunning",
+    "section": "참조",
+    "text": "참조\n\n[fine tunning의 의미]. https://chat.openai.com/"
+  },
+  {
+    "objectID": "dictionary/terms/entity.html",
+    "href": "dictionary/terms/entity.html",
+    "title": "entity",
+    "section": "",
+    "text": "소프트웨어 엔티티는 소프트웨어 시스템 또는 소프트웨어 구성 요소 내에서 독립적으로 식별 가능하며, 개별적인 역할 또는 기능을 수행하는 추상적인 개체를 나타냅니다.\n이 용어는 소프트웨어 엔지니어링 및 소프트웨어 설계 분야에서 주로 사용되며, 소프트웨어를 구조화하고 이해하는 데 도움이 됩니다. 대표적인 소프트웨어 엔티티는 클래스(Class), 객체(Object), 모듈(Module) 등이 있습니다.\n소프트웨어 엔티티는 소프트웨어 시스템을 설계, 개발 및 관리하는 데 중요한 역할을 합니다. 이러한 엔티티는 소프트웨어의 모듈화, 재사용성, 유지 보수 등과 관련된 다양한 소프트웨어 엔지니어링 원칙을 따르는 데 도움이 됩니다."
+  },
+  {
+    "objectID": "dictionary/terms/entity.html#참조",
+    "href": "dictionary/terms/entity.html#참조",
+    "title": "entity",
+    "section": "참조",
+    "text": "참조\n\n[소프트웨어 entity의 의미]. https://chat.openai.com/"
+  },
+  {
+    "objectID": "dictionary/terms/crob.html",
+    "href": "dictionary/terms/crob.html",
+    "title": "crob",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "contribution.html",
-    "href": "contribution.html",
-    "title": "기여하신 분",
+    "objectID": "dictionary/terms/spectrogram.html",
+    "href": "dictionary/terms/spectrogram.html",
+    "title": "spectrogram",
     "section": "",
-    "text": "용어 사전에 기여해주신 모든 분들께 감사드립니다. 새로운 기여자와 팀을 찾습니다. 함께 해주실꺼죠?\n\n\n허깅페이스와 다른 딥러닝 관련 프로젝트를 한글화하고 있습니다. 관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다.\n\n\n\n이름\n조직\n소개\n\n\n\n\n서원형\nPseudo Lab. Huggingface KREW\n\n\n\n손기훈\nPseudo Lab. Huggingface KREW\n\n\n\n심소현\nPseudo Lab. Huggingface KREW\n\n\n\n양성모\nPseudo Lab. Huggingface KREW\nGithub\n\n\n윤현서\nPseudo Lab. Huggingface KREW\n\n\n\n정우준\nPseudo Lab. Huggingface KREW\nGithub\n\n\n한나연\nPseudo Lab. Huggingface KREW\n\n\n\n\n\n\n\n\n\n\n\n이름\n조직\n소개\n\n\n\n\n이홍규\nPseudo Lab. Diffuser 프로젝트\n\n\n\n박성수\nPseudo Lab. Diffuser 프로젝트\n\n\n\n이준형\nPseudo Lab. Diffuser 프로젝트\n\n\n\n윤형석\nPseudo Lab. Diffuser 프로젝트\n\n\n\n김지환\nPseudo Lab. Diffuser 프로젝트\n\n\n\n안혜민\nPseudo Lab. Diffuser 프로젝트\n\n\n\n\n\n\n\n가짜연구소 인과추론팀은 한국어 자료가 많지 않은 인과추론을 많은 분들이 쉽게 접하실 수 있도록 기여하고자 합니다!\n\n\n\n이름\n조직\n소개\n\n\n\n\n신진수\nPseudo Lab. Causal Inference Team\nGithub / Linkedin"
+    "text": "스펙트로그램(Spectrogram)은 시간과 주파수를 2차원 그래픽 형태로 나타내는 시각화 도구입니다. 스펙트로그램은 주로 오디오 신호, 음악, 음성 등의 시계열 데이터를 분석하고 표현하는 데 사용됩니다.\n스펙트로그램은 시간에 따른 주파수 변화를 시각적으로 보여줍니다. 가로 축은 시간을, 세로 축은 주파수를 나타내며, 플롯의 색상 농도는 해당 시간과 주파수에서의 신호 강도를 나타냅니다."
   },
   {
-    "objectID": "contribution.html#huggingface-krew",
-    "href": "contribution.html#huggingface-krew",
-    "title": "기여하신 분",
-    "section": "",
-    "text": "허깅페이스와 다른 딥러닝 관련 프로젝트를 한글화하고 있습니다. 관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다.\n\n\n\n이름\n조직\n소개\n\n\n\n\n서원형\nPseudo Lab. Huggingface KREW\n\n\n\n손기훈\nPseudo Lab. Huggingface KREW\n\n\n\n심소현\nPseudo Lab. Huggingface KREW\n\n\n\n양성모\nPseudo Lab. Huggingface KREW\nGithub\n\n\n윤현서\nPseudo Lab. Huggingface KREW\n\n\n\n정우준\nPseudo Lab. Huggingface KREW\nGithub\n\n\n한나연\nPseudo Lab. Huggingface KREW"
+    "objectID": "dictionary/terms/spectrogram.html#참조",
+    "href": "dictionary/terms/spectrogram.html#참조",
+    "title": "spectrogram",
+    "section": "참조",
+    "text": "참조\n\n[spectogram의 의미]. https://chat.openai.com/"
   },
   {
-    "objectID": "contribution.html#허깅페이스-diffuser-번역-프로젝트",
-    "href": "contribution.html#허깅페이스-diffuser-번역-프로젝트",
-    "title": "기여하신 분",
+    "objectID": "dictionary/terms/denoise.html",
+    "href": "dictionary/terms/denoise.html",
+    "title": "denoise",
     "section": "",
-    "text": "이름\n조직\n소개\n\n\n\n\n이홍규\nPseudo Lab. Diffuser 프로젝트\n\n\n\n박성수\nPseudo Lab. Diffuser 프로젝트\n\n\n\n이준형\nPseudo Lab. Diffuser 프로젝트\n\n\n\n윤형석\nPseudo Lab. Diffuser 프로젝트\n\n\n\n김지환\nPseudo Lab. Diffuser 프로젝트\n\n\n\n안혜민\nPseudo Lab. Diffuser 프로젝트"
-  },
-  {
-    "objectID": "contribution.html#인과추론팀",
-    "href": "contribution.html#인과추론팀",
-    "title": "기여하신 분",
-    "section": "",
-    "text": "가짜연구소 인과추론팀은 한국어 자료가 많지 않은 인과추론을 많은 분들이 쉽게 접하실 수 있도록 기여하고자 합니다!\n\n\n\n이름\n조직\n소개\n\n\n\n\n신진수\nPseudo Lab. Causal Inference Team\nGithub / Linkedin"
+    "text": "설명을 추가해주세요."
   },
   {
     "objectID": "guide.html",
@@ -448,165 +469,158 @@
     "text": "Footnotes\n\n\nwysiwyg(What You See is What You Get)의 약자로 문서 작성 방법을 GUI로 구현한 에디터 입니다.↩︎\nhttps://won.hashnode.dev/a-comprehensive-guide-to-mastering-github-pr-reviews↩︎\nhttp://www.publickrdata.com/blog/74/↩︎"
   },
   {
-    "objectID": "dictionary/terms/denoise.html",
-    "href": "dictionary/terms/denoise.html",
-    "title": "denoise",
+    "objectID": "contribution.html",
+    "href": "contribution.html",
+    "title": "기여하신 분",
+    "section": "",
+    "text": "용어 사전에 기여해주신 모든 분들께 감사드립니다. 새로운 기여자와 팀을 찾습니다. 함께 해주실꺼죠?\n\n\n허깅페이스와 다른 딥러닝 관련 프로젝트를 한글화하고 있습니다. 관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다.\n\n\n\n이름\n조직\n소개\n\n\n\n\n서원형\nPseudo Lab. Huggingface KREW\n\n\n\n손기훈\nPseudo Lab. Huggingface KREW\n\n\n\n심소현\nPseudo Lab. Huggingface KREW\n\n\n\n양성모\nPseudo Lab. Huggingface KREW\nGithub\n\n\n윤현서\nPseudo Lab. Huggingface KREW\n\n\n\n정우준\nPseudo Lab. Huggingface KREW\nGithub\n\n\n한나연\nPseudo Lab. Huggingface KREW\n\n\n\n\n\n\n\n\n\n\n\n이름\n조직\n소개\n\n\n\n\n이홍규\nPseudo Lab. Diffuser 프로젝트\n\n\n\n박성수\nPseudo Lab. Diffuser 프로젝트\n\n\n\n이준형\nPseudo Lab. Diffuser 프로젝트\n\n\n\n윤형석\nPseudo Lab. Diffuser 프로젝트\n\n\n\n김지환\nPseudo Lab. Diffuser 프로젝트\n\n\n\n안혜민\nPseudo Lab. Diffuser 프로젝트\n\n\n\n\n\n\n\n가짜연구소 인과추론팀은 한국어 자료가 많지 않은 인과추론을 많은 분들이 쉽게 접하실 수 있도록 기여하고자 합니다!\n\n\n\n이름\n조직\n소개\n\n\n\n\n신진수\nPseudo Lab. Causal Inference Team\nGithub / Linkedin"
+  },
+  {
+    "objectID": "contribution.html#huggingface-krew",
+    "href": "contribution.html#huggingface-krew",
+    "title": "기여하신 분",
+    "section": "",
+    "text": "허깅페이스와 다른 딥러닝 관련 프로젝트를 한글화하고 있습니다. 관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다.\n\n\n\n이름\n조직\n소개\n\n\n\n\n서원형\nPseudo Lab. Huggingface KREW\n\n\n\n손기훈\nPseudo Lab. Huggingface KREW\n\n\n\n심소현\nPseudo Lab. Huggingface KREW\n\n\n\n양성모\nPseudo Lab. Huggingface KREW\nGithub\n\n\n윤현서\nPseudo Lab. Huggingface KREW\n\n\n\n정우준\nPseudo Lab. Huggingface KREW\nGithub\n\n\n한나연\nPseudo Lab. Huggingface KREW"
+  },
+  {
+    "objectID": "contribution.html#허깅페이스-diffuser-번역-프로젝트",
+    "href": "contribution.html#허깅페이스-diffuser-번역-프로젝트",
+    "title": "기여하신 분",
+    "section": "",
+    "text": "이름\n조직\n소개\n\n\n\n\n이홍규\nPseudo Lab. Diffuser 프로젝트\n\n\n\n박성수\nPseudo Lab. Diffuser 프로젝트\n\n\n\n이준형\nPseudo Lab. Diffuser 프로젝트\n\n\n\n윤형석\nPseudo Lab. Diffuser 프로젝트\n\n\n\n김지환\nPseudo Lab. Diffuser 프로젝트\n\n\n\n안혜민\nPseudo Lab. Diffuser 프로젝트"
+  },
+  {
+    "objectID": "contribution.html#인과추론팀",
+    "href": "contribution.html#인과추론팀",
+    "title": "기여하신 분",
+    "section": "",
+    "text": "가짜연구소 인과추론팀은 한국어 자료가 많지 않은 인과추론을 많은 분들이 쉽게 접하실 수 있도록 기여하고자 합니다!\n\n\n\n이름\n조직\n소개\n\n\n\n\n신진수\nPseudo Lab. Causal Inference Team\nGithub / Linkedin"
+  },
+  {
+    "objectID": "dictionary/terms/instance.html",
+    "href": "dictionary/terms/instance.html",
+    "title": "instance",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/spectrogram.html",
-    "href": "dictionary/terms/spectrogram.html",
-    "title": "spectrogram",
+    "objectID": "dictionary/terms/mixed_precision.html",
+    "href": "dictionary/terms/mixed_precision.html",
+    "title": "mixed precision",
     "section": "",
-    "text": "스펙트로그램(Spectrogram)은 시간과 주파수를 2차원 그래픽 형태로 나타내는 시각화 도구입니다. 스펙트로그램은 주로 오디오 신호, 음악, 음성 등의 시계열 데이터를 분석하고 표현하는 데 사용됩니다.\n스펙트로그램은 시간에 따른 주파수 변화를 시각적으로 보여줍니다. 가로 축은 시간을, 세로 축은 주파수를 나타내며, 플롯의 색상 농도는 해당 시간과 주파수에서의 신호 강도를 나타냅니다."
+    "text": "혼합 정밀도는 딥러닝 모델의 연산을 고정 정밀도와 부동 소수점 정밀도를 혼합하여 처리하는 기술을 가리킵니다. 이 기술은 딥러닝 모델의 효율성을 높이고 계산 리소스를 절약하기 위해 사용됩니다."
   },
   {
-    "objectID": "dictionary/terms/spectrogram.html#참조",
-    "href": "dictionary/terms/spectrogram.html#참조",
-    "title": "spectrogram",
+    "objectID": "dictionary/terms/mixed_precision.html#참조",
+    "href": "dictionary/terms/mixed_precision.html#참조",
+    "title": "mixed precision",
     "section": "참조",
-    "text": "참조\n\n[spectogram의 의미]. https://chat.openai.com/"
+    "text": "참조\n\n[mixed precision의 의미]. https://chat.openai.com/"
   },
   {
-    "objectID": "dictionary/terms/crob.html",
-    "href": "dictionary/terms/crob.html",
-    "title": "crob",
+    "objectID": "dictionary/terms/convolution.html",
+    "href": "dictionary/terms/convolution.html",
+    "title": "convolution",
+    "section": "",
+    "text": "합성곱은 주로 이미지 처리 및 패턴 인식 작업에서 사용되며, 입력 데이터와 필터(또는 커널) 간의 연산을 나타냅니다. 합성곱은 필터를 입력 데이터 위를 슬라이딩하면서 계산됩니다. 이렇게 필터를 이동시키면 입력 데이터의 다양한 위치에서 특징을 추출할 수 있습니다."
+  },
+  {
+    "objectID": "dictionary/terms/convolution.html#참조",
+    "href": "dictionary/terms/convolution.html#참조",
+    "title": "convolution",
+    "section": "참조",
+    "text": "참조\n\n[합성곱의 의미]. https://chat.openai.com/"
+  },
+  {
+    "objectID": "dictionary/terms/repository.html",
+    "href": "dictionary/terms/repository.html",
+    "title": "repository",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/entity.html",
-    "href": "dictionary/terms/entity.html",
-    "title": "entity",
+    "objectID": "dictionary/terms/autoregressive_model.html",
+    "href": "dictionary/terms/autoregressive_model.html",
+    "title": "autoregressive model",
     "section": "",
-    "text": "소프트웨어 엔티티는 소프트웨어 시스템 또는 소프트웨어 구성 요소 내에서 독립적으로 식별 가능하며, 개별적인 역할 또는 기능을 수행하는 추상적인 개체를 나타냅니다.\n이 용어는 소프트웨어 엔지니어링 및 소프트웨어 설계 분야에서 주로 사용되며, 소프트웨어를 구조화하고 이해하는 데 도움이 됩니다. 대표적인 소프트웨어 엔티티는 클래스(Class), 객체(Object), 모듈(Module) 등이 있습니다.\n소프트웨어 엔티티는 소프트웨어 시스템을 설계, 개발 및 관리하는 데 중요한 역할을 합니다. 이러한 엔티티는 소프트웨어의 모듈화, 재사용성, 유지 보수 등과 관련된 다양한 소프트웨어 엔지니어링 원칙을 따르는 데 도움이 됩니다."
+    "text": "자연어 처리와 시계열 데이터 분석과 같은 다양한 분야에서 사용되는 자기회귀 모델은 시계열 데이터나 순차적 데이터를 모델링하기 위한 통계적 또는 머신 러닝 모델의 일종입니다. 이 모델은 현재 시점의 데이터를 이전 시점의 데이터와 관련하여 예측하거나 모델링하는 데 사용됩니다.\n자기회귀 모델은 시계열 예측, 확률적 시계열 생성, 자연어 처리에서 언어 모델링 등 다양한 응용 분야에서 사용됩니다. 대표적으로 자기회귀 모델로 알려진 것 중 하나는 자연어 처리에서 사용되는 “언어 모델(Language Model)”입니다. 이 모델은 문장을 생성하거나 다음 단어를 예측하는 데 자주 사용됩니다.\n예를 들어, 자연어 처리에서 GPT-3와 같은 모델은 자기회귀 모델의 한 유형으로, 이전 단어들을 사용하여 다음 단어를 예측하는 방식으로 텍스트를 생성합니다."
   },
   {
-    "objectID": "dictionary/terms/entity.html#참조",
-    "href": "dictionary/terms/entity.html#참조",
-    "title": "entity",
+    "objectID": "dictionary/terms/autoregressive_model.html#참조",
+    "href": "dictionary/terms/autoregressive_model.html#참조",
+    "title": "autoregressive model",
     "section": "참조",
-    "text": "참조\n\n[소프트웨어 entity의 의미]. https://chat.openai.com/"
+    "text": "참조\n\nChatgpt3.5. (2023, 10월 8일). OpenAI. [autoregressive model의 의미]. https://chat.openai.com/"
   },
   {
-    "objectID": "dictionary/terms/fine_tunning_1.html",
-    "href": "dictionary/terms/fine_tunning_1.html",
-    "title": "fine tunning",
-    "section": "",
-    "text": "딥러닝에서 파인튜닝은 미리 훈련된(pre-trained) 모델을 가져와서 추가적인 훈련을 수행하는 과정을 가리킵니다.\n이것은 주로 전이 학습(transfer learning)의 한 형태로 사용되며, 이미 훈련된 모델의 일부 레이어나 파라미터를 조정하여 새로운 작업에 맞게 모델을 개선하는데 사용됩니다."
-  },
-  {
-    "objectID": "dictionary/terms/fine_tunning_1.html#참조",
-    "href": "dictionary/terms/fine_tunning_1.html#참조",
-    "title": "fine tunning",
-    "section": "참조",
-    "text": "참조\n\n[fine tunning의 의미]. https://chat.openai.com/"
-  },
-  {
-    "objectID": "dictionary/terms/feature_extraction.html",
-    "href": "dictionary/terms/feature_extraction.html",
-    "title": "feature extraction",
-    "section": "",
-    "text": "딥러닝에서 특성 추출은 데이터로부터 유용한 정보를 추출하고 이를 기계 학습 모델이나 딥러닝 모델에 입력으로 제공하기 위한 과정을 가리킵니다.\n이 과정은 주로 원시 데이터로부터 고수준 특징이나 표현을 추출하여 데이터를 더 쉽게 처리하고 모델의 성능을 향상시키는 데 사용됩니다"
-  },
-  {
-    "objectID": "dictionary/terms/feature_extraction.html#참조",
-    "href": "dictionary/terms/feature_extraction.html#참조",
-    "title": "feature extraction",
-    "section": "참조",
-    "text": "참조\n\n[feature extraction의 의미]. https://chat.openai.com/"
-  },
-  {
-    "objectID": "dictionary/terms/batch.html",
-    "href": "dictionary/terms/batch.html",
-    "title": "batch",
-    "section": "",
-    "text": "배치는 데이터 처리 및 머신 러닝에서 중요한 개념 중 하나이며, 일괄 처리를 의미합니다. 주로 다음과 같은 두 가지 의미로 사용됩니다."
-  },
-  {
-    "objectID": "dictionary/terms/batch.html#데이터-배치batch-of-data",
-    "href": "dictionary/terms/batch.html#데이터-배치batch-of-data",
-    "title": "batch",
-    "section": "데이터 배치(Batch of Data):",
-    "text": "데이터 배치(Batch of Data):\n데이터 배치란 데이터 집합(예: 이미지, 텍스트, 숫자 등)을 작은 덩어리로 나눈 것을 의미합니다. 각 덩어리를 배치라고 하며, 한 배치에는 여러 데이터 포인트가 포함됩니다.\n예를 들어, 이미지 처리에서 한 배치는 여러 장의 이미지로 구성됩니다. 배치를 사용하는 이유는 모델 학습의 효율성을 높이고, GPU 또는 CPU와 같은 하드웨어 가속기를 효율적으로 활용하기 위함입니다.\n배치 처리를 통해 여러 데이터 포인트를 동시에 처리하면 병렬 처리가 가능하며 학습 속도를 향상시킬 수 있습니다."
-  },
-  {
-    "objectID": "dictionary/terms/batch.html#일괄-처리-batch-processing",
-    "href": "dictionary/terms/batch.html#일괄-처리-batch-processing",
-    "title": "batch",
-    "section": "일괄 처리( Batch Processing):",
-    "text": "일괄 처리( Batch Processing):\n일괄 처리는 컴퓨터 과학 및 데이터 처리 분야에서 사용되는 용어로, 데이터를 일정 크기의 묶음으로 처리하는 방식을 의미합니다.\n대규모 데이터 처리 작업을 보다 효율적으로 수행하고, 데이터베이스에서 쿼리를 실행하거나 배치 작업을 수행하는 등의 다양한 컴퓨팅 작업에 사용됩니다.\n예를 들어, 머신 러닝에서 데이터를 학습할 때, 훈련 데이터 세트를 작은 배치로 나누어 각 배치를 모델에 공급하여 학습합니다. 이렇게 하면 모델이 전체 데이터 세트를 한 번에 처리하지 않고, 배치 단위로 처리하므로 학습 과정이 효율적으로 이루어집니다.\n데이터를 배치로 나누는 방식은 머신 러닝 모델 및 작업에 따라 다를 수 있으며, 배치 크기(batch size)는 모델의 성능과 학습 속도에 영향을 미칠 수 있습니다. 적절한 배치 크기를 선택하는 것은 모델 학습 및 성능 조정에서 중요한 요소 중 하나입니다."
-  },
-  {
-    "objectID": "dictionary/terms/batch.html#참조",
-    "href": "dictionary/terms/batch.html#참조",
-    "title": "batch",
-    "section": "참조",
-    "text": "참조\n\nChatgpt3.5. (2023, 10월 8일). OpenAI. [batch의 의미]. https://chat.openai.com/"
-  },
-  {
-    "objectID": "dictionary/terms/prompt.html",
-    "href": "dictionary/terms/prompt.html",
-    "title": "prompt",
-    "section": "",
-    "text": "딥러닝에서 prompt는 모델에게 어떤 작업을 수행하거나 정보를 요청하기 위한 입력 또는 지시사항을 가리킵니다. 이것은 모델이 어떤 작업을 수행해야 하는 것을 지정하는 텍스트 또는 문장으로 제공됩니다."
-  },
-  {
-    "objectID": "dictionary/terms/prompt.html#참조",
-    "href": "dictionary/terms/prompt.html#참조",
-    "title": "prompt",
-    "section": "참조",
-    "text": "참조\n\n[딥러닝 prompt의 의미]. https://chat.openai.com/"
-  },
-  {
-    "objectID": "dictionary/terms/method_1.html",
-    "href": "dictionary/terms/method_1.html",
-    "title": "model",
+    "objectID": "dictionary/terms/gradient.html",
+    "href": "dictionary/terms/gradient.html",
+    "title": "gradient",
     "section": "",
     "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/silent_error.html",
-    "href": "dictionary/terms/silent_error.html",
-    "title": "silent error",
+    "objectID": "dictionary/terms/load.html",
+    "href": "dictionary/terms/load.html",
+    "title": "load",
     "section": "",
-    "text": "조용한 오류(silent error)는 프로그램 또는 코드 실행 중에 발생하는 오류 중에서 명시적인 오류 메시지나 경고 없이 발생하며, 프로그램이 비정상적으로 동작하거나 예상치 못한 결과를 내는 오류를 가리킵니다. 이러한 오류는 디버깅하기 어려우며, 프로그램의 안정성과 신뢰성에 영향을 미칠 수 있습니다.\n조용한 오류가 발생하는 경우, 프로그램은 오류가 있음에도 불구하고 실행을 계속하며, 이로 인해 예기치 않은 결과를 생성할 수 있습니다."
+    "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/silent_error.html#참조",
-    "href": "dictionary/terms/silent_error.html#참조",
-    "title": "silent error",
-    "section": "참조",
-    "text": "참조\n\n[silent error의 의미]. https://chat.openai.com/"
-  },
-  {
-    "objectID": "dictionary/terms/hidden_state.html",
-    "href": "dictionary/terms/hidden_state.html",
-    "title": "hidden state",
+    "objectID": "dictionary/terms/method.html",
+    "href": "dictionary/terms/method.html",
+    "title": "method",
     "section": "",
-    "text": "인공 신경망에서 은닉 상태는 모델의 내부 상태를 나타내는 개념입니다. 이것은 네트워크의 중간 레이어 또는 히든 레이어에서 발생하는 활성화 값의 집합을 가리킵니다.\n은닉 상태는 딥러닝 모델에서 중요한 역할을 하며, 모델의 학습 및 예측 과정에서 정보를 전달하고 변환하는 데 사용됩니다. 구조와 특성은 모델의 종류와 목적에 따라 달라질 수 있으며, 모델을 이해하고 해석하는 데 중요한 개념 중 하나입니다."
+    "text": "설명을 추가해주세요."
   },
   {
-    "objectID": "dictionary/terms/hidden_state.html#참조",
-    "href": "dictionary/terms/hidden_state.html#참조",
-    "title": "hidden state",
-    "section": "참조",
-    "text": "참조\n\n[hidden state의 의미]. https://chat.openai.com/"
-  },
-  {
-    "objectID": "dictionary/terms/dataset.html",
-    "href": "dictionary/terms/dataset.html",
-    "title": "dataset",
+    "objectID": "dictionary/terms/architecture.html",
+    "href": "dictionary/terms/architecture.html",
+    "title": "architecture",
     "section": "",
-    "text": "데이터 세트는 딥러닝 모델을 훈련하고 평가하기 위해 사용되는 데이터의 집합을 가리킵니다.\n딥러닝 모델은 데이터셋을 사용하여 가중치를 조정하며 학습합니다. 모델은 입력 데이터와 해당 데이터에 대한 정답(레이블)사이의 관계를 학습하여 예측을 수행할 수 있도록 됩니다.\n딥러닝 데이터세트는 다양한 도메인에서 사용되며, 이미지 분류, 자연어 처리, 음성 인식, 추천 시스템, 자율 주행 자동차, 의료 이미지 분석 등이 있습니다."
+    "text": "아키텍처(architecture)는 다양한 분야에서 사용되는 용어로, 그 의미는 맥락에 따라 다를 수 있습니다. 주로 컴퓨터 과학 및 정보 기술 분야에서 아키텍처란 다음과 같은 의미로 사용됩니다.\n소프트웨어 아키텍처(Software Architecture): 소프트웨어 시스템의 구조와 구성 요소 간의 관계를 설계하는 것을 다룹니다. 소프트웨어 아키텍처는 소프트웨어 시스템의 모듈화, 계층화, 컴포넌트 간의 상호 작용, 데이터 흐름 등을 고려하여 시스템의 확장성, 유지보수성, 재사용성을 향상시키기 위해 사용됩니다."
   },
   {
-    "objectID": "dictionary/terms/dataset.html#참조",
-    "href": "dictionary/terms/dataset.html#참조",
-    "title": "dataset",
+    "objectID": "dictionary/terms/architecture.html#참조",
+    "href": "dictionary/terms/architecture.html#참조",
+    "title": "architecture",
     "section": "참조",
-    "text": "참조\n\n[딥러닝 dataset의 의미]. https://chat.openai.com/"
+    "text": "참조\n\nChatgpt3.5. (2023, 10월 8일). OpenAI. [아키텍처의 의미]. https://chat.openai.com/"
+  },
+  {
+    "objectID": "dictionary/terms/step.html",
+    "href": "dictionary/terms/step.html",
+    "title": "step",
+    "section": "",
+    "text": "딥러닝에서 “step(스텝)”은 주로 훈련 알고리즘을 실행하거나 모델 파라미터를 업데이트하는 한 단위 작업을 나타냅니다. 데이터의 여러 배치(batch)를 사용하여 학습을 진행하며, 전체 학습 데이터를 여러 번(epoch) 사용하는 것이 일반적입니다. 반복 횟수는 학습의 효과와 모델의 수렴에 영향을 미칩니다."
+  },
+  {
+    "objectID": "dictionary/terms/push.html",
+    "href": "dictionary/terms/push.html",
+    "title": "push",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/optimizer.html",
+    "href": "dictionary/terms/optimizer.html",
+    "title": "optimizer",
+    "section": "",
+    "text": "설명을 추가해주세요."
+  },
+  {
+    "objectID": "dictionary/terms/pading.html",
+    "href": "dictionary/terms/pading.html",
+    "title": "pading",
+    "section": "",
+    "text": "딥러닝에서 패딩은 주로 이미지 또는 시퀀스 데이터와 관련된 작업에서 사용되는 용어입니다. 패딩은 데이터의 크기나 모양을 조절하고 특정 형식 또는 요구사항을 충족시키기 위해 추가된 빈 공간 또는 값입니다."
+  },
+  {
+    "objectID": "dictionary/terms/pading.html#참조",
+    "href": "dictionary/terms/pading.html#참조",
+    "title": "pading",
+    "section": "참조",
+    "text": "참조\n\n[딥러닝 padding의 의미]. https://chat.openai.com/"
   },
   {
     "objectID": "dictionary/terms/inference.html",
@@ -865,6 +879,6 @@
     "href": "dictionary/glossary.html",
     "title": "용어 사전",
     "section": "",
-    "text": "딥러닝관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다. 딥러닝 문서 번역에 관심있는 분들 모두 참가가 가능하니 관심있는 분들의 많은 참여 부탁드립니다.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nXLM-RoBERTa\n\n\n\n\n\nXLM-RoBERTa\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/model_doc/xlm-roberta\n\n\n\n\n\n\n\n\narchitecture\n\n\n\n\n\n아키텍처\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nargumentation\n\n\n\n\n\n증강\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\narguments\n\n\n\n\n\n인수\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nattention mask\n\n\n\n\n\n어텐션 마스크\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nautomatic speech recognition\n\n\n\n\n\n자동음성인식\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nautoregressive model\n\n\n\n\n\n자기회귀 모델\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nbackward\n\n\n\n\n\n역방향\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nbatch\n\n\n\n\n\n배치\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nbranch\n\n\n\n\n\n브랜치\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ncausal language model\n\n\n\n\n\n인과적 언어 모델링\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncheckpoint\n\n\n\n\n\n체크포인트\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nchunk\n\n\n\n\n\n묶음\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nclustering\n\n\n\n\n\n군집화\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncode snippet\n\n\n\n\n\n예시 코드\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nconvolution\n\n\n\n\n\n합성곱\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nconvolution\n\n\n\n\n\n컨볼루션\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ncrob\n\n\n\n\n\n자르기\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncustom\n\n\n\n\n\n사용자정의\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncustom\n\n\n\n\n\n커스텀\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndata collator\n\n\n\n\n\n데이터 콜레이터\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndataset\n\n\n\n\n\n데이터 세트\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndenoise\n\n\n\n\n\n디노이즈\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndimensions ordering\n\n\n\n\n\n차원순서(dimensions ordering)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndirectory\n\n\n\n\n\n디렉터리\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndirectory\n\n\n\n\n\n디렉토리\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndistributed training\n\n\n\n\n\n분산 학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndown stream\n\n\n\n\n\n다운 스트림\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nentity\n\n\n\n\n\n개체\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nepoch\n\n\n\n\n\n에폭\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nevaluation method\n\n\n\n\n\n평가 방법\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfeature extraction\n\n\n\n\n\n특성 추출\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfeature matrix\n\n\n\n\n\n특성 행렬\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfine tunning\n\n\n\n\n\n파인튜닝\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfine tunning\n\n\n\n\n\n미세 조정\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ngradient\n\n\n\n\n\n그래디언트\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nhalf precision\n\n\n\n\n\n반정밀도(half precision)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nhidden state\n\n\n\n\n\n은닉 상태\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nhyperparameter\n\n\n\n\n\n하이퍼파라미터\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ninference\n\n\n\n\n\n추론\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ninpainting\n\n\n\n\n\n인페인팅\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ninstance\n\n\n\n\n\n인스턴스\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nlearning\n\n\n\n\n\n학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nlesson\n\n\n\n\n\n단원\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nlicense\n\n\n\n\n\n라이선스\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nload\n\n\n\n\n\n가져오다\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nmethod\n\n\n\n\n\n매소드\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nmixed precision\n\n\n\n\n\n혼합 정밀도(mixed precision)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nmodel\n\n\n\n\n\n모델\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nmulti-image batches\n\n\n\n\n\n다중 이미지 배치(multi-image batches)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\noptimizer\n\n\n\n\n\n옵티마이저\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\npading\n\n\n\n\n\n패딩\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\npre-train\n\n\n\n\n\n사전학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nprior-preserving\n\n\n\n\n\n사전 보존(prior-preserving)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nprompt\n\n\n\n\n\n프롬프트\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\npush\n\n\n\n\n\n푸시\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nrepository\n\n\n\n\n\n리포지토리\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nreproducibility\n\n\n\n\n\n재현성\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nresume\n\n\n\n\n\n재개\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nsection\n\n\n\n\n\n섹션\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nseperator\n\n\n\n\n\n분할 토큰\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nsequence\n\n\n\n\n\n시퀀스\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nsilent error\n\n\n\n\n\n조용한 오류\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nspectrogram\n\n\n\n\n\n스펙토그램\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/chapter0/introduction\n\n\n\n\n\n\n\n\nspeech enhancement\n\n\n\n\n\n음성 향상\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/\n\n\n\n\n\n\n\n\nstep\n\n\n\n\n\n스텝\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nsubmodule\n\n\n\n\n\n서브모듈\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ntoken\n\n\n\n\n\n토큰\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ntokenizer\n\n\n\n\n\n토크나이저\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ntraining\n\n\n\n\n\n훈련\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nvocoder\n\n\n\n\n\n보코더\n\n\n\n\n\n\nhuggingface_audio\n\n\nhttps://huggingface.co/learn/audio-course/chapter0/introduction\n\n\n\n\n\n\nNo matching items"
+    "text": "딥러닝관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다. 딥러닝 문서 번역에 관심있는 분들 모두 참가가 가능하니 관심있는 분들의 많은 참여 부탁드립니다.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nXLM-RoBERTa\n\n\n\n\n\nXLM-RoBERTa\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/model_doc/xlm-roberta\n\n\n\n\n\n\n\n\narchitecture\n\n\n\n\n\n아키텍처\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nargumentation\n\n\n\n\n\n증강\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\narguments\n\n\n\n\n\n인수\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nattention mask\n\n\n\n\n\n어텐션 마스크\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nautomatic speech recognition\n\n\n\n\n\n자동음성인식\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nautoregressive model\n\n\n\n\n\n자기회귀 모델\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nbackward\n\n\n\n\n\n역방향\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nbatch\n\n\n\n\n\n배치\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nbranch\n\n\n\n\n\n브랜치\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ncausal inference\n\n\n\n\n\n인과추론\n\n\n\n\n\n\nnull\n\n\n\n\n\n\n\n\ncausal language model\n\n\n\n\n\n인과적 언어 모델링\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncheckpoint\n\n\n\n\n\n체크포인트\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nchunk\n\n\n\n\n\n묶음\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nclustering\n\n\n\n\n\n군집화\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncode snippet\n\n\n\n\n\n예시 코드\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nconvolution\n\n\n\n\n\n합성곱\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nconvolution\n\n\n\n\n\n컨볼루션\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ncrob\n\n\n\n\n\n자르기\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncustom\n\n\n\n\n\n사용자정의\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ncustom\n\n\n\n\n\n커스텀\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndata collator\n\n\n\n\n\n데이터 콜레이터\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndataset\n\n\n\n\n\n데이터 세트\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndenoise\n\n\n\n\n\n디노이즈\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndimensions ordering\n\n\n\n\n\n차원순서(dimensions ordering)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndirectory\n\n\n\n\n\n디렉터리\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndirectory\n\n\n\n\n\n디렉토리\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ndistributed training\n\n\n\n\n\n분산 학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ndown stream\n\n\n\n\n\n다운 스트림\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nentity\n\n\n\n\n\n개체\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nepoch\n\n\n\n\n\n에폭\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nevaluation method\n\n\n\n\n\n평가 방법\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfeature extraction\n\n\n\n\n\n특성 추출\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfeature matrix\n\n\n\n\n\n특성 행렬\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfine tunning\n\n\n\n\n\n파인튜닝\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nfine tunning\n\n\n\n\n\n미세 조정\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ngradient\n\n\n\n\n\n그래디언트\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nhalf precision\n\n\n\n\n\n반정밀도(half precision)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nhidden state\n\n\n\n\n\n은닉 상태\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nhyperparameter\n\n\n\n\n\n하이퍼파라미터\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ninference\n\n\n\n\n\n추론\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ninpainting\n\n\n\n\n\n인페인팅\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ninstance\n\n\n\n\n\n인스턴스\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nlearning\n\n\n\n\n\n학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nlesson\n\n\n\n\n\n단원\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nlicense\n\n\n\n\n\n라이선스\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nload\n\n\n\n\n\n가져오다\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nmethod\n\n\n\n\n\n매소드\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nmixed precision\n\n\n\n\n\n혼합 정밀도(mixed precision)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nmodel\n\n\n\n\n\n모델\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nmulti-image batches\n\n\n\n\n\n다중 이미지 배치(multi-image batches)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\noptimizer\n\n\n\n\n\n옵티마이저\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\npading\n\n\n\n\n\n패딩\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\npre-train\n\n\n\n\n\n사전학습\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nprior-preserving\n\n\n\n\n\n사전 보존(prior-preserving)\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nprompt\n\n\n\n\n\n프롬프트\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\npush\n\n\n\n\n\n푸시\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nrepository\n\n\n\n\n\n리포지토리\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nreproducibility\n\n\n\n\n\n재현성\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nresume\n\n\n\n\n\n재개\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nsection\n\n\n\n\n\n섹션\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nseperator\n\n\n\n\n\n분할 토큰\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nsequence\n\n\n\n\n\n시퀀스\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nsilent error\n\n\n\n\n\n조용한 오류\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nspectrogram\n\n\n\n\n\n스펙토그램\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/chapter0/introduction\n\n\n\n\n\n\n\n\nspeech enhancement\n\n\n\n\n\n음성 향상\n\n\n\n\n\n\nhttps://huggingface.co/learn/audio-course/\n\n\n\n\n\n\n\n\nstep\n\n\n\n\n\n스텝\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\nsubmodule\n\n\n\n\n\n서브모듈\n\n\n\n\n\n\nhttps://huggingface.co/docs/diffusers/index\n\n\n\n\n\n\n\n\ntoken\n\n\n\n\n\n토큰\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ntokenizer\n\n\n\n\n\n토크나이저\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\ntraining\n\n\n\n\n\n훈련\n\n\n\n\n\n\nhttps://huggingface.co/docs/transformers/index\n\n\n\n\n\n\n\n\nvocoder\n\n\n\n\n\n보코더\n\n\n\n\n\n\nhuggingface_audio\n\n\nhttps://huggingface.co/learn/audio-course/chapter0/introduction\n\n\n\n\n\n\nNo matching items"
   }
 ]
