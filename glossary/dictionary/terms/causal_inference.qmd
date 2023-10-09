@@ -1,0 +1,12 @@
+---
+title: 'causal inference'
+description: '인과추론'
+categories:
+  - Causal Inference
+url:
+---
+<a href="" target="_blank"><img   loading="lazy" alt="src: Causal Inference" src="https://img.shields.io/badge/문서-Causal_Inference-blue" ></a>
+---
+인과추론에 대한 설명
+
+## 참조
