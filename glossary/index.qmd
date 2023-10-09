@@ -34,6 +34,10 @@ callout-icon: false
 :::
 
 ::: {.callout-note appearance="simple"}
+**가짜연구소 인과추론팀**
+:::
+
+::: {.callout-note appearance="simple"}
 **함께 해요** - 새로운 프로젝트를 기다립니다.
 :::
 :::
