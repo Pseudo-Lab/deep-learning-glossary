@@ -17,5 +17,6 @@
 ```
 
 ## 2. 변경사항 반영하기
-- [PR Template](https://gist.github.com/gabrielwithappy/4eee95b79af5fb0445b205925bc9a4ec)을 이용하여 반영을 요청합니다.
+- Deep Learning 용어사전 레포지토리를 `Fork`한 후 `Pull Request`를 요청합니다.
+- 용어 사전의 각 프로젝트 Maintainer를 통해 Pull Request를 머지합니다.
 
