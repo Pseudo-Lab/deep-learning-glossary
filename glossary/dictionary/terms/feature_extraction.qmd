@@ -8,7 +8,9 @@ url: https://huggingface.co/docs/transformers/index
 <a href="https://huggingface.co/docs/transformers/index" target="_blank"><img   loading="lazy" alt="src: HuggingFace Transformer" src="https://img.shields.io/badge/문서-Huggingface_Transformer-blue" ></a>
 ---
 
-딥러닝에서 `특성 추출`은 데이터로부터 유용한 정보를 추출하고 이를 기계 학습 모델이나 딥러닝 모델에 입력으로 제공하기 위한 과정을 가리킵니다. 이 과정은 주로 원시 데이터로부터 고수준 특징이나 표현을 추출하여 데이터를 더 쉽게 처리하고 모델의 성능을 향상시키는 데 사용됩니다
+딥러닝에서 `특성 추출`은 데이터로부터 유용한 정보를 추출하고 이를 기계 학습 모델이나 딥러닝 모델에 입력으로 제공하기 위한 과정을 가리킵니다.
+
+이 과정은 주로 원시 데이터로부터 고수준 특징이나 표현을 추출하여 데이터를 더 쉽게 처리하고 모델의 성능을 향상시키는 데 사용됩니다
 
 ## 참조
 
