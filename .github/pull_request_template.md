@@ -12,10 +12,7 @@
 
 ## Who can review? (maintainer)
 <!-- peer 리뷰가 끝난 후에 maintainer에게 리뷰 요청하는 주석을 노출해주세요! -->
-<!-- 용어사전 maintainer는 프로젝트 별로 다릅니다. -->
 <!-- May you please review this PR? -->
-<!-- Huggingface Transformer (@0525hhgus, @kihoon71, @sim-so, @gabrielwithappy, @HanNayeoniee, @wonhyeongseo, @jungnerd) -->
-<!-- Huggingface Models (@gabrielwithappy) -->
-<!-- Huggingface Audio (@gabrielwithapp) -->
-<!-- Huggingface Diffuser (@gabrielwithapp) -->
-<!-- 인과추론 (@jsshin2022, @gabrielwithapp) -->
+<!-- Huggingface Transformer의 경우 사용 @sim-so, @gabrielwithappy, @jungnerd -->
+<!-- 인과추론의 경우 사용  @jsshin2022, @gabrielwithapp -->
+<!-- 그 외의 경우 @sim-so, @gabrielwithappy, @jungnerd @jsshin2022 --> 
