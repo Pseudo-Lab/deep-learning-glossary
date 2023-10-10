@@ -1,0 +1,14 @@
+---
+title: 'configuration'
+description: '설정값'
+categories:
+  - labml.ai Annotated Pytorch Paper Implementations
+url: https://nn.labml.ai
+---
+<a href="https://nn.labml.ai/" target="_blank"><img   loading="lazy" alt="src: labml.ai" src="https://img.shields.io/badge/문서-labml.ai_Annoated_Pytorch_Paper_Implementations-deeppink" ></a>
+---
+labml.ai 에서 파이토치 논문 구현 실습을 위해 미리 구현해둔 설정값들을 담은 Configs 모듈을 클래스로 사용 할 수 있다. 
+ 
+## 참조
+
+1.https://docs.labml.ai/api/configs.html

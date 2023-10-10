@@ -1,0 +1,18 @@
+---
+title: 'weight decay'
+description: '가중치 감쇠'
+categories:
+  - labml.ai Annotated Pytorch Paper Implementations
+url: https://nn.labml.ai
+---
+<a href="https://nn.labml.ai/" target="_blank"><img   loading="lazy" alt="src: labml.ai" src="https://img.shields.io/badge/문서-labml.ai_Annoated_Pytorch_Paper_Implementations-deeppink" ></a>
+---
+과적합 문제를 해결하기 위한 방법 중 하나로서 학습된 모델의 복잡도를 줄이기 위해서 학습 중 가중치가 너무 큰 값을 가지지 않도록 손실 함수(loss function)에 가중치가 커지는 것에 대한 패널티를 부여합니다 
+
+옵티마이저(optimizer)가 모든 파라미터를 다루기 때문에 옵티마이져에서 정규화 상수 하이퍼파라미터 지정으로 가중치를 감쇠시켜 구현합니다. 
+ 
+## 참조
+
+1. https://ko.d2l.ai/chapter_deep-learning-basics/weight-decay.html
+2. https://nn.labml.ai/optimizers/index.html
+3. https://light-tree.tistory.com/216

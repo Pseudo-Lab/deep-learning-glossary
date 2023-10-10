@@ -1,0 +1,15 @@
+---
+title: 'earth mover distance'
+description: 'earth mover 거리'
+categories:
+  - labml.ai Annotated Pytorch Paper Implementations
+url: https://nn.labml.ai
+---
+<a href="https://nn.labml.ai/" target="_blank"><img   loading="lazy" alt="src: labml.ai" src="https://img.shields.io/badge/문서-labml.ai_Annoated_Pytorch_Paper_Implementations-deeppink" ></a>
+---
+Earth mover는 흙을 파는 기계이다. 
+ 
+## 참조
+
+1. https://en.wikipedia.org/wiki/Earth_mover%27s_distance
+2. https://nn.labml.ai/gan/wasserstein/index.html

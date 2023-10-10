@@ -1,0 +1,21 @@
+---
+title: 'Jansen-Shannon divergence'
+description: '잰슨-섀넌 다이버전스'
+categories:
+  - labml.ai Annotated Pytorch Paper Implementations
+url: https://nn.labml.ai/gan/wasserstein/index.html
+---
+<a href="https://nn.labml.ai/" target="_blank"><img   loading="lazy" alt="src: labml.ai" src="https://img.shields.io/badge/문서-labml.ai_Annoated_Pytorch_Paper_Implementations-deeppink" ></a>
+---
+확률 이론 및 통계학에서 젠슨-셰넌 다이버전스는 두 확률 분포 사이의 유사성을 측정하는 방법입니다. 
+
+평균에 대한 정보 반경(Information Radius) 또는 평균에 대한 총 다이버전스로도 알려져 있습니다. 
+
+대칭이고 항상 유한한 값을 갖는 것을 포함하여 몇 가지 주목할 만한 (그리고 유용한) 차이가 있는 Kullabck-Leibler 다이버전스를 기반으로 합니다.
+
+잰슨-섀넌 발산의 제곱근은 종종 잰슨-섀넌 거리라고 불리는 메트릭입니다.
+
+## 참조
+
+1. https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence
+2. https://nn.labml.ai/gan/wasserstein/index.html
