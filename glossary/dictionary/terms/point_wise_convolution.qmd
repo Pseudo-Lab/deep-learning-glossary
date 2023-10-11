@@ -1,0 +1,15 @@
+---
+title: 'point-wise convolution'
+description: 'point-wise 컨볼루션'
+categories:
+  - labml.ai Annotated Pytorch Paper Implementations
+url: https://nn.labml.ai
+---
+<a href="https://nn.labml.ai/" target="_blank"><img   loading="lazy" alt="src: labml.ai" src="https://img.shields.io/badge/문서-labml.ai_Annoated_Pytorch_Paper_Implementations-deeppink" ></a>
+---
+채널 정보 믹싱
+ 
+## 참조
+
+1.
+2. https://nn.labml.ai/conv_mixer/index.html

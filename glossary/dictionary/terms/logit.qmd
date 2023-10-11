@@ -1,0 +1,15 @@
+---
+title: 'logit'
+description: '로짓'
+categories:
+  - labml.ai Annotated Pytorch Paper Implementations
+url: https://nn.labml.ai
+---
+<a href="https://nn.labml.ai/" target="_blank"><img   loading="lazy" alt="src: labml.ai" src="https://img.shields.io/badge/문서-labml.ai_Annoated_Pytorch_Paper_Implementations-deeppink" ></a>
+---
+Logit(로짓) 함수는 0에서 1까지의 확률값과 -∞에서 ∞ 사이의 확률값을 표현해주는 함수입니다. 표준 로지스틱 분포 즉 Y축에서 0과 1 사이를 제한하는 시그모이드의 역함수라 로짓 함수는 X축에서 0과 1 사이의 자연로그 함수로 표현됩니다. 이러한 특성 때문에 log-odds 함수이며 확률 p가 0과 1사이에 있기에 로짓함수는 확률을 이해하는 데 가장 일반적으로 사용됩니다. 
+ 
+## 참조
+
+1. https://deepai.org/machine-learning-glossary-and-terms/logit#:~:text=A%20Logit%20function%2C%20also%20known%20as%20the%20log-,1%20across%20the%20Y-axis%2C%20rather%20than%20the%20X-axis.
+2. https://en.wikipedia.org/wiki/Logit
