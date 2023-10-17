@@ -10,7 +10,7 @@
 
 | 이름   |                                     조직 |           소개|
 |:----- |:----------------------------------------|:--------------|
-| 서원형 |  Pseudo Lab. Huggingface KREW         |               |
+| 서원형 |  Pseudo Lab. Huggingface KREW         |  [Github](https://github.com/wonhyeongseo)/[Linkedin](https://www.linkedin.com/in/wonhseo/)             |
 | 손기훈 |  Pseudo Lab. Huggingface KREW         |               |
 | 심소현 |  Pseudo Lab. Huggingface KREW         |               |
 | 양성모 |  Pseudo Lab. Huggingface KREW         | [Github](https://github.com/gabrielwithappy)/[Linkedin](https://www.linkedin.com/in/%EC%84%B1%EB%AA%A8-%EC%96%91-8a293838/)         |
