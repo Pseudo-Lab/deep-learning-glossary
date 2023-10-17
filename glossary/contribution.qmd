@@ -6,14 +6,14 @@
 
 ## Huggingface KREW
 
-허깅페이스와 다른 딥러닝 관련 프로젝트를 한글화하고 있습니다. 관련 프로젝트를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다.
+[Huggingface KREW](https://pseudo-lab.github.io/huggingface_krew/)는 허깅페이스를 이해하기 다양한 활동을 하고 있으며 허깅페이스 문서를 일관성 있게 번역하기 위해서 용어 사전을 만들고 있습니다.
 
 | 이름   |                                     조직 |           소개|
 |:----- |:----------------------------------------|:--------------|
-| 서원형 |  Pseudo Lab. Huggingface KREW         |               |
+| 서원형 |  Pseudo Lab. Huggingface KREW         |  [Github](https://github.com/wonhyeongseo)/[Linkedin](https://www.linkedin.com/in/wonhseo/)             |
 | 손기훈 |  Pseudo Lab. Huggingface KREW         |               |
 | 심소현 |  Pseudo Lab. Huggingface KREW         |               |
-| 양성모 |  Pseudo Lab. Huggingface KREW         | [Github](https://github.com/gabrielwithappy)         |
+| 양성모 |  Pseudo Lab. Huggingface KREW         | [Github](https://github.com/gabrielwithappy)/[Linkedin](https://www.linkedin.com/in/%EC%84%B1%EB%AA%A8-%EC%96%91-8a293838/)         |
 | 윤현서 |  Pseudo Lab. Huggingface KREW         |        |
 | 정우준 | Pseudo Lab. Huggingface KREW        | [Github](https://github.com/jungnerd)       |
 | 한나연 | Pseudo Lab. Huggingface KREW         |        |
@@ -32,7 +32,7 @@
 | 안혜민 |  Pseudo Lab. Diffuser 프로젝트             |               |
 
 
-## 인과추론팀 
+## 인과추론팀
 가짜연구소 인과추론팀은 한국어 자료가 많지 않은 인과추론을 많은 분들이 쉽게 접하실 수 있도록 기여하고자 합니다!
 
 | 이름   |                                     조직 |           소개|
