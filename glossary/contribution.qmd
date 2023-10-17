@@ -6,7 +6,7 @@
 
 ## Huggingface KREW
 
-[Huggingface KREW](https://pseudo-lab.github.io/huggingface_krew/)는 허깅페이스를 이해하기 다양한 활동을 하고 있으며 허깅페이스 문서를 번역하는 과정에서 용어를 일관성 있게 번역하기 위해서 사전을 만들고 있습니다.
+[Huggingface KREW](https://pseudo-lab.github.io/huggingface_krew/)는 허깅페이스를 이해하기 다양한 활동을 하고 있으며 허깅페이스 문서를 일관성 있게 번역하기 위해서 용어 사전을 만들고 있습니다.
 
 | 이름   |                                     조직 |           소개|
 |:----- |:----------------------------------------|:--------------|
